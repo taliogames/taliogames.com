@@ -14,7 +14,7 @@
             color: #333;
         }
         h1 {
-            color: #d9534f; /* Un color rojo para destacar */
+            color: #d9534f;
         }
         .container {
             max-width: 800px;
@@ -24,19 +24,14 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 20px;
-            background-color: #5cb85c; /* Un color verde para el botón CTA */
-            color: white;
+        .link-section a {
+            font-size: 1.5em;
+            margin: 0 15px;
+            color: #007bff; /* Color azul para los enlaces */
             text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s;
         }
-        .cta-button:hover {
-            background-color: #4cae4c;
+        .link-section a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -44,19 +39,17 @@
 
     <div class="container">
         <h1>⚔️ ¡Mi Videojuego Épico! 🎮</h1>
-        
-        <p>Prepárate para la aventura de tu vida. Un juego de rol de acción con gráficos impresionantes y una historia profunda.</p>
+        <p>Selecciona tu aventura:</p>
 
-        <h2>Lo que te espera:</h2>
-        <ul>
-            <li>Mundo abierto masivo para explorar.</li>
-            <li>Sistema de combate dinámico y desafiante.</li>
-            <li>Decenas de misiones y secretos por descubrir.</li>
-        </ul>
+        <div class="link-section">
+            <a href="./juego1/" target="_blank">Juego 1: La Conquista del Sol</a>
+            
+            <span style="margin: 0 20px;">|</span>
+            
+            <a href="./juego2/" target="_blank">Juego 2: El Misterio Submarino</a>
+        </div>
 
-        <a href="#" class="cta-button">¡SÍGUENOS PARA EL LANZAMIENTO!</a>
-        
-        <p style="margin-top: 30px;">[Aquí puedes añadir una imagen o un tráiler de tu juego]</p>
+        <p style="margin-top: 30px;">(Ambos enlaces se abrirán en una nueva pestaña gracias a `target="_blank"`)</p>
 
     </div>
     
