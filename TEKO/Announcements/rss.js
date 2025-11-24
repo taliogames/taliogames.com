@@ -1,73 +1,93 @@
 async function loadRSS() {
-    // Usamos allorigins para evitar problemas de CORS (Cross-Origin Resource Sharing)
-    const url = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://store.steampowered.com/feeds/news/app/3835670');
+    console.log("Iniciando carga de RSS...");
+    const container = document.getElementById('rss');
+    
+    // Verificación de seguridad por si el DOM no está listo
+    if (!container) {
+        console.error("No se encontró el contenedor #rss");
+        return;
+    }
 
     try {
-        const res = await fetch(url);
-        const data = await res.json();
+        // Usamos allorigins para saltar la restricción CORS
+        // URL del feed: https://store.steampowered.com/feeds/news/app/3835670
+        const feedUrl = 'https://store.steampowered.com/feeds/news/app/3835670';
+        const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(feedUrl);
 
+        console.log("Consultando URL:", proxyUrl);
+        const res = await fetch(proxyUrl);
+        
+        if (!res.ok) throw new Error(`Error de red: ${res.status}`);
+        
+        const data = await res.json();
+        
         if (!data.contents) {
-            throw new Error('No se pudo obtener el contenido del feed.');
+            throw new Error('El proxy no devolvió contenido.');
         }
 
         const parser = new DOMParser();
         const xml = parser.parseFromString(data.contents, 'application/xml');
-
         const items = xml.querySelectorAll('item');
-        const container = document.getElementById('rss');
 
-        // Limpiamos el contenedor (y mostramos mensaje si no hay noticias)
-        container.innerHTML = '';
+        console.log(`Se encontraron ${items.length} noticias.`);
+
+        container.innerHTML = ''; // Limpiar mensaje de "Cargando..."
+
         if (items.length === 0) {
-            container.innerHTML = '<p>No hay noticias recientes.</p>';
+            container.innerHTML = '<p>No hay noticias recientes publicadas en Steam.</p>';
             return;
         }
 
         items.forEach(item => {
-            // Extraer título y enlace
-            const title = item.querySelector('title') ? item.querySelector('title').textContent : 'Sin título';
-            const link = item.querySelector('link') ? item.querySelector('link').textContent : '#';
+            const title = item.querySelector('title')?.textContent || 'Sin título';
+            const link = item.querySelector('link')?.textContent || '#';
+            const pubDateRaw = item.querySelector('pubDate')?.textContent;
             
-            // Extraer fecha y formatearla
-            const pubDateRaw = item.querySelector('pubDate') ? item.querySelector('pubDate').textContent : '';
-            const pubDate = pubDateRaw ? new Date(pubDateRaw).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+            // Formatear fecha
+            let pubDate = '';
+            if (pubDateRaw) {
+                const dateObj = new Date(pubDateRaw);
+                if (!isNaN(dateObj)) {
+                    pubDate = dateObj.toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' });
+                }
+            }
 
-            // LÓGICA IMPORTANTE: Buscar contenido completo
-            // content:encoded suele tener el HTML completo del anuncio.
-            // description a veces es solo un resumen o texto plano.
-            let content = '';
-            
-            // Intentamos buscar la etiqueta 'content:encoded'
+            // Priorizar content:encoded (HTML completo) sobre description
             const contentEncoded = item.getElementsByTagName('content:encoded')[0] || 
-                                   item.getElementsByTagNameNS('*', 'encoded')[0]; // Soporte para namespaces
-
+                                   item.getElementsByTagNameNS('*', 'encoded')[0];
             const description = item.querySelector('description');
-
-            if (contentEncoded) {
+            
+            let content = '';
+            if (contentEncoded && contentEncoded.textContent.trim() !== '') {
                 content = contentEncoded.textContent;
             } else if (description) {
                 content = description.textContent;
             }
 
-            // Crear el elemento HTML
+            // Construir HTML
             const div = document.createElement('div');
             div.className = 'rss-item';
             div.innerHTML = `
                 <h2>${title}</h2>
-                <p><small>Publicado el: ${pubDate}</small></p>
+                ${pubDate ? `<p class="rss-date">${pubDate}</p>` : ''}
                 <div class="rss-content">${content}</div>
                 <br>
-                <a href="${link}" target="_blank" style="display:inline-block; padding:8px 16px; background:#1b2838; color:white; text-decoration:none; border-radius:4px;">Ver en Steam</a>
-                <hr style="margin: 30px 0;">
+                <a href="${link}" target="_blank" class="btn-steam">Leer en Steam</a>
             `;
             container.appendChild(div);
         });
 
     } catch (error) {
-        console.error('Error cargando el RSS:', error);
-        const container = document.getElementById('rss');
-        if (container) container.innerHTML = '<p>Hubo un error al cargar las noticias de Steam. Por favor, intenta más tarde.</p>';
+        console.error('Error cargando RSS:', error);
+        if (container) {
+            container.innerHTML = `<p style="color:red;">Error al cargar noticias: ${error.message}. <br>Revisa la consola (F12) para más detalles.</p>`;
+        }
     }
 }
 
-loadRSS();
+// Ejecutar cuando el contenido esté cargado
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadRSS);
+} else {
+    loadRSS();
+}
