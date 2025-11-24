@@ -1,0 +1,6 @@
+title: Talio Games
+description: Sitio oficial de Talio Games
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
