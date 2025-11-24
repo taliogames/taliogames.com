@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Announcements – TEKO</title>
+</head>
+<body>
+    <h1>Announcements</h1>
+    <div id="rss"></div>
+    <script src="rss.js"></script>
+</body>
+</html>
