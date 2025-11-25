@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Announcements
+title: TEKO Announcements
 ---
 
 <h1>TEKO Announcements</h1>
