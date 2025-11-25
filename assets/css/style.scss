@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background-image: none; /* Quita la textura de fondo */
+  background-color: #333; /* Cambia el color (puedes poner #000, #2a475e, etc.) */
+}
