@@ -4,6 +4,20 @@
 @import "{{ site.theme }}";
 
 .page-header {
-  background-image: none; /* Quita la textura de fondo */
-  background-color: #333; /* Cambia el color (puedes poner #000, #2a475e, etc.) */
+  background-image: none;      /* Sin textura */
+  background-color: #333;      /* Color de fondo (el que elegiste) */
+  
+  /* AQUÍ ESTÁ EL CAMBIO PARA LA ALTURA */
+  padding-top: 2rem;           /* Menos espacio arriba (antes era ~5rem) */
+  padding-bottom: 2rem;        /* Menos espacio abajo */
+}
+
+/* Opcional: Si quieres que el título también sea más compacto */
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.project-tagline {
+  margin-bottom: 0;
 }
