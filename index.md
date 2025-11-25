@@ -1,14 +1,8 @@
 ---
 layout: default
-title: Inicio
+title: Talio Games
 ---
-
-# Bienvenidos a Talio Games
-
-Este es el nuevo sitio web impulsado por Jekyll.
-
-## Nuestros Juegos
-Aquí podrás encontrar información sobre nuestros desarrollos.
+## Hi, I'm Talio and I make games.
 
 <div style="text-align: center;">
     <a href="teko/" style="text-decoration: none;">
