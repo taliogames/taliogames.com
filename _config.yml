@@ -1,6 +1,6 @@
 title: Talio Games
 description: Sitio oficial de Talio Games
 theme: jekyll-theme-cayman
-show_downloads: true
+show_downloads: false
 plugins:
   - jekyll-remote-theme
