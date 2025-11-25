@@ -29,6 +29,9 @@ title: TEKO Announcements
     .rss-content iframe { max-width: 100%; width: 100%; aspect-ratio: 16 / 9; border: none; }
     .rss-content ul, .rss-content ol { padding-left: 20px; margin-bottom: 15px; }
     .rss-content blockquote { border-left: 4px solid #159957; margin: 15px 0; padding-left: 15px; color: #555; background: #f9f9f9; padding: 10px; }
+    .rss-content img[src*="youtube_16x9_placeholder.gif"] {
+        display: none !important;
+    }
     .rss-footer { margin-top: 20px; text-align: right; }
     .btn-steam { display: inline-block; padding: 8px 18px; background-color: #2a475e; color: #fff !important; text-decoration: none; border-radius: 4px; font-size: 0.9em; transition: background 0.3s; }
     .btn-steam:hover { background-color: #66c0f4; }
