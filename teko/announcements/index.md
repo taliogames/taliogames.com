@@ -65,4 +65,4 @@ title: TEKO Announcements
     }
 </style>
 
-<script src="/taliogames.com/TEKO/Announcements/rss.js"></script>
+<script src="/taliogames.com/teko/announcements/rss.js"></script>
