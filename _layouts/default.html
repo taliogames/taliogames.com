@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
     <section class="page-header">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       
       {% if page.header_buttons %}
-        {% for btn in page.header_buttons %}
-          <a href="{{ btn.url | relative_url }}" class="btn">{{ btn.label }}</a>
-        {% endfor %}
+        <div class="header-buttons-container">
+          {% for btn in page.header_buttons %}
+            <a href="{{ btn.url }}" class="btn custom-header-btn" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
+              
+              {% if btn.image_path %}
+                <img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">
+              
+              {% elsif btn.icon_class %}
+                <i class="{{ btn.icon_class }}"></i>
+              {% endif %}
+
+              {% if btn.label %}
+                <span class="btn-text">{{ btn.label }}</span>
+              {% endif %}
+            </a>
+          {% endfor %}
+        </div>
       {% endif %}
       
     </section>
 
     <section class="main-content">
       {{ content }}
-
-      </section>
+    </section>
   </body>
 </html>
