@@ -4,6 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  
+  {% if page.url contains '/teko/' %}
+    <link rel="icon" type="image/png" href="{{ '/assets/icon_teko.png' | relative_url }}">
+  {% elsif page.url contains '/aeftb/' %}
+    <link rel="icon" type="image/png" href="{{ '/assets/icon_aeftb.png' | relative_url }}">
+  {% else %}
+    <link rel="icon" type="image/png" href="{{ '/assets/icon_talio.png' | relative_url }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   
   <style>
