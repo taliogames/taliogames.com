@@ -1,17 +1,13 @@
 ---
 layout: wiki
-title: Wiki de Teko
+title: Teko Wiki
 permalink: /teko/wiki/
 ---
 
-# Bienvenido a la Wiki de Teko
+Welcome to the official **Teko Wiki**.
 
-Aquí encontrarás toda la documentación, guías y glosario sobre el juego.
+Use the sidebar navigation to explore the cards, rules, and game mechanics.
 
-## Glosario
-* [Personajes](#)
-* [Mecánicas](#)
-* [Historia](#)
-
----
-*Esta wiki está en construcción.*
+### Quick Links
+* **[Rules](/teko/wiki/rules/)**: Learn how to play.
+* **[Cards Database](/teko/wiki/cards/common/)**: Browse all available cards by rarity.
