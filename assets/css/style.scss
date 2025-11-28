@@ -1,10 +1,80 @@
-/* --- Estilos para los botones del Header --- */
+---
+---
+
+@import "{{ site.theme }}";
+
+/* =========================================
+   1. MODO OSCURO GLOBAL (Fondo y Textos)
+   ========================================= */
+
+body {
+  background-color: #121212; /* Fondo casi negro para toda la página */
+  color: #e6e6e6;            /* Texto principal en blanco suave */
+}
+
+/* Títulos (h1, h2, etc.) en blanco brillante */
+h1, h2, h3, h4, h5, h6,
+.project-name,
+.section-header {
+  color: #ffffff !important;
+}
+
+/* Subtítulos o taglines un poco más tenues */
+.project-tagline {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Enlaces: Un color cian/turquesa para que resalten sobre negro */
+a {
+  color: #4db6ac;
+}
+a:hover {
+  color: #80cbc4;
+  text-decoration: underline;
+}
+
+/* Bloques de código y citas (ajustes para fondo oscuro) */
+pre, code {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #f8f8f2;
+}
+
+blockquote {
+  color: #aaa;
+  border-left-color: #4db6ac;
+}
+
+/* Líneas separadoras (hr) más sutiles */
+hr {
+  border-bottom: 1px solid #333;
+}
+
+
+/* =========================================
+   2. HEADER PERSONALIZADO (Gradiente)
+   ========================================= */
+
+.page-header {
+  /* Gradiente solicitado: Azul (#1e3c72) hacia Gris Oscuro (#2b2b2b) */
+  background-image: linear-gradient(135deg, #1e3c72, #2b2b2b);
+  background-color: #2b2b2b; /* Fallback */
+  
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #000; /* Borde sutil abajo */
+}
+
+
+/* =========================================
+   3. ESTILOS DE LOS BOTONES DEL HEADER
+   ========================================= */
 
 .header-buttons-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;       /* Espacio entre botones */
+  gap: 10px;
   margin-top: 1.5rem;
 }
 
@@ -12,26 +82,42 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px; /* Espacio entre icono y texto */
+  gap: 8px;
   padding: 0.6rem 1rem;
   line-height: 1;
-  min-height: 42px; /* Altura uniforme */
+  min-height: 42px;
+  
+  /* Estilo "Glass" para modo oscuro */
+  background-color: rgba(255, 255, 255, 0.1); /* Transparente blanco */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff !important;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 
-/* Ajuste para botones que son SOLO icono o SOLO imagen (cuadrados) */
+.custom-header-btn:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px); /* Pequeño efecto de elevación */
+  text-decoration: none;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Ajuste para botones cuadrados (solo icono o imagen) */
 .custom-header-btn:empty, 
 .custom-header-btn i:only-child, 
 .custom-header-btn img:only-child {
-  padding: 0.6rem 0.8rem; /* Menos padding horizontal */
+  padding: 0.6rem 0.8rem;
 }
 
 .btn-img-icon {
-  height: 20px; /* Tamaño de tus imágenes personalizadas */
+  height: 20px;
   width: auto;
   display: block;
 }
 
-/* Ajustes de FontAwesome */
+/* Tamaño de los iconos de FontAwesome */
 .custom-header-btn i {
   font-size: 1.2rem;
 }
