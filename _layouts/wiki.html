@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  
+  <style>
+    body { background-color: #f4f7f6; }
+    .wiki-container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        padding: 40px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        min-height: 100vh;
+    }
+    .wiki-header { border-bottom: 2px solid #eee; margin-bottom: 30px; padding-bottom: 10px; }
+    .wiki-nav { font-size: 0.9em; margin-bottom: 20px; }
+    .wiki-nav a { color: #555; margin-right: 15px; }
+  </style>
+</head>
+<body>
+
+    <div class="wiki-container">
+        <header class="wiki-header">
+            <nav class="wiki-nav">
+                <a href="/teko/">← Volver a Teko</a>
+                <a href="/">🏠 Inicio Taliogames</a>
+            </nav>
+            <h1>{{ page.title }}</h1>
+        </header>
+
+        <main class="page-content" aria-label="Content">
+            {{ content }}
+        </main>
+
+        <footer style="margin-top: 50px; font-size: 0.8em; color: #888; border-top: 1px solid #eee; padding-top: 20px;">
+            <p>Documentación oficial de Teko - Taliogames © {{ site.time | date: '%Y' }}</p>
+        </footer>
+    </div>
+
+</body>
+</html>
