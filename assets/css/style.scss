@@ -1,23 +1,37 @@
----
----
+/* --- Estilos para los botones del Header --- */
 
-@import "{{ site.theme }}";
-
-.page-header {
-  background-image: none;      /* Sin textura */
-  background-color: #333;      /* Color de fondo (el que elegiste) */
-  
-  /* AQUÍ ESTÁ EL CAMBIO PARA LA ALTURA */
-  padding-top: 2rem;           /* Menos espacio arriba (antes era ~5rem) */
-  padding-bottom: 2rem;        /* Menos espacio abajo */
+.header-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;       /* Espacio entre botones */
+  margin-top: 1.5rem;
 }
 
-/* Opcional: Si quieres que el título también sea más compacto */
-.project-name {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+.custom-header-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Espacio entre icono y texto */
+  padding: 0.6rem 1rem;
+  line-height: 1;
+  min-height: 42px; /* Altura uniforme */
 }
 
-.project-tagline {
-  margin-bottom: 0;
+/* Ajuste para botones que son SOLO icono o SOLO imagen (cuadrados) */
+.custom-header-btn:empty, 
+.custom-header-btn i:only-child, 
+.custom-header-btn img:only-child {
+  padding: 0.6rem 0.8rem; /* Menos padding horizontal */
+}
+
+.btn-img-icon {
+  height: 20px; /* Tamaño de tus imágenes personalizadas */
+  width: auto;
+  display: block;
+}
+
+/* Ajustes de FontAwesome */
+.custom-header-btn i {
+  font-size: 1.2rem;
 }
