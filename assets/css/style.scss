@@ -109,6 +109,8 @@ hr {
   padding: 0;
   width: 48px;  /* Ancho fijo para ser cuadrado */
   height: 48px; /* Alto fijo igual al ancho */
+justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */   
 }
 
 .btn-img-icon {
