@@ -17,9 +17,9 @@ header_buttons:
     icon_class: fab fa-youtube
     new_tab: true
 
-  # 4. X / Twitter (Icon only)
+# 4. X / Twitter (Icon only)
   - url: https://youtube.com
-    icon_class: fa-brands fa-x-twitter
+    icon_class: fab fa-twitter
     new_tab: true
 
   # 5. Donate (Text only)
