@@ -82,12 +82,12 @@ hr {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 0.6rem 1rem;
+  padding: 0.6rem 1.2rem; /* Padding lateral aumentado para que "Donate" se vea bien ancho */
   line-height: 1;
-  min-height: 42px;
+  min-height: 48px; /* Unificamos la altura mínima */
   
   /* Estilo "Glass" para modo oscuro */
-  background-color: rgba(255, 255, 255, 0.1); /* Transparente blanco */
+  background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff !important;
   border-radius: 4px;
@@ -97,29 +97,42 @@ hr {
 
 .custom-header-btn:hover {
   background-color: rgba(255, 255, 255, 0.25);
-  transform: translateY(-2px); /* Pequeño efecto de elevación */
+  transform: translateY(-2px);
   text-decoration: none;
   color: #fff;
   border-color: #fff;
 }
 
+/* --- ESTILO DEL TEXTO (Para el botón "Donate") --- */
+.btn-text {
+  font-weight: bold;    /* Letra en negrita */
+  font-size: 1.1rem;    /* Tamaño de letra un poco más grande */
+  white-space: nowrap;  /* Evita que el texto se parta en dos líneas */
+}
+
+/* --- ESTILOS PARA BOTONES CUADRADOS (Solo íconos) --- */
+/* Esto aplica a Steam, Discord, YouTube y Twitter */
 .custom-header-btn:empty, 
 .custom-header-btn i:only-child, 
 .custom-header-btn img:only-child {
   padding: 0;
-  width: 48px;  /* Ancho fijo para ser cuadrado */
-  height: 48px; /* Alto fijo igual al ancho */
-justify-content: center; /* Centrado horizontal */
-  align-items: center;     /* Centrado vertical */   
+  width: 48px;  
+  height: 48px; 
+  
+  /* Flexbox explícito para centrado perfecto */
+  display: flex;
+  justify-content: center;
+  align-items: center;     
 }
 
 .btn-img-icon {
-  height: 33px; /* Imagen más grande */
+  height: 32px;
   width: auto;
   display: block;
 }
 
 /* Tamaño de los iconos de FontAwesome */
 .custom-header-btn i {
-  font-size: 1.5rem; /* Icono más grande */
+  font-size: 1.5rem;
+  display: block; /* Ayuda a eliminar espacios fantasma */
 }
