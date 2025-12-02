@@ -59,8 +59,8 @@ hr {
   background-image: linear-gradient(135deg, #154192, #00253b);
   background-color: #2b2b2b; /* Fallback */
   
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid #000; /* Borde sutil abajo */
 }
 
@@ -73,8 +73,8 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  margin-top: 1.5rem;
+  gap: 4px;
+  margin-top: 0.8rem;
 }
 
 .custom-header-btn {
