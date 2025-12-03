@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TEKO
+title: TEKO - Talio Games
 header_buttons:
   # --- NAVEGACIÓN INTERNA (Misma pestaña) ---
   - label: Home
