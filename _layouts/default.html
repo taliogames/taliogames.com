@@ -17,21 +17,18 @@
     
   </head>
   <body>
-    <section class="page-header">
+<section class="page-header">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       
       {% if page.header_buttons %}
-<div class="header-buttons-container">
+        <div class="header-buttons-container">
           {% for btn in page.header_buttons %}
             
-            {% comment %} --- Lógica para detectar si el botón debe estar activo --- {% endcomment %}
+            {% comment %} --- Lógica para detectar activo --- {% endcomment %}
             {% assign btn_class = "btn custom-header-btn" %}
             
-            {% comment %} Caso 1: Coincidencia exacta (ej. Home) {% endcomment %}
             {% if page.url == btn.url %}
               {% assign btn_class = btn_class | append: " active-btn" %}
-            
-            {% comment %} Caso 2: Coincidencia parcial para secciones (ej. Wiki, Announcements) pero ignorando Home para que no se active siempre {% endcomment %}
             {% elsif btn.url != '/teko/' and page.url contains btn.url %}
                {% assign btn_class = btn_class | append: " active-btn" %}
             {% endif %}
@@ -40,7 +37,6 @@
               
               {% if btn.image_path %}
                 <img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">
-              
               {% elsif btn.icon_class %}
                 <i class="{{ btn.icon_class }}"></i>
               {% endif %}
@@ -51,8 +47,7 @@
             </a>
           {% endfor %}
         </div>
-      
-    </section>
+      {% endif %}  </section>
 
     <section class="main-content">
       {{ content }}
