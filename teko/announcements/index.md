@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TEKO Announcements
+title: Announcements - TEKO
 
 header_buttons:
   # --- NAVEGACIÓN INTERNA (Misma pestaña) ---
