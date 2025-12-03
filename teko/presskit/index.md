@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Presskit - TEKO
----
 header_buttons:
   # --- NAVEGACIÓN INTERNA (Misma pestaña) ---
   - label: Home
