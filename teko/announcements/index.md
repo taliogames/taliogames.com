@@ -38,9 +38,6 @@ header_buttons:
     new_tab: true
 
 ---
-
-<h1>TEKO Announcements</h1>
-
 <div id="rss">
     <p style="text-align:center; padding: 20px;">Loading updates from Steam...</p>
 </div>
