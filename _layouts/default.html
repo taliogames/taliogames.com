@@ -2,6 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -18,13 +19,18 @@
   </head>
   <body>
 <section class="page-header">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+<h1 class="project-name">
+        {% if page.url contains '/teko/' %}
+          TEKO
+        {% else %}
+          {{ page.title | default: site.title | default: site.github.repository_name }}
+        {% endif %}
+      </h1>
       
       {% if page.header_buttons %}
         <div class="header-buttons-container">
           {% for btn in page.header_buttons %}
             
-            {% comment %} --- Lógica para detectar activo --- {% endcomment %}
             {% assign btn_class = "btn custom-header-btn" %}
             
             {% if page.url == btn.url %}
@@ -47,7 +53,8 @@
             </a>
           {% endfor %}
         </div>
-      {% endif %}  </section>
+      {% endif %}  
+    </section>
 
     <section class="main-content">
       {{ content }}
