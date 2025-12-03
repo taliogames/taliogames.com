@@ -36,6 +36,4 @@ header_buttons:
     url: https://patreon.com/c/TalioGames
     new_tab: true
 ---
-
-<h1>Presskit</h1>
 <p>Contenido del presskit aquí...</p>
