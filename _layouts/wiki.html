@@ -13,16 +13,14 @@
     <link rel="icon" type="image/png" href="{{ '/assets/icon_talio.png' | relative_url }}">
   {% endif %}
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <style>
-    /* 1. Fondo Global Oscuro */
+    /* 1. Fondo Global Oscuro (Ya definido en style.css, pero reforzamos estructura) */
     body { 
-        background-color: #121212; /* Mismo fondo que tu sitio principal */
         margin: 0; 
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
-        color: #e0e0e0; /* Texto claro */
     }
     
     /* 2. Contenedor Principal (Tarjeta) */
@@ -31,23 +29,22 @@
         max-width: 1200px;
         margin: 0 auto;
         min-height: 100vh;
-        background: #1e1e1e; /* Gris oscuro para el contenedor */
-        box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Sombra más oscura */
+        background: #1e1e1e;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
     }
 
     /* 3. Barra Lateral */
     .wiki-sidebar {
         width: 250px;
-        background: #181818; /* Un poco más oscuro que el contenido */
-        border-right: 1px solid #333; /* Borde oscuro sutil */
+        background: #181818;
+        border-right: 1px solid #333;
         padding: 30px 20px;
         flex-shrink: 0;
     }
 
-    /* Títulos de la barra lateral */
     .wiki-sidebar h3 { 
         font-size: 1.1em; 
-        color: #ffffff; /* Títulos en blanco */
+        color: #ffffff; 
         margin-top: 20px; 
         margin-bottom: 10px; 
         text-transform: uppercase; 
@@ -57,20 +54,18 @@
     .wiki-sidebar ul { list-style: none; padding: 0; margin: 0; }
     .wiki-sidebar li { margin-bottom: 8px; }
     
-    /* Enlaces de la barra lateral */
     .wiki-sidebar a { 
-        color: #b0b0b0; /* Gris claro para enlaces normales */
+        color: #b0b0b0; 
         text-decoration: none; 
         display: block; 
         padding: 5px 0; 
         transition: color 0.2s; 
     }
     .wiki-sidebar a:hover { 
-        color: #4db6ac; /* Color Cyan/Turquesa al pasar el mouse (como tu style.scss) */
+        color: #4db6ac; 
         padding-left: 5px; 
     }
     
-    /* Enlace de "Volver" */
     .wiki-sidebar .back-link { 
         font-size: 0.85em; 
         color: #666; 
@@ -86,12 +81,10 @@
         padding: 40px 60px;
     }
 
-    /* Asegurar que los encabezados dentro del contenido sean blancos */
     .wiki-content h1, .wiki-content h2, .wiki-content h3 {
         color: #ffffff;
     }
 
-    /* Estilos para Tablas (por si usas tablas para las cartas) */
     .wiki-content table {
         color: #e0e0e0;
         border-collapse: collapse;
@@ -105,7 +98,6 @@
         background-color: #2d2d2d;
     }
     
-    /* Responsive para móviles */
     @media (max-width: 768px) {
         .wiki-wrapper { flex-direction: column; }
         .wiki-sidebar { width: auto; border-right: none; border-bottom: 1px solid #333; }
@@ -131,9 +123,13 @@
             {% endif %}
 
             <a href="{{ btn.url }}" class="{{ btn_class }}" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
-              {% if btn.icon_class %}
+              
+              {% if btn.image_path %}
+                <img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">
+              {% elsif btn.icon_class %}
                 <i class="{{ btn.icon_class }}"></i>
               {% endif %}
+
               {% if btn.label %}
                 <span class="btn-text">{{ btn.label }}</span>
               {% endif %}
