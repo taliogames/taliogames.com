@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Teko Wiki
+title: Wiki - TEKO
 permalink: /teko/wiki/
 
 header_buttons:
