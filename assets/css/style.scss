@@ -26,11 +26,16 @@ h1, h2, h3, h4, h5, h6,
 
 /* Enlaces: Un color cian/turquesa para que resalten sobre negro */
 a {
-  color: #4db6ac;
+  color: #38F8FF;
 }
 a:hover {
-  color: #80cbc4;
+  color: #ffffff; /* Al pasar el mouse, blanco para resaltar */
   text-decoration: underline;
+}
+
+blockquote {
+  color: #aaa;
+  border-left-color: #38F8FF; /* Ajustamos también el borde de las citas */
 }
 
 /* Bloques de código y citas (ajustes para fondo oscuro) */
