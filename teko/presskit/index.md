@@ -1,3 +1,6 @@
+---
+layout: default
+title: Teko Presskit
 header_buttons:
   # --- NAVEGACIÓN INTERNA (Misma pestaña) ---
   - label: Home
@@ -32,3 +35,7 @@ header_buttons:
   - label: Donate
     url: https://patreon.com/c/TalioGames
     new_tab: true
+---
+
+<h1>Presskit</h1>
+<p>Contenido del presskit aquí...</p>
