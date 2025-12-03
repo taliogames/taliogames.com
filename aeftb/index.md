@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AEFTB
+title: AEFTB - Talio Games
 ---
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
     <iframe 
