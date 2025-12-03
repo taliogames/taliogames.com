@@ -52,5 +52,73 @@
     <section class="main-content">
       {{ content }}
     </section>
+
+<style>
+  /* Estilos del Footer */
+  .site-footer {
+      border-top: 1px solid rgba(0, 0, 0, 0.1); /* Línea separadora sutil */
+      padding: 20px 0;
+      margin-top: 40px;
+      font-size: 0.85rem; /* Texto no muy grande */
+      color: #606c71;
+      background-color: #fff; /* O el color de fondo de tu tema */
+  }
+  /* Ajuste para modo oscuro o si el fondo es oscuro por defecto, ajustar colores */
+  @media (prefers-color-scheme: dark) {
+    .site-footer {
+        background-color: #151515;
+        color: #b0b0b0;
+        border-top: 1px solid #333;
+    }
+  }
+
+  .footer-content {
+      max-width: 64rem; /* Ancho similar al main-content de Cayman/Default */
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+
+  .footer-left a, .footer-right a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .footer-left a:hover, .footer-right a:hover {
+      text-decoration: underline;
+      color: #157878; /* Color de acento del tema */
+  }
+
+  @media (max-width: 600px) {
+      .footer-content {
+          flex-direction: column;
+          text-align: center;
+      }
+  }
+</style>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      &lt;&lt; Talio Games &gt;&gt; / 
+      <a href="/teko" target="_blank">TEKO</a> | 
+      <a href="/aeftb" target="_blank">AEFTB</a> | 
+      <a href="https://store.steampowered.com/developer/TalioGames" target="_blank">Steam</a> | 
+      <a href="https://discord.com/invite/Xk8RxfWBn6" target="_blank">Discord</a> | 
+      <a href="https://www.youtube.com/@TalioGames" target="_blank">Youtube</a> | 
+      <a href="https://x.com/TalioGames" target="_blank">X</a> | 
+      <a href="https://patreon.com/c/TalioGames" target="_blank">Donate</a>
+    </div>
+    <div class="footer-right">
+      Contact: <a href="mailto:contact@taliogames.com">contact@taliogames.com</a>
+    </div>
+  </div>
+</footer>    
+    
   </body>
 </html>
