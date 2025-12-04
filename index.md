@@ -27,26 +27,6 @@ header_buttons:
     url: https://patreon.com/c/TalioGames
     new_tab: true
 ---
-layout: default
-title: Talio Games
-header_buttons:
-  - url: https://store.steampowered.com/developer/TalioGames
-    icon_class: fab fa-steam
-    new_tab: true
-  - url: https://discord.com/invite/Xk8RxfWBn6
-    icon_class: fab fa-discord
-    new_tab: true
-  - url: https://www.youtube.com/@TalioGames
-    icon_class: fab fa-youtube
-    new_tab: true
-  - url: https://x.com/TalioGames
-    icon_class: fab fa-twitter
-    new_tab: true
-  - label: Donate
-    url: https://patreon.com/c/TalioGames
-    new_tab: true
----
-
 <div class="home-content">
   <h2>Check out my two games!</h2>
 
