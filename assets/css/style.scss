@@ -262,6 +262,7 @@ hr.short-divider {
     flex-wrap: nowrap; /* Obliga a que no bajen a la siguiente fila */
     gap: 5px;          /* Reduce el espacio entre botones */
     margin-top: 5px;   /* Reduce espacio arriba de los botones */
+     align-items: center;
   }
 
   .custom-header-btn {
