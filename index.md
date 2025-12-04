@@ -27,5 +27,53 @@ header_buttons:
     url: https://patreon.com/c/TalioGames
     new_tab: true
 ---
-## Hi, I'm Talio and I make games.
-... (el resto de tu contenido sigue igual)
+layout: default
+title: Talio Games
+header_buttons:
+  - url: https://store.steampowered.com/developer/TalioGames
+    icon_class: fab fa-steam
+    new_tab: true
+  - url: https://discord.com/invite/Xk8RxfWBn6
+    icon_class: fab fa-discord
+    new_tab: true
+  - url: https://www.youtube.com/@TalioGames
+    icon_class: fab fa-youtube
+    new_tab: true
+  - url: https://x.com/TalioGames
+    icon_class: fab fa-twitter
+    new_tab: true
+  - label: Donate
+    url: https://patreon.com/c/TalioGames
+    new_tab: true
+---
+
+<div class="home-content">
+  <h2>Check out my two games!</h2>
+
+  <div class="games-grid">
+    
+    <div class="game-card">
+      <h1>TEKO</h1>
+      <a href="/teko" target="_blank">
+        <img src="/assets/teko-logo.png" alt="Teko Logo" width="1280" height="720">
+      </a>
+      <p class="game-desc">Roguelike Deckbuilder</p>
+    </div>
+
+    <div class="game-card">
+      <h1>AEFTB</h1>
+      <a href="/aeftb" target="_blank">
+        <img src="/assets/aeftb-logo.png" alt="AEFTB Logo" width="1280" height="720">
+      </a>
+      <p class="game-desc">2d Platformer</p>
+    </div>
+
+  </div>
+
+  <hr class="short-divider">
+
+  <h2>Who I am?</h2>
+  <p class="bio-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </p>
+</div>
