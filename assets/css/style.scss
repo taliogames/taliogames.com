@@ -240,7 +240,7 @@ hr.short-divider {
    6. AJUSTES ESPECÍFICOS PARA MÓVIL (Max-width 600px)
    ========================================= */
 
-@media (orientation: portrait) {
+@media (max-width: 768px) {
 
 /* --- 1. Botones del Header (5 en línea, más pequeños) --- */
   .header-buttons-container {
