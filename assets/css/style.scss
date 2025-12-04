@@ -225,3 +225,28 @@ hr.short-divider {
   margin: 0 auto;
   line-height: 1.6;
 }
+
+/* =========================================
+   5. AJUSTES DE ESTRUCTURA (Sobrescribiendo el tema)
+   ========================================= */
+
+@media screen and (min-width: 64em) {
+  .main-content {
+    /* El tema original usa 'padding: 2rem 6rem'. 
+       Aquí forzamos 1rem arriba/abajo y mantenemos 6rem a los lados. */
+    padding: 1rem 6rem; 
+  }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .main-content {
+    /* Ajuste también para tablets si lo deseas (original suele ser más grande) */
+    padding: 1rem 4rem; 
+  }
+}
+
+.main-content {
+  /* Para móviles (pantallas pequeñas) */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
