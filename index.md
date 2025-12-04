@@ -28,7 +28,7 @@ header_buttons:
     new_tab: true
 ---
 <div class="home-content">
-  <h2>Check out my two games!</h2>
+  <h2>Check out my games!</h2>
 
   <div class="games-grid">
     
