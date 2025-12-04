@@ -257,19 +257,26 @@ hr.short-divider {
 
 @media screen and (max-width: 600px) {
 
-  /* --- 1. Botones del Header (5 en línea, más pequeños) --- */
+/* --- 1. Botones del Header (5 en línea, más pequeños) --- */
   .header-buttons-container {
-    flex-wrap: nowrap; /* Obliga a que no bajen a la siguiente fila */
-    gap: 5px;          /* Reduce el espacio entre botones */
-    margin-top: 5px;   /* Reduce espacio arriba de los botones */
-     align-items: center;
+    display: flex;           /* Forzamos display flex explícitamente */
+    flex-wrap: nowrap;       /* Obliga a que no bajen a la siguiente fila */
+    gap: 5px;                /* Reduce el espacio entre botones */
+    margin-top: 5px;         /* Reduce espacio arriba de los botones */
+    align-items: center;     /* CRUCIAL: Centra verticalmente todos los hijos */
+    justify-content: center; /* Asegura que el grupo esté centrado horizontalmente */
   }
 
   .custom-header-btn {
-    min-height: 0;     /* Resetea la altura mínima grande de PC */
-    height: 36px;      /* Altura fija más pequeña para todos (incluido Donate) */
-    padding: 0 10px;   /* Padding lateral reducido */
-    font-size: 0.85rem;/* Texto un poco más pequeño */
+    display: flex;           /* Forzamos flex en TODOS los botones (íconos y texto) */
+    align-items: center;     /* Centra el contenido (ícono/texto) dentro del botón */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    min-height: 0;           /* Resetea la altura mínima grande de PC */
+    height: 36px;            /* Altura fija para todos */
+    padding: 0 10px;         /* Padding lateral reducido */
+    font-size: 0.85rem;      /* Texto un poco más pequeño */
+    margin: 0;               /* Elimina cualquier margen extraño por defecto */
+    line-height: 1;          /* Asegura consistencia en la altura de línea */
   }
 
   /* Ajustes específicos para los botones cuadrados (íconos) */
@@ -279,6 +286,7 @@ hr.short-divider {
     width: 36px;       /* Ancho igual a la altura para que sean cuadrados */
     height: 36px;
     padding: 0;
+    /* No es necesario repetir display: flex aquí, ya lo heredan de arriba */
   }
 
   .custom-header-btn i {
