@@ -247,8 +247,8 @@ hr.short-divider {
     display: flex;           /* Forzamos display flex explícitamente */
     flex-wrap: nowrap;       /* Obliga a que no bajen a la siguiente fila */
     gap: 5px;                /* Reduce el espacio entre botones */
-    margin-top: 5px;         /* Reduce espacio arriba de los botones */
-    align-items: center;     /* CRUCIAL: Centra verticalmente todos los hijos */
+    margin-top: -10px;         /* Reduce espacio arriba de los botones */
+    align-items: end;     /* CRUCIAL: Centra verticalmente todos los hijos */
     justify-content: center; /* Asegura que el grupo esté centrado horizontalmente */
   }
 
