@@ -333,4 +333,10 @@ hr.short-divider {
     gap: 5px;
     font-size: 0.75rem; /* Footer más compacto */
   }
+
+   .btn + .btn {
+    margin-top: 0; /* Cambiado de 1rem a 0 para quitar el espacio */
+    margin-left: 0;
+  }
+   
 }
