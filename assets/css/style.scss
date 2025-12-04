@@ -151,3 +151,75 @@ hr {
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.2); /* Sutil resplandor */
   pointer-events: none;     /* Opcional: deshabilita clic si ya estás ahí */
 }
+
+/* =========================================
+   4. ESTILOS DE LA HOME (Juegos y Bio)
+   ========================================= */
+
+.home-content {
+  text-align: center; /* Centra los títulos h1 y h2 por defecto */
+  padding: 20px 0;
+}
+
+/* Grilla para poner los juegos uno al lado del otro */
+.games-grid {
+  display: flex;
+  flex-wrap: wrap; /* Permite que bajen a otra línea en móviles */
+  justify-content: center;
+  gap: 30px;       /* Espacio entre los dos juegos */
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.game-card {
+  flex: 1;              /* Toman el mismo ancho */
+  min-width: 300px;     /* Ancho mínimo para no verse muy chicos en móvil */
+  max-width: 600px;     /* Para que no se estiren demasiado en pantallas gigantes */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-card h1 {
+  margin-bottom: 15px;
+  font-size: 2.5rem;    /* Tamaño grande para los nombres de los juegos */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Estilo de las imágenes */
+.game-card img {
+  width: 100%;          /* Se adapta al ancho de la columna */
+  height: auto;         /* Mantiene el aspect ratio 16:9 (1280x720) */
+  border-radius: 8px;   /* Bordes redondeados solicitados */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra para resaltar */
+  transition: transform 0.3s ease;
+}
+
+.game-card img:hover {
+  transform: scale(1.02); /* Efecto zoom sutil al pasar el mouse */
+}
+
+/* Descripción debajo de la imagen */
+.game-desc {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #38F8FF;       /* Usamos tu color cian para resaltar el género */
+  font-weight: bold;
+}
+
+/* Separador (Linebreak) corto */
+hr.short-divider {
+  border: 0;
+  border-bottom: 2px solid #333;
+  width: 50%;           /* Solo ocupa la mitad de la pantalla */
+  margin: 50px auto;    /* Centrado horizontalmente */
+}
+
+/* Texto justificado para "Who I am?" */
+.bio-text {
+  text-align: justify;
+  max-width: 800px;     /* Ancho máximo de lectura cómodo */
+  margin: 0 auto;       /* Centrado */
+  line-height: 1.6;
+}
