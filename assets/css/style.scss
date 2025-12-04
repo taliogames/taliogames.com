@@ -250,3 +250,93 @@ hr.short-divider {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+/* =========================================
+   6. AJUSTES ESPECÍFICOS PARA MÓVIL (Max-width 600px)
+   ========================================= */
+
+@media screen and (max-width: 600px) {
+
+  /* --- 1. Botones del Header (5 en línea, más pequeños) --- */
+  .header-buttons-container {
+    flex-wrap: nowrap; /* Obliga a que no bajen a la siguiente fila */
+    gap: 5px;          /* Reduce el espacio entre botones */
+    margin-top: 5px;   /* Reduce espacio arriba de los botones */
+  }
+
+  .custom-header-btn {
+    min-height: 0;     /* Resetea la altura mínima grande de PC */
+    height: 36px;      /* Altura fija más pequeña para todos (incluido Donate) */
+    padding: 0 10px;   /* Padding lateral reducido */
+    font-size: 0.85rem;/* Texto un poco más pequeño */
+  }
+
+  /* Ajustes específicos para los botones cuadrados (íconos) */
+  .custom-header-btn:empty, 
+  .custom-header-btn i:only-child, 
+  .custom-header-btn img:only-child {
+    width: 36px;       /* Ancho igual a la altura para que sean cuadrados */
+    height: 36px;
+    padding: 0;
+  }
+
+  .custom-header-btn i {
+    font-size: 1.1rem; /* Íconos más pequeños */
+  }
+
+  /* --- 2. Espaciado Superior (Check out my games) --- */
+  .main-content {
+    padding-top: 10px; /* Reduce drásticamente el padding superior general */
+  }
+  
+  .home-content h2 {
+    margin-top: 0;     /* Quita margen extra del título */
+    margin-bottom: 10px; 
+    font-size: 1.5rem; /* Título un poco más chico para que no ocupe tanto */
+  }
+
+  /* --- 3. Juegos lado a lado (2 columnas) --- */
+  .games-grid {
+    gap: 10px;         /* Menos espacio entre los dos juegos */
+    margin-bottom: 10px;
+  }
+
+  .game-card {
+    min-width: 0;      /* IMPORTANTE: Anula el límite de 300px de PC */
+    width: 48%;        /* Ocupa casi la mitad para que entren dos */
+  }
+
+  .game-card h1 {
+    font-size: 1.5rem; /* Nombres de juegos (TEKO/AEFTB) más chicos */
+    margin-bottom: 0;
+  }
+
+  .game-card .game-desc {
+    font-size: 0.9rem; /* Descripción más chica */
+    margin-top: 2px;
+  }
+
+  /* --- 4. Línea divisoria (Line break) --- */
+  hr.short-divider {
+    margin: 15px auto; /* Reduce el espacio vertical de la línea */
+    width: 70%;        /* Un poco más larga en móvil queda mejor visualmente */
+  }
+
+  /* --- 5. Espaciado Inferior (Who am I -> Footer) --- */
+  .bio-text {
+    margin-bottom: 0;  /* Quita margen inferior del texto bio */
+    font-size: 0.95rem; /* Texto un poco más legible en móvil */
+  }
+
+  /* Forzamos al footer a subir usando !important para sobreescribir el estilo en línea */
+  .site-footer {
+    margin-top: 20px !important; 
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  
+  .footer-content {
+    gap: 5px;
+    font-size: 0.75rem; /* Footer más compacto */
+  }
+}
