@@ -126,6 +126,34 @@
     </div>
   </div>
 </footer>    
+
+<button onclick="topFunction()" id="myBtn" title="Ir arriba">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script>
+// Obtener el botón
+var mybutton = document.getElementById("myBtn");
+
+// Cuando el usuario hace scroll hacia abajo 300px, mostrar el botón
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "flex"; // Usamos flex para mantener el centrado
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// Cuando el usuario hace clic, volver arriba
+function topFunction() {
+  // Para Safari
+  document.body.scrollTop = 0;
+  // Para Chrome, Firefox, IE y Opera
+  document.documentElement.scrollTop = 0;
+}
+</script>
     
   </body>
 </html>
