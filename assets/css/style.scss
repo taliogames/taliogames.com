@@ -157,54 +157,56 @@ hr {
    ========================================= */
 
 .home-content {
-  text-align: center; /* Centra los títulos h1 y h2 por defecto */
-  padding: 20px 0;
+  text-align: center;
+  padding: 10px 0; /* ANTES: 20px 0. Reducido para acercarlo al header */
 }
 
 /* Grilla para poner los juegos uno al lado del otro */
 .games-grid {
   display: flex;
-  flex-wrap: wrap; /* Permite que bajen a otra línea en móviles */
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;       /* Espacio entre los dos juegos */
-  margin-top: 20px;
-  margin-bottom: 40px;
+  gap: 20px;       /* ANTES: 30px. Reducido ligeramente el espacio lateral entre juegos */
+  margin-top: 10px;    /* ANTES: 20px. Espacio entre 'Check out my games' y las cartas */
+  margin-bottom: 20px; /* ANTES: 40px. Espacio entre las cartas y la línea divisora */
 }
 
 .game-card {
-  flex: 1;              /* Toman el mismo ancho */
-  min-width: 300px;     /* Ancho mínimo para no verse muy chicos en móvil */
-  max-width: 600px;     /* Para que no se estiren demasiado en pantallas gigantes */
+  flex: 1;
+  min-width: 300px;
+  /* CAMBIO CLAVE PARA TAMAÑO DE IMAGEN: */
+  max-width: 900px;     /* ANTES: 600px. Al aumentar esto, las imágenes podrán crecer más en PC */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .game-card h1 {
-  margin-bottom: 15px;
-  font-size: 2.5rem;    /* Tamaño grande para los nombres de los juegos */
+  margin-bottom: 5px;   /* ANTES: 15px. Espacio entre el título (TEKO/AEFTB) y la imagen */
+  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  line-height: 1.1;     /* Agregado para evitar altura extra en la línea de texto */
 }
 
 /* Estilo de las imágenes */
 .game-card img {
-  width: 100%;          /* Se adapta al ancho de la columna */
-  height: auto;         /* Mantiene el aspect ratio 16:9 (1280x720) */
-  border-radius: 8px;   /* Bordes redondeados solicitados */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra para resaltar */
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
   transition: transform 0.3s ease;
 }
 
 .game-card img:hover {
-  transform: scale(1.02); /* Efecto zoom sutil al pasar el mouse */
+  transform: scale(1.02);
 }
 
 /* Descripción debajo de la imagen */
 .game-desc {
-  margin-top: 10px;
+  margin-top: 5px;      /* ANTES: 10px. Espacio entre imagen y descripción */
   font-size: 1.2rem;
-  color: #38F8FF;       /* Usamos tu color cian para resaltar el género */
+  color: #38F8FF;
   font-weight: bold;
 }
 
@@ -212,14 +214,14 @@ hr {
 hr.short-divider {
   border: 0;
   border-bottom: 2px solid #333;
-  width: 50%;           /* Solo ocupa la mitad de la pantalla */
-  margin: 50px auto;    /* Centrado horizontalmente */
+  width: 50%;
+  margin: 25px auto;    /* ANTES: 50px auto. Espacio arriba y abajo de la línea reducido a la mitad */
 }
 
 /* Texto justificado para "Who I am?" */
 .bio-text {
   text-align: justify;
-  max-width: 800px;     /* Ancho máximo de lectura cómodo */
-  margin: 0 auto;       /* Centrado */
+  max-width: 800px;
+  margin: 0 auto;
   line-height: 1.6;
 }
