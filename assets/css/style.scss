@@ -389,3 +389,40 @@ html {
     font-size: 16px;
   }
 }
+
+/* =========================================
+   NUEVO: HEADER DIVIDIDO (TEKO)
+   ========================================= */
+
+/* Wrapper principal: En PC se comporta igual que el container original */
+.header-buttons-split-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 0.8rem;
+}
+
+/* En PC, las filas son "invisibles" (contents), 
+   haciendo que los botones sean hijos directos del wrapper */
+.header-row {
+  display: contents;
+}
+
+/* --- AJUSTES PARA MÓVIL --- */
+@media (max-width: 768px) {
+  
+  .header-buttons-split-wrapper {
+    flex-direction: column; /* Apila las filas verticalmente */
+    align-items: center;
+    gap: 5px; /* Espacio entre la fila 1 y la fila 2 */
+  }
+
+  .header-row {
+    display: flex; /* Restaura el comportamiento de bloque/flex para la fila */
+    flex-wrap: nowrap; /* Mantiene los botones en una línea */
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+  }
+}
