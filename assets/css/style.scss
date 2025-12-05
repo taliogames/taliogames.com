@@ -474,3 +474,45 @@ html {
     font-size: 0.85rem;   /* Iconos ligeramente más pequeños */
   }
 }
+
+/* =========================================
+   AJUSTE RESPONSIVE INTERMEDIO (769px - 1270px)
+   Objetivo: Mantener botones en una sola fila
+   ========================================= */
+
+@media (min-width: 769px) and (max-width: 1270px) {
+  
+  /* 1. Forzar a que el contenedor no rompa la línea */
+  .header-buttons-split-wrapper {
+    flex-wrap: nowrap; 
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* 2. Reducir el "aire" (padding) de los botones para que entren todos */
+  .custom-header-btn {
+    padding: 0.6rem 0.5rem; /* Reducido de 1.2rem a 0.5rem lateral */
+    min-height: 42px;       /* Ligeramente más bajos que los 48px originales */
+    flex-shrink: 1;         /* Permite que se encojan si es absolutamente necesario */
+  }
+
+  /* 3. Reducir el tamaño de la fuente del texto */
+  .btn-text {
+    font-size: 0.9rem;      /* Reducido de 1.1rem a 0.9rem */
+  }
+
+  /* 4. Ajustar los botones que son solo iconos (Steam, Discord, etc.) */
+  .custom-header-btn:empty, 
+  .custom-header-btn i:only-child, 
+  .custom-header-btn img:only-child {
+    width: 42px;            /* Reducido de 48px a 42px para ganar espacio */
+    height: 42px;
+    padding: 0;
+    flex-shrink: 0;         /* Evita que los iconos se aplasten */
+  }
+  
+  /* Ajustar tamaño de icono interno */
+  .custom-header-btn i {
+    font-size: 1.3rem;
+  }
+}
