@@ -28,31 +28,35 @@
       </h1>
       
       {% if page.header_buttons %}
-        <div class="header-buttons-container">
-          {% for btn in page.header_buttons %}
-            
-            {% assign btn_class = "btn custom-header-btn" %}
-            
-            {% if page.url == btn.url %}
-              {% assign btn_class = btn_class | append: " active-btn" %}
-            {% elsif btn.url != '/teko/' and page.url contains btn.url %}
-               {% assign btn_class = btn_class | append: " active-btn" %}
-            {% endif %}
+<div class="header-buttons-container">
+  {% for btn in page.header_buttons %}
+    
+    {% assign btn_class = "btn custom-header-btn" %}
+    
+    {% if page.url == btn.url %}
+      {% assign btn_class = btn_class | append: " active-btn" %}
+    {% elsif btn.url != '/teko/' and page.url contains btn.url %}
+       {% assign btn_class = btn_class | append: " active-btn" %}
+    {% endif %}
 
-            <a href="{{ btn.url }}" class="{{ btn_class }}" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
-              
-              {% if btn.image_path %}
-                <img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">
-              {% elsif btn.icon_class %}
-                <i class="{{ btn.icon_class }}"></i>
-              {% endif %}
+    <a href="{{ btn.url }}" class="{{ btn_class }}" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
+      
+      {% if btn.image_path %}
+        <img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">
+      {% elsif btn.icon_class %}
+        <i class="{{ btn.icon_class }}"></i>
+      {% endif %}
 
-              {% if btn.label %}
-                <span class="btn-text">{{ btn.label }}</span>
-              {% endif %}
-            </a>
-          {% endfor %}
-        </div>
+      {% if btn.label %}
+        <span class="btn-text">{{ btn.label }}</span>
+      {% endif %}
+    </a>
+
+    {% if page.url contains '/teko/' and forloop.index == 4 %}
+      <div class="mobile-break"></div>
+    {% endif %}
+    {% endfor %}
+</div>
       {% endif %}  
     </section>
 
