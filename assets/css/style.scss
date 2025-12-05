@@ -488,14 +488,14 @@ html {
   }
 
 .custom-header-btn + .custom-header-btn {
-    margin-left: 0 !important;
-  }
-
-  .steam-desktop-margin {
     margin-left: 0px !important;
   }
-}
 
+  /* 2. MARGEN DE STEAM (Fluido) */
+  .steam-desktop-margin {
+    margin-left: 0px !important; 
+  }
+  
   /* 3. BOTONES (Texto e Iconos): Altura y Padding fluidos */
   .custom-header-btn {
     /* ALTURA: Escala suavemente entre ~36px y ~48px */
