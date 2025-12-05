@@ -242,33 +242,26 @@ hr.short-divider {
 
 @media (max-width: 768px) {
 
-/* --- 1. Botones del Header --- */
+/* --- 1. Botones del Header (5 en línea, más pequeños) --- */
   .header-buttons-container {
-    display: flex;
-    flex-wrap: wrap;         /* CAMBIO: De 'nowrap' a 'wrap' para permitir 2 filas */
-    gap: 5px;
-    margin-top: 2px;
-    align-items: center;
-    justify-content: center;
-  }
-
-/* Activamos el salto de línea en móvil */
-  .mobile-break {
-    display: block;
-    flex-basis: 100%;       /* Ocupa todo el ancho para forzar el salto */
-    height: 0;              /* Sin altura visible */
+    display: flex;           /* Forzamos display flex explícitamente */
+    flex-wrap: nowrap;       /* Obliga a que no bajen a la siguiente fila */
+    gap: 5px;                /* Reduce el espacio entre botones */
+    margin-top: 2px;         /* Reduce espacio arriba de los botones */
+    align-items: center;     /* CRUCIAL: Centra verticalmente todos los hijos */
+    justify-content: center; /* Asegura que el grupo esté centrado horizontalmente */
   }
 
   .custom-header-btn {
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 0;
-    height: 36px;
-    padding: 0 10px;
-    font-size: 0.85rem;
-    margin: 0;
-    line-height: 1;
+    display: flex;           /* Forzamos flex en TODOS los botones (íconos y texto) */
+    align-items: center;     /* Centra el contenido (ícono/texto) dentro del botón */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    min-height: 0;           /* Resetea la altura mínima grande de PC */
+    height: 36px;            /* Altura fija para todos */
+    padding: 0 10px;         /* Padding lateral reducido */
+    font-size: 0.85rem;      /* Texto un poco más pequeño */
+    margin: 0;               /* Elimina cualquier margen extraño por defecto */
+    line-height: 1;          /* Asegura consistencia en la altura de línea */
   }
 
   /* Ajustes específicos para los botones cuadrados (íconos) */
@@ -395,9 +388,4 @@ html {
     height: 40px;
     font-size: 16px;
   }
-}
-
-/* Clase para forzar el salto de línea, oculta por defecto en escritorio */
-.mobile-break {
-  display: none;
 }
