@@ -142,6 +142,17 @@ hr {
   display: block; /* Ayuda a eliminar espacios fantasma */
 }
 
+/* --- AJUSTE TEKO HEADER (PC/GENERAL) --- */
+
+/* Por defecto (PC), el break actúa como un separador invisible horizontal */
+.teko-header .mobile-break {
+  display: block;
+  width: 30px; /* Espacio entre Wiki y Steam en PC */
+  height: 1px;
+  border: none;
+  background: transparent;
+}
+
 /* ... (el resto de tu CSS anterior) ... */
 
 /* Estado Activo (Botón Seleccionado) */
@@ -398,17 +409,49 @@ html {
 }
 
 @media (max-width: 768px) {
-  /* Al activarse la clase teko-header, permitimos que los botones bajen */
+/* Dentro de @media (max-width: 768px) { ... } */
+
+  /* --- AJUSTES ESPECÍFICOS PARA TEKO EN MÓVIL --- */
+  
+  /* Contenedor: Permite wrap y centra los elementos */
   .header-buttons-container.teko-header {
-    flex-wrap: wrap !important; /* Forza el wrapping */
+    flex-wrap: wrap !important;
     justify-content: center;
-    gap: 5px; /* Mantiene el espaciado */
+    gap: 4px; /* Espacio pequeño entre botones */
+    row-gap: 8px; /* Espacio vertical entre la fila 1 y la fila 2 */
   }
 
-  /* Hacemos visible el divisor para forzar la nueva línea */
+  /* El separador fuerza el salto de línea al ocupar el 100% del ancho */
   .teko-header .mobile-break {
-    display: block;
-    width: 100%; /* Ocupa todo el ancho para empujar los siguientes botones abajo */
-    height: 0;   /* No ocupa altura visual extra */
+    flex-basis: 100%;
+    width: 100%;
+    height: 0;
+    margin: 0; /* El espacio lo maneja el row-gap del contenedor */
+  }
+
+  /* --- CRUCIAL: Botones más compactos para que quepan en la fila 1 --- */
+  .teko-header .custom-header-btn {
+    font-size: 0.75rem; /* Texto más pequeño (aprox 12px) */
+    padding: 0 6px;     /* Padding lateral reducido */
+    height: 32px;       /* Altura reducida */
+    line-height: 32px;  /* Centrado vertical */
+  }
+
+  /* Ajuste para los iconos sociales de la fila 2 (Steam, Discord, etc.) */
+  .teko-header .custom-header-btn:empty, 
+  .teko-header .custom-header-btn i:only-child, 
+  .teko-header .custom-header-btn img:only-child {
+    width: 32px;  /* Cuadrados más pequeños */
+    height: 32px;
+    padding: 0;
+    flex: 0 0 auto; /* Evita que se estiren o encojan */
+  }
+  
+  /* Ajuste de tamaño de los iconos dentro de los botones */
+  .teko-header .custom-header-btn i,
+  .teko-header .custom-header-btn img {
+    font-size: 1rem; /* Iconos proporcionales al nuevo tamaño */
+    height: 18px; /* Para imágenes como logos */
+    width: auto;
   }
 }
