@@ -82,11 +82,6 @@ hr {
   margin-top: 0.8rem;
 }
 
-/* Clase para forzar el salto de línea, oculta por defecto en escritorio */
-.mobile-break {
-  display: none;
-}
-
 .custom-header-btn {
   display: inline-flex;
   align-items: center;
@@ -400,4 +395,9 @@ html {
     height: 40px;
     font-size: 16px;
   }
+}
+
+/* Clase para forzar el salto de línea, oculta por defecto en escritorio */
+.mobile-break {
+  display: none;
 }
