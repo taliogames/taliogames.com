@@ -389,3 +389,26 @@ html {
     font-size: 16px;
   }
 }
+
+/* --- AJUSTES PARA HEADER DE TEKO (2 FILAS EN MÓVIL) --- */
+
+/* Por defecto, el salto de línea está oculto (para escritorio) */
+.mobile-break {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Al activarse la clase teko-header, permitimos que los botones bajen */
+  .header-buttons-container.teko-header {
+    flex-wrap: wrap !important; /* Forza el wrapping */
+    justify-content: center;
+    gap: 5px; /* Mantiene el espaciado */
+  }
+
+  /* Hacemos visible el divisor para forzar la nueva línea */
+  .teko-header .mobile-break {
+    display: block;
+    width: 100%; /* Ocupa todo el ancho para empujar los siguientes botones abajo */
+    height: 0;   /* No ocupa altura visual extra */
+  }
+}
