@@ -477,49 +477,42 @@ html {
 
 /* =========================================
    AJUSTE RESPONSIVE INTERMEDIO (769px - 1270px)
-   Objetivo: Botones en una fila, más compactos y con menos separación
+   Objetivo: Mantener botones en una sola fila
    ========================================= */
 
 @media (min-width: 769px) and (max-width: 1270px) {
   
-  /* 1. Contenedor: Reducimos el GAP y forzamos una sola línea */
+  /* 1. Forzar a que el contenedor no rompa la línea */
   .header-buttons-split-wrapper {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; 
     width: 100%;
     justify-content: center;
-    gap: 2px; /* Reducido de 4px a 2px para ganar espacio vital */
   }
 
-  /* 2. Botones: Altura reducida y padding ajustado */
+  /* 2. Reducir el "aire" (padding) de los botones para que entren todos */
   .custom-header-btn {
-    /* Forzamos altura fija más pequeña (casi como móvil) */
-    min-height: 0;       /* Anulamos el min-height de escritorio */
-    height: 38px;        /* Nueva altura fija más estética para este ancho */
-    line-height: 1;      /* Centrado vertical */
-    
-    /* Padding lateral reducido para que entren todos */
-    padding: 0 6px;      
-    
-    flex-shrink: 1;      /* Permite que se encojan si falta espacio */
+    padding: 0.6rem 0.5rem; /* Reducido de 1.2rem a 0.5rem lateral */
+    min-height: 42px;       /* Ligeramente más bajos que los 48px originales */
+    flex-shrink: 1;         /* Permite que se encojan si es absolutamente necesario */
   }
 
-  /* 3. Texto: Un poco más pequeño */
+  /* 3. Reducir el tamaño de la fuente del texto */
   .btn-text {
-    font-size: 0.85rem;   /* Tamaño ajustado para la nueva altura */
+    font-size: 0.9rem;      /* Reducido de 1.1rem a 0.9rem */
   }
 
-  /* 4. Botones Cuadrados (Iconos): Ajustados a la nueva altura */
+  /* 4. Ajustar los botones que son solo iconos (Steam, Discord, etc.) */
   .custom-header-btn:empty, 
   .custom-header-btn i:only-child, 
   .custom-header-btn img:only-child {
-    width: 38px;         /* Cuadrados perfectos de 38x38 */
-    height: 38px;
+    width: 42px;            /* Reducido de 48px a 42px para ganar espacio */
+    height: 42px;
     padding: 0;
-    flex-shrink: 0;      /* Los iconos no deben aplastarse nunca */
+    flex-shrink: 0;         /* Evita que los iconos se aplasten */
   }
   
-  /* Ajuste visual del icono interno */
+  /* Ajustar tamaño de icono interno */
   .custom-header-btn i {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
