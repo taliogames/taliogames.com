@@ -20,6 +20,7 @@ header_buttons_row_2:
   - url: https://store.steampowered.com/developer/TalioGames
     icon_class: fab fa-steam
     new_tab: true
+    custom_class: "steam-desktop-margin"  # <--- Usamos una clase personalizada
 
   - url: https://discord.com/invite/Xk8RxfWBn6
     icon_class: fab fa-discord
