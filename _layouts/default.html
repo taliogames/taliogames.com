@@ -27,37 +27,32 @@
         {% endif %}
       </h1>
       
-      {% comment %} --- LÓGICA ESPECIAL PARA TEKO (DOS GRUPOS) --- {% endcomment %}
+      {% comment %} --- LÓGICA PARA HEADER DIVIDIDO (TEKO) --- {% endcomment %}
       {% if page.header_buttons_row_1 %}
         <div class="header-buttons-split-wrapper">
-          
           <div class="header-row">
             {% for btn in page.header_buttons_row_1 %}
               {% assign btn_class = "btn custom-header-btn" %}
               {% if page.url == btn.url %}{% assign btn_class = btn_class | append: " active-btn" %}{% endif %}
-              
               <a href="{{ btn.url }}" class="{{ btn_class }}" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
                 {% if btn.image_path %}<img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">{% elsif btn.icon_class %}<i class="{{ btn.icon_class }}"></i>{% endif %}
                 {% if btn.label %}<span class="btn-text">{{ btn.label }}</span>{% endif %}
               </a>
             {% endfor %}
           </div>
-
           <div class="header-row">
             {% for btn in page.header_buttons_row_2 %}
               {% assign btn_class = "btn custom-header-btn" %}
               {% if page.url == btn.url %}{% assign btn_class = btn_class | append: " active-btn" %}{% endif %}
-              
               <a href="{{ btn.url }}" class="{{ btn_class }}" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
                 {% if btn.image_path %}<img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">{% elsif btn.icon_class %}<i class="{{ btn.icon_class }}"></i>{% endif %}
                 {% if btn.label %}<span class="btn-text">{{ btn.label }}</span>{% endif %}
               </a>
             {% endfor %}
           </div>
-
         </div>
 
-      {% comment %} --- LÓGICA ESTÁNDAR PARA OTRAS PÁGINAS --- {% endcomment %}
+      {% comment %} --- LÓGICA ORIGINAL (OTRAS PÁGINAS) --- {% endcomment %}
       {% elsif page.header_buttons %}
         <div class="header-buttons-container">
           {% for btn in page.header_buttons %}
@@ -65,7 +60,6 @@
             {% if page.url == btn.url or (btn.url != '/teko/' and page.url contains btn.url) %}
                {% assign btn_class = btn_class | append: " active-btn" %}
             {% endif %}
-
             <a href="{{ btn.url }}" class="{{ btn_class }}" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
               {% if btn.image_path %}<img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">{% elsif btn.icon_class %}<i class="{{ btn.icon_class }}"></i>{% endif %}
               {% if btn.label %}<span class="btn-text">{{ btn.label }}</span>{% endif %}
