@@ -487,6 +487,10 @@ html {
     gap: calc(2px + #{0.3vw}); 
   }
 
+.custom-header-btn + .custom-header-btn {
+    margin-left: 0 !important;
+  }
+
   /* 2. MARGEN DE STEAM (Fluido) */
   .steam-desktop-margin {
     margin-left: calc(1.5vw - #{6px}) !important; 
