@@ -478,7 +478,7 @@ html {
 /* =========================================
    AJUSTE RESPONSIVE INTERMEDIO (769px - 1270px)
    Objetivo: Escalado FLUIDO de todos los elementos.
-   SOLUCIÓN AL ERROR DE BUILD: Usamos #{ } para evitar que Sass intente sumar unidades incompatibles.
+   Nota: Usamos interpolacion #{} en los calc() para evitar errores de compilacion Sass.
    ========================================= */
 
 @media (min-width: 769px) and (max-width: 1270px) {
@@ -488,13 +488,12 @@ html {
     flex-wrap: nowrap; 
     width: 100%;
     justify-content: center;
-    /* Protegemos el cálculo usando interpolación #{...} */
+    /* Protegemos el calculo para que Sass no intente sumar px con vw */
     gap: calc(2px + #{0.3vw}); 
   }
 
   /* 2. MARGEN DE STEAM (Fluido) */
   .steam-desktop-margin {
-    /* (1.5vw - 6px) forzado como texto para que Sass no falle */
     margin-left: calc(1.5vw - #{6px}) !important; 
   }
   
@@ -510,11 +509,9 @@ html {
     min-height: 0; 
     
     /* PADDING LATERAL: Escala entre ~5px y ~20px */
-    /* AQUÍ ESTABA EL ERROR: rem + vw. Ahora lo protegemos. */
     padding: 0 calc(0.2rem + #{1vw}); 
     
     /* FUENTE: Escala entre 0.85rem y 1.1rem */
-    /* Clamp también necesita protección en la suma central */
     font-size: clamp(0.85rem, 0.5rem + #{0.6vw}, 1.1rem);
   }
 
