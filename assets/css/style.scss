@@ -391,38 +391,38 @@ html {
 }
 
 /* =========================================
-   NUEVO: HEADER DIVIDIDO (TEKO)
+   HEADER DIVIDIDO MEJORADO (TEKO)
    ========================================= */
 
-/* Wrapper principal: En PC se comporta igual que el container original */
+/* Contenedor principal de los dos grupos */
 .header-buttons-split-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;       /* PERMITE que los grupos bajen completos si falta espacio */
   justify-content: center;
-  gap: 4px;
+  align-items: center;
+  gap: 15px;             /* Separación visual clara entre el grupo Navegación y el Social */
   margin-top: 0.8rem;
 }
 
-/* En PC, las filas son "invisibles" (contents), 
-   haciendo que los botones sean hijos directos del wrapper */
+/* Cada fila es un bloque sólido */
 .header-row {
-  display: contents;
+  display: flex;
+  flex-wrap: nowrap;     /* Intentamos que los botones de un mismo grupo NO se rompan */
+  justify-content: center;
+  align-items: center;
+  gap: 4px;              /* Espacio entre botones pequeños */
 }
 
-/* --- AJUSTES PARA MÓVIL --- */
+/* --- REGLAS PARA MÓVIL (Menos de 768px) --- */
 @media (max-width: 768px) {
   
   .header-buttons-split-wrapper {
-    flex-direction: column; /* Apila las filas verticalmente */
-    align-items: center;
-    gap: 5px; /* Espacio entre la fila 1 y la fila 2 */
+    flex-direction: column; /* Fuerza explícitamente una fila debajo de la otra */
+    gap: 5px;               /* Reduce el espacio vertical en móvil */
   }
 
   .header-row {
-    display: flex; /* Restaura el comportamiento de bloque/flex para la fila */
-    flex-wrap: nowrap; /* Mantiene los botones en una línea */
-    justify-content: center;
-    gap: 5px;
+    flex-wrap: wrap;        /* En pantallas muy angostas, permitimos ajuste interno si es vital */
     width: 100%;
   }
 }

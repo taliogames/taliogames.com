@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TEKO - Talio Games
-# --- FILA 1: NAVEGACIÓN ---
+# --- GRUPO 1: NAVEGACIÓN ---
 header_buttons_row_1:
   - label: Home
     url: /teko/
@@ -15,7 +15,7 @@ header_buttons_row_1:
   - label: Wiki
     url: /teko/wiki/
 
-# --- FILA 2: SOCIAL Y DONATE ---
+# --- GRUPO 2: REDES Y DONACIÓN ---
 header_buttons_row_2:
   - url: https://store.steampowered.com/developer/TalioGames
     icon_class: fab fa-steam
