@@ -101,4 +101,4 @@ header_buttons:
     }
 </style>
 
-<script src="/taliogames.com/teko/announcements/rss.js"></script>
+<script src="/teko/announcements/rss.js"></script>
