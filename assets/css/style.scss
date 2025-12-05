@@ -452,20 +452,20 @@ html {
   /* Ajustes agresivos para los botones de texto */
   .custom-header-btn {
     padding: 0 4px;      /* ANTES: 10px. Reducimos mucho el aire lateral */
-    font-size: 0.75rem;  /* ANTES: 0.85rem. Texto más compacto */
-    height: 32px;        /* ANTES: 36px. Un poco más bajos */
+    font-size: 0.68rem;  /* ANTES: 0.85rem. Texto más compacto */
+    height: 30px;        /* ANTES: 36px. Un poco más bajos */
   }
 
   /* Ajustes para los botones cuadrados (iconos) */
   .custom-header-btn:empty, 
   .custom-header-btn i:only-child, 
   .custom-header-btn img:only-child {
-    width: 32px;         /* ANTES: 36px. Hacemos los cuadrados más chicos */
-    height: 32px;
+    width: 30px;         /* ANTES: 36px. Hacemos los cuadrados más chicos */
+    height: 30px;
   }
   
   /* Ajustamos el tamaño del icono dentro del botón */
   .custom-header-btn i {
-    font-size: 0.9rem;   /* Iconos ligeramente más pequeños */
+    font-size: 0.85rem;   /* Iconos ligeramente más pequeños */
   }
 }
