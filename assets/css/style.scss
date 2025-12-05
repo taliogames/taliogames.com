@@ -476,50 +476,65 @@ html {
 }
 
 /* =========================================
-   AJUSTE RESPONSIVE INTERMEDIO (769px - 1270px)
-   Objetivo: Botones en una fila, más compactos y con menos separación
+   AJUSTE RESPONSIVE FLUIDO (769px - 1270px)
+   Objetivo: Adaptación suave, eliminando márgenes externos
    ========================================= */
 
 @media (min-width: 769px) and (max-width: 1270px) {
   
-  /* 1. Contenedor: Reducimos el GAP y forzamos una sola línea */
+  /* 1. Contenedor: Forzamos fila única y usamos gap pequeño */
   .header-buttons-split-wrapper {
     flex-wrap: nowrap;
     width: 100%;
     justify-content: center;
-    gap: 2px; /* Reducido de 4px a 2px para ganar espacio vital */
+    gap: 4px; /* Espacio real controlado solo por gap */
   }
 
-  /* 2. Botones: Altura reducida y padding ajustado */
+  /* 2. Botones: Eliminamos el margen culpable y hacemos el tamaño fluido */
   .custom-header-btn {
-    /* Forzamos altura fija más pequeña (casi como móvil) */
-    min-height: 0;       /* Anulamos el min-height de escritorio */
-    height: 38px;        /* Nueva altura fija más estética para este ancho */
-    line-height: 1;      /* Centrado vertical */
+    /* ¡CRUCIAL! Esto elimina la separación gigante heredada del tema */
+    margin: 0 !important; 
     
-    /* Padding lateral reducido para que entren todos */
-    padding: 0 6px;      
+    /* FLEXIBILIDAD:
+       Permitimos que el botón se encoja si es necesario, pero no crezca de más */
+    flex-shrink: 1; 
+    min-width: 0;
+
+    /* ADAPTACIÓN SUAVE (Fluid Typography & Spacing):
+       En lugar de un tamaño fijo, usamos clamp(min, ideal, max).
+       El valor del medio (vw) hace que se ajuste pixel a pixel según el ancho de la ventana. */
     
-    flex-shrink: 1;      /* Permite que se encojan si falta espacio */
+    /* Padding lateral: Se mueve suavemente entre 6px (mínimo) y 1.2rem (máximo) */
+    padding: 0.6rem clamp(6px, 1.2vw, 1.2rem);
+    
+    /* Altura: Se adapta suavemente entre 40px y 48px */
+    height: clamp(40px, 4vw, 48px);
+    min-height: 0; /* Reseteo para evitar bloqueos */
+    line-height: 1;
   }
 
-  /* 3. Texto: Un poco más pequeño */
+  /* 3. Texto del botón: Se achica suavemente */
   .btn-text {
-    font-size: 0.85rem;   /* Tamaño ajustado para la nueva altura */
+    white-space: nowrap; /* Evita que el texto salte a dos líneas */
+    /* El texto escala entre 0.8rem y 1.1rem fluidamente */
+    font-size: clamp(0.8rem, 1.4vw, 1.1rem);
   }
 
-  /* 4. Botones Cuadrados (Iconos): Ajustados a la nueva altura */
+  /* 4. Botones de Iconos (Cuadrados): También se adaptan suavemente */
   .custom-header-btn:empty, 
   .custom-header-btn i:only-child, 
   .custom-header-btn img:only-child {
-    width: 38px;         /* Cuadrados perfectos de 38x38 */
-    height: 38px;
+    /* Ancho y Alto escalan fluidamente igual que la altura de los otros botones */
+    width: clamp(40px, 4vw, 48px);
+    height: clamp(40px, 4vw, 48px);
     padding: 0;
-    flex-shrink: 0;      /* Los iconos no deben aplastarse nunca */
+    flex-shrink: 0; /* Los iconos no deben aplastarse */
+    flex-grow: 0;
   }
   
-  /* Ajuste visual del icono interno */
+  /* Icono interno */
   .custom-header-btn i {
-    font-size: 1.1rem;
+    /* Escala el icono ligeramente */
+    font-size: clamp(1.1rem, 1.5vw, 1.5rem);
   }
 }
