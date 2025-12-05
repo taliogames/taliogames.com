@@ -477,35 +477,39 @@ html {
 
 
 @media (min-width: 769px) and (max-width: 1270px) {
-  
+
   /* 1. Contenedor: Ajuste fluido del espacio entre botones */
   .header-buttons-split-wrapper {
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     width: 100%;
     justify-content: center;
-    /* Protegemos el calculo para que Sass no intente sumar px con vw */
-    gap: calc(2px + #{0.3vw}); 
+    gap: calc(2px + #{0.3vw});
   }
 
-.custom-header-btn + .custom-header-btn {
-    margin-left: 0px !important;
+  /* --- CORRECCIÓN INICIO --- */
+  /* Eliminamos el margen izquierdo fijo para que solo actúe el gap */
+  .custom-header-btn + .custom-header-btn {
+    margin-left: 0 !important;
   }
+  /* --- CORRECCIÓN FIN --- */
 
   /* 2. MARGEN DE STEAM (Fluido) */
   .steam-desktop-margin {
-    margin-left: 0px !important; 
+    margin-left: 0px !important;
   }
-  
+
+  /* Media query anidada: Solo afecta dentro del rango 769px - 850px */
+  @media (min-width: 769px) and (max-width: 850px) {
+    .steam-desktop-margin {
+      margin-left: 0px !important;
+    }
+  } /* <--- Cierre de la media query interna */
+
   /* 3. BOTONES (Texto e Iconos): Altura y Padding fluidos */
   .custom-header-btn {
-    /* ALTURA: Escala suavemente entre ~36px y ~48px */
     height: calc(20px + #{2.2vw});
-    min-height: 0; 
-    
-    /* PADDING LATERAL: Escala entre ~5px y ~20px */
-    padding: 0 calc(0.2rem + #{1vw}); 
-    
-    /* FUENTE: Escala entre 0.85rem y 1.1rem */
+    min-height: 0;
+    padding: 0 calc(0.2rem + #{1vw});
     font-size: clamp(0.85rem, 0.5rem + #{0.6vw}, 1.1rem);
   }
 
@@ -516,19 +520,18 @@ html {
   }
 
   /* 5. BOTONES CUADRADOS (Iconos) */
-  .custom-header-btn:empty, 
-  .custom-header-btn i:only-child, 
+  .custom-header-btn:empty,
+  .custom-header-btn i:only-child,
   .custom-header-btn img:only-child {
-    /* Ancho igual a la altura calculada */
-    width: calc(20px + #{2.2vw}); 
+    width: calc(20px + #{2.2vw});
     height: calc(20px + #{2.2vw});
-    
-    padding: 0; 
-    flex-shrink: 0; 
+    padding: 0;
+    flex-shrink: 0;
   }
-  
+
   /* El icono interno también escala */
   .custom-header-btn i {
     font-size: calc(0.8rem + #{0.5vw});
   }
-}
+
+} 
