@@ -417,23 +417,11 @@ html {
   margin-bottom: -0.6rem;
 }
   
-/* Wrapper principal: En PC se comporta igual que el container original */
-.header-buttons-split-wrapper {
-  display: flex;
-  flex-wrap: nowrap; /* CAMBIO: Antes era 'wrap', ahora 'nowrap' fuerza una sola fila */
-  justify-content: center;
-  gap: 4px;
-  margin-top: 0.8rem;
-  width: 100%; /* Asegura que ocupe el ancho para poder centrar o encoger */
-  overflow-x: auto; /* Seguridad: si la pantalla es muy angosta, permite scroll en vez de romper */
-  overflow-y: hidden; /* Ocultar scroll vertical si apareciera */
-  scrollbar-width: none; /* Opcional: oculta la barra de scroll en Firefox */
-}
-
-/* Opcional para ocultar barra de scroll en Chrome/Safari si llega a aparecer */
-.header-buttons-split-wrapper::-webkit-scrollbar {
-  display: none;
-}
+  .header-buttons-split-wrapper {
+    flex-direction: column; /* Apila las filas verticalmente */
+    align-items: center;
+    gap: 5px; /* Espacio entre la fila 1 y la fila 2 */
+  }
 
   .header-row {
     display: flex; /* Restaura el comportamiento de bloque/flex para la fila */
@@ -441,28 +429,6 @@ html {
     justify-content: center;
     gap: 5px;
     width: 100%;
-  }
-}
-
-/* --- AJUSTE INTERMEDIO (Laptop/Tablet Horizontal) --- 
-   Esto hace que los botones se encojan entre 769px y 1300px 
-   para evitar que se salgan de la pantalla al estar en una sola fila.
-*/
-@media (min-width: 769px) and (max-width: 1300px) {
-  
-  .custom-header-btn {
-    padding: 0.6rem 0.5rem; /* Reducimos el "aire" lateral de 1.2rem a 0.5rem */
-    font-size: 0.9rem;      /* Achicamos la letra general */
-  }
-
-  .btn-text {
-    font-size: 0.9rem;      /* Forzamos que el texto específico también baje */
-    white-space: nowrap;    /* Mantiene el texto en una línea */
-  }
-
-  /* Si aún así están muy apretados, reducimos el gap del contenedor */
-  .header-buttons-split-wrapper {
-    gap: 2px; 
   }
 }
 
