@@ -412,6 +412,11 @@ html {
 /* --- AJUSTES PARA MÓVIL --- */
 @media (max-width: 768px) {
   
+  .project-name {
+  margin-top: 0;
+  margin-bottom: -0.6rem;
+}
+  
   .header-buttons-split-wrapper {
     flex-direction: column; /* Apila las filas verticalmente */
     align-items: center;
