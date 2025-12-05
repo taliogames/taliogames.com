@@ -19,6 +19,11 @@ h1, h2, h3, h4, h5, h6,
   color: #ffffff !important;
 }
 
+h2 {
+  margin-top: -0.5rem !important; 
+  margin-bottom: 0.5rem !important;
+}
+
 /* Subtítulos o taglines un poco más tenues */
 .project-tagline {
   color: rgba(255, 255, 255, 0.7);
