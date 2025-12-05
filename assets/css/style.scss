@@ -390,17 +390,33 @@ html {
   }
 }
 
-/* Estilo para los grupos de botones */
-.header-group {
-  display: contents; /* PC: El div es invisible, mantiene el layout original perfecto */
+/* --- BORRA LA CLASE .mobile-break SI AUN EXISTE --- */
+
+/* --- AÑADE ESTO AL FINAL DEL ARCHIVO O EN LA SECCION DE HEADER --- */
+
+/* Estilo para los grupos de botones (Solo aplica en páginas donde se genera el div teko-group) */
+.teko-group {
+  display: contents; /* EN PC: El div es invisible. Los botones se ven como si estuvieran juntos con el gap original. */
 }
 
 @media (max-width: 768px) {
-  .header-group {
-    display: flex;           /* Móvil: Se convierte en bloque flexible */
-    flex-wrap: wrap;         /* Permite que los botones dentro se acomoden */
-    justify-content: center; /* Centra los botones */
-    width: 100%;             /* Fuerza a ocupar toda la línea, causando el salto */
-    gap: 5px;                /* Espacio entre botones dentro del grupo */
+  /* CAMBIOS AL CONTENEDOR PRINCIPAL EN MOVIL */
+  .header-buttons-container {
+    flex-direction: column; /* Apila los grupos verticalmente (Fila 1 arriba, Fila 2 abajo) */
+    gap: 5px;               /* Espacio entre la Fila 1 y la Fila 2 */
+  }
+
+  /* CAMBIOS A LOS GRUPOS (LAS FILAS) */
+  .teko-group {
+    display: flex;          /* Ahora sí se comportan como contenedores */
+    flex-wrap: wrap;        /* Permite que se ajusten si es necesario, pero intentarán estar en línea */
+    justify-content: center;
+    gap: 5px;               /* Espacio entre botones dentro de la misma fila */
+    width: 100%;
+  }
+  
+  /* AJUSTE CRÍTICO: Reducir padding en móvil para que quepan en la fila */
+  .custom-header-btn {
+    padding: 0 6px; /* Reducido de 10px a 6px para ganar espacio horizontal */
   }
 }
