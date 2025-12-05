@@ -82,6 +82,11 @@ hr {
   margin-top: 0.8rem;
 }
 
+/* CLASE MOVIDA AQUÍ: Oculta por defecto (Desktop) */
+.mobile-break {
+  display: none;
+}
+
 .custom-header-btn {
   display: inline-flex;
   align-items: center;
@@ -252,6 +257,14 @@ hr.short-divider {
     justify-content: center;
   }
 
+/* Activamos el salto de línea en móvil */
+  .mobile-break {
+    display: block; /* Muestra el elemento */
+    width: 100%;    /* Fuerza el ancho total para crear el salto */
+    height: 0;      /* Sin altura */
+    margin: 0;      /* Sin margen para no afectar el espaciado */
+  }
+
   .custom-header-btn {
 	display: flex;
     align-items: center;
@@ -387,20 +400,5 @@ html {
     width: 40px;
     height: 40px;
     font-size: 16px;
-  }
-}
-
-/* Estilo para los grupos de botones */
-.header-group {
-  display: contents; /* PC: El div es invisible, mantiene el layout original perfecto */
-}
-
-@media (max-width: 768px) {
-  .header-group {
-    display: flex;           /* Móvil: Se convierte en bloque flexible */
-    flex-wrap: wrap;         /* Permite que los botones dentro se acomoden */
-    justify-content: center; /* Centra los botones */
-    width: 100%;             /* Fuerza a ocupar toda la línea, causando el salto */
-    gap: 5px;                /* Espacio entre botones dentro del grupo */
   }
 }
