@@ -491,15 +491,10 @@ html {
     margin-left: 0 !important;
   }
 
-  /* 2. MARGEN DE STEAM (Fluido) */
   .steam-desktop-margin {
-    margin-left: calc(1.5vw - #{6px}) !important; 
+    margin-left: 0px !important;
   }
-  
-  /* Aseguramos que no sea negativo en el rango bajo */
-  @media (min-width: 769px) and (max-width: 850px) {
-     .steam-desktop-margin { margin-left: 2px !important; }
-  }
+}
 
   /* 3. BOTONES (Texto e Iconos): Altura y Padding fluidos */
   .custom-header-btn {
