@@ -475,11 +475,6 @@ html {
   }
 }
 
-/* =========================================
-   AJUSTE RESPONSIVE INTERMEDIO (769px - 1270px)
-   Objetivo: Escalado FLUIDO de todos los elementos.
-   Nota: Usamos interpolacion #{} en los calc() para evitar errores de compilacion Sass.
-   ========================================= */
 
 @media (min-width: 769px) and (max-width: 1270px) {
   
