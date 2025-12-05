@@ -477,57 +477,70 @@ html {
 
 /* =========================================
    AJUSTE RESPONSIVE INTERMEDIO (769px - 1270px)
-   Objetivo: Mantener botones en una sola fila sin cambios drásticos
+   Objetivo: Escalado FLUIDO de todos los elementos.
+   Los valores crecen linealmente conforme aumenta el ancho de pantalla.
    ========================================= */
 
 @media (min-width: 769px) and (max-width: 1270px) {
   
-  /* 1. CORRECCIÓN DEL MARGEN CULPABLE (Steam) */
-  /* Reducimos ese margen de 16px a algo mínimo para ganar espacio */
-  .steam-desktop-margin {
-    margin-left: 5px; 
-  }
-
-  /* 2. Contenedor: Forzar fila única y centrado */
+  /* 1. Contenedor: Ajuste fluido del espacio entre botones */
   .header-buttons-split-wrapper {
     flex-wrap: nowrap; 
     width: 100%;
     justify-content: center;
-    gap: 4px; /* Gap pequeño y constante */
+    /* El gap crece suavemente de aprox 2px a 5px */
+    gap: calc(2px + 0.3vw); 
   }
 
-  /* 3. Botones Generales: Ajuste de proporciones (Más bajos y menos anchos) */
+  /* 2. MARGEN DE STEAM (Fluido) 
+     En lugar de saltar de 5px a 16px, escala proporcionalmente.
+     A 769px será ~4px, a 1270px será ~16px. */
+  .steam-desktop-margin {
+    margin-left: calc(1.5vw - 6px) !important; 
+    /* El cálculo (1.5vw - 6px) asegura que en pantallas chicas el margen sea casi 0 
+       y crezca a medida que hay espacio */
+  }
+  /* Aseguramos que no sea negativo */
+  @media (min-width: 769px) and (max-width: 850px) {
+     .steam-desktop-margin { margin-left: 2px !important; }
+  }
+
+  /* 3. BOTONES (Texto e Iconos): Altura y Padding fluidos */
   .custom-header-btn {
-    /* Padding: Bajamos de 1.2rem a 0.75rem. 
-       Esto ahorra espacio horizontal sin achicar la letra drásticamente */
-    padding: 0 0.75rem; 
+    /* ALTURA: Escala suavemente entre ~36px y ~48px */
+    height: calc(20px + 2.2vw);
+    min-height: 0; /* Anular min-height global */
     
-    /* Altura: Bajamos de 48px a 40px para que no queden "altos y flacos" */
-    height: 40px;       
-    min-height: 0;      /* Anulamos el min-height global */
+    /* PADDING LATERAL: Escala entre ~5px y ~20px 
+       Esto hace que los botones de texto se "encojan" a los lados en pantallas chicas */
+    padding: 0 calc(0.2rem + 1vw); 
     
-    /* Texto: Lo mantenemos legible, no tan pequeño como antes */
-    font-size: 0.95rem; 
+    /* FUENTE: Escala entre 0.85rem y 1.1rem */
+    font-size: clamp(0.85rem, 0.5rem + 0.6vw, 1.1rem);
   }
 
   /* 4. Texto dentro del botón */
   .btn-text {
-    font-size: 0.95rem;      /* Apenas un poco más chico que el original (1.1rem) */
+    /* Hereda la fuente fluida del padre, asegurando que no se rompa la línea */
+    font-size: inherit;
     white-space: nowrap;
   }
 
-  /* 5. Botones Cuadrados (Iconos): Deben coincidir exactamente con la nueva altura */
+  /* 5. BOTONES CUADRADOS (Iconos) 
+     Deben mantener su proporción 1:1 basada en la altura fluida calculada arriba */
   .custom-header-btn:empty, 
   .custom-header-btn i:only-child, 
   .custom-header-btn img:only-child {
-    width: 40px;            /* Cuadrado perfecto con la nueva altura */
-    height: 40px;
-    padding: 0;
-    flex: 0 0 40px;         /* flex-shrink: 0 para asegurar que no se aplasten jamás */
+    /* El ancho es igual a la altura calculada: Base + Variable */
+    width: calc(20px + 2.2vw); 
+    height: calc(20px + 2.2vw);
+    
+    padding: 0; /* Sin padding para mantenerlos cuadrados */
+    flex-shrink: 0; /* Evita que se aplasten */
   }
   
-  /* Ajustar tamaño de icono interno para la nueva caja de 40px */
+  /* El icono interno también escala */
   .custom-header-btn i {
-    font-size: 1.2rem;
+    font-size: calc(0.8rem + 0.5vw);
   }
 }
