@@ -477,42 +477,57 @@ html {
 
 /* =========================================
    AJUSTE RESPONSIVE INTERMEDIO (769px - 1270px)
-   Objetivo: Mantener botones en una sola fila
+   Objetivo: Mantener botones en una sola fila sin cambios drásticos
    ========================================= */
 
 @media (min-width: 769px) and (max-width: 1270px) {
   
-  /* 1. Forzar a que el contenedor no rompa la línea */
+  /* 1. CORRECCIÓN DEL MARGEN CULPABLE (Steam) */
+  /* Reducimos ese margen de 16px a algo mínimo para ganar espacio */
+  .steam-desktop-margin {
+    margin-left: 5px; 
+  }
+
+  /* 2. Contenedor: Forzar fila única y centrado */
   .header-buttons-split-wrapper {
     flex-wrap: nowrap; 
     width: 100%;
     justify-content: center;
+    gap: 4px; /* Gap pequeño y constante */
   }
 
-  /* 2. Reducir el "aire" (padding) de los botones para que entren todos */
+  /* 3. Botones Generales: Ajuste de proporciones (Más bajos y menos anchos) */
   .custom-header-btn {
-    padding: 0.6rem 0.5rem; /* Reducido de 1.2rem a 0.5rem lateral */
-    min-height: 42px;       /* Ligeramente más bajos que los 48px originales */
-    flex-shrink: 1;         /* Permite que se encojan si es absolutamente necesario */
+    /* Padding: Bajamos de 1.2rem a 0.75rem. 
+       Esto ahorra espacio horizontal sin achicar la letra drásticamente */
+    padding: 0 0.75rem; 
+    
+    /* Altura: Bajamos de 48px a 40px para que no queden "altos y flacos" */
+    height: 40px;       
+    min-height: 0;      /* Anulamos el min-height global */
+    
+    /* Texto: Lo mantenemos legible, no tan pequeño como antes */
+    font-size: 0.95rem; 
   }
 
-  /* 3. Reducir el tamaño de la fuente del texto */
+  /* 4. Texto dentro del botón */
   .btn-text {
-    font-size: 0.9rem;      /* Reducido de 1.1rem a 0.9rem */
+    font-size: 0.95rem;      /* Apenas un poco más chico que el original (1.1rem) */
+    white-space: nowrap;
   }
 
-  /* 4. Ajustar los botones que son solo iconos (Steam, Discord, etc.) */
+  /* 5. Botones Cuadrados (Iconos): Deben coincidir exactamente con la nueva altura */
   .custom-header-btn:empty, 
   .custom-header-btn i:only-child, 
   .custom-header-btn img:only-child {
-    width: 42px;            /* Reducido de 48px a 42px para ganar espacio */
-    height: 42px;
+    width: 40px;            /* Cuadrado perfecto con la nueva altura */
+    height: 40px;
     padding: 0;
-    flex-shrink: 0;         /* Evita que los iconos se aplasten */
+    flex: 0 0 40px;         /* flex-shrink: 0 para asegurar que no se aplasten jamás */
   }
   
-  /* Ajustar tamaño de icono interno */
+  /* Ajustar tamaño de icono interno para la nueva caja de 40px */
   .custom-header-btn i {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
