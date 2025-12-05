@@ -38,7 +38,7 @@ header_buttons_row_2:
     url: https://patreon.com/c/TalioGames
     new_tab: true
 ---
-<div style="max-width: 646px; width: 100%; margin: 0 auto 20px auto;">
+<div style="max-width: 100%; margin: 0 auto 20px auto;">
   <iframe src="https://store.steampowered.com/widget/3835670/" frameborder="0" width="100%" height="190"></iframe>
 </div>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
