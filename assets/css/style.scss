@@ -478,7 +478,7 @@ html {
 /* =========================================
    AJUSTE RESPONSIVE INTERMEDIO (769px - 1270px)
    Objetivo: Escalado FLUIDO de todos los elementos.
-   Los valores crecen linealmente conforme aumenta el ancho de pantalla.
+   SOLUCIÓN AL ERROR DE BUILD: Usamos #{ } para evitar que Sass intente sumar unidades incompatibles.
    ========================================= */
 
 @media (min-width: 769px) and (max-width: 1270px) {
@@ -488,19 +488,17 @@ html {
     flex-wrap: nowrap; 
     width: 100%;
     justify-content: center;
-    /* El gap crece suavemente de aprox 2px a 5px */
-    gap: calc(2px + 0.3vw); 
+    /* Protegemos el cálculo usando interpolación #{...} */
+    gap: calc(2px + #{0.3vw}); 
   }
 
-  /* 2. MARGEN DE STEAM (Fluido) 
-     En lugar de saltar de 5px a 16px, escala proporcionalmente.
-     A 769px será ~4px, a 1270px será ~16px. */
+  /* 2. MARGEN DE STEAM (Fluido) */
   .steam-desktop-margin {
-    margin-left: calc(1.5vw - 6px) !important; 
-    /* El cálculo (1.5vw - 6px) asegura que en pantallas chicas el margen sea casi 0 
-       y crezca a medida que hay espacio */
+    /* (1.5vw - 6px) forzado como texto para que Sass no falle */
+    margin-left: calc(1.5vw - #{6px}) !important; 
   }
-  /* Aseguramos que no sea negativo */
+  
+  /* Aseguramos que no sea negativo en el rango bajo */
   @media (min-width: 769px) and (max-width: 850px) {
      .steam-desktop-margin { margin-left: 2px !important; }
   }
@@ -508,39 +506,38 @@ html {
   /* 3. BOTONES (Texto e Iconos): Altura y Padding fluidos */
   .custom-header-btn {
     /* ALTURA: Escala suavemente entre ~36px y ~48px */
-    height: calc(20px + 2.2vw);
-    min-height: 0; /* Anular min-height global */
+    height: calc(20px + #{2.2vw});
+    min-height: 0; 
     
-    /* PADDING LATERAL: Escala entre ~5px y ~20px 
-       Esto hace que los botones de texto se "encojan" a los lados en pantallas chicas */
-    padding: 0 calc(0.2rem + 1vw); 
+    /* PADDING LATERAL: Escala entre ~5px y ~20px */
+    /* AQUÍ ESTABA EL ERROR: rem + vw. Ahora lo protegemos. */
+    padding: 0 calc(0.2rem + #{1vw}); 
     
     /* FUENTE: Escala entre 0.85rem y 1.1rem */
-    font-size: clamp(0.85rem, 0.5rem + 0.6vw, 1.1rem);
+    /* Clamp también necesita protección en la suma central */
+    font-size: clamp(0.85rem, 0.5rem + #{0.6vw}, 1.1rem);
   }
 
   /* 4. Texto dentro del botón */
   .btn-text {
-    /* Hereda la fuente fluida del padre, asegurando que no se rompa la línea */
     font-size: inherit;
     white-space: nowrap;
   }
 
-  /* 5. BOTONES CUADRADOS (Iconos) 
-     Deben mantener su proporción 1:1 basada en la altura fluida calculada arriba */
+  /* 5. BOTONES CUADRADOS (Iconos) */
   .custom-header-btn:empty, 
   .custom-header-btn i:only-child, 
   .custom-header-btn img:only-child {
-    /* El ancho es igual a la altura calculada: Base + Variable */
-    width: calc(20px + 2.2vw); 
-    height: calc(20px + 2.2vw);
+    /* Ancho igual a la altura calculada */
+    width: calc(20px + #{2.2vw}); 
+    height: calc(20px + #{2.2vw});
     
-    padding: 0; /* Sin padding para mantenerlos cuadrados */
-    flex-shrink: 0; /* Evita que se aplasten */
+    padding: 0; 
+    flex-shrink: 0; 
   }
   
   /* El icono interno también escala */
   .custom-header-btn i {
-    font-size: calc(0.8rem + 0.5vw);
+    font-size: calc(0.8rem + #{0.5vw});
   }
 }
