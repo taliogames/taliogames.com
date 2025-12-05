@@ -58,22 +58,6 @@
 
           {% endfor %}
         </div>
-      {% endif %}
-
-            <a href="{{ btn.url }}" class="{{ btn_class }}" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
-              
-              {% if btn.image_path %}
-                <img src="{{ btn.image_path }}" alt="icon" class="btn-img-icon">
-              {% elsif btn.icon_class %}
-                <i class="{{ btn.icon_class }}"></i>
-              {% endif %}
-
-              {% if btn.label %}
-                <span class="btn-text">{{ btn.label }}</span>
-              {% endif %}
-            </a>
-          {% endfor %}
-        </div>
       {% endif %}  
     </section>
 
