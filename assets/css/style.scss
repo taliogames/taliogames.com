@@ -588,26 +588,70 @@ html {
 }
 
 /* =========================================
-   11. WIDGET DE STEAM RESPONSIVO
+   11. CONTROL DE WIDGET STEAM (PC vs MÓVIL)
    ========================================= */
 
-.steam-widget-container {
+.steam-wrapper {
   max-width: 100%;
   margin: 0 auto 20px auto;
-
-  iframe {
-    width: 100%;
-    /* Altura estándar para PC */
-    height: 190px; 
-    border: 0;
-  }
 }
 
-/* Ajuste para móviles: Aumentamos la altura */
+/* --- Estilos por defecto (PC) --- */
+.steam-desktop {
+  display: block; /* Se ve en PC */
+}
+
+.steam-mobile {
+  display: none; /* Se oculta en PC */
+}
+
+/* --- Estilos para Móvil (pantallas < 600px) --- */
 @media (max-width: 600px) {
-  .steam-widget-container iframe {
-    /* Al ser la pantalla más estrecha, el texto del widget ocupa más líneas verticales.
-       Aumentamos la altura para que no se corten los botones ni el logo de Windows. */
-    height: 280px !important; 
+  
+  /* 1. Ocultamos el widget oficial que se rompe */
+  .steam-desktop {
+    display: none;
+  }
+
+  /* 2. Mostramos y diseñamos nuestra versión propia */
+  .steam-mobile {
+    display: flex;
+    flex-direction: column; /* <-- ESTO hace que aparezcan uno abajo del otro */
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #1b2838; /* Color azul oscuro clásico de Steam */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .release-date {
+    margin: 0 0 15px 0; /* Espacio debajo de la fecha */
+    font-size: 1.1rem;
+    color: #8f98a0;     /* Color grisáceo estilo Steam */
+    font-weight: bold;
+  }
+
+  /* Botón grande y llamativo */
+  .mobile-wishlist-btn {
+    background: linear-gradient(90deg, #21a2ff, #2165ff); /* Azul brillante */
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease;
+  }
+
+  .mobile-wishlist-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #41b2ff, #4175ff);
+    text-decoration: none;
   }
 }
