@@ -586,28 +586,3 @@ html {
   display: block;
   margin-top: 6px !important; /* Forzamos el margen superior de 6px */
 }
-
-/* =========================================
-   11. WIDGET DE STEAM RESPONSIVO
-   ========================================= */
-
-.steam-widget-container {
-  max-width: 100%;
-  margin: 0 auto 20px auto;
-
-  iframe {
-    width: 100%;
-    /* Altura estándar para PC */
-    height: 190px; 
-    border: 0;
-  }
-}
-
-/* Ajuste para móviles: Aumentamos la altura */
-@media (max-width: 600px) {
-  .steam-widget-container iframe {
-    /* Al ser la pantalla más estrecha, el texto del widget ocupa más líneas verticales.
-       Aumentamos la altura para que no se corten los botones ni el logo de Windows. */
-    height: 280px !important; 
-  }
-}
