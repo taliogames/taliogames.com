@@ -40,19 +40,8 @@ header_buttons_row_2:
 ---
 <img src="/assets/teko-banner.jpg" style="width: 100%; display: block; margin-bottom: 20px;" alt="TEKO Banner">
 <h2 style="text-align: center;">⬇️ Get TEKO on Steam ⬇️</h2>
-<div class="steam-wrapper">
-  
-  <div class="steam-desktop">
-    <iframe src="https://store.steampowered.com/widget/3835670/" frameborder="0" width="100%" height="190"></iframe>
-  </div>
-
-  <div class="steam-mobile">
-    <p class="release-date">Available 13 Mar 2026</p>
-    <a href="https://store.steampowered.com/app/3835670/" target="_blank" class="mobile-wishlist-btn">
-      <i class="fab fa-steam"></i> Wishlist on Steam
-    </a>
-  </div>
-
+<div class="steam-widget-container">
+  <iframe src="https://store.steampowered.com/widget/3835670/" frameborder="0"></iframe>
 </div>
 <p style="text-align: justify; margin-bottom: 20px;">
 Get as far as you can in this incremental Roguelike Deckbuilder with Poker hand combos while collecting items to enhance your progress! Every chip played counts, you won’t waste a single hand. Create your own strategies: there is no single correct way to play this. Break the game, dare to try new things. Everything you do will add to your final score!
