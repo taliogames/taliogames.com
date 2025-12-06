@@ -40,8 +40,8 @@ header_buttons_row_2:
 ---
 <img src="/assets/teko-banner.jpg" style="width: 100%; display: block; margin-bottom: 20px;" alt="TEKO Banner">
 <h2 style="text-align: center;">⬇️ Get TEKO on Steam ⬇️</h2>
-<div style="max-width: 100%; margin: 0 auto 20px auto;">
-  <iframe src="https://store.steampowered.com/widget/3835670/" frameborder="0" width="100%" height="190"></iframe>
+<div class="steam-widget-container">
+  <iframe src="https://store.steampowered.com/widget/3835670/" frameborder="0"></iframe>
 </div>
 <p style="text-align: justify; margin-bottom: 20px;">
 Get as far as you can in this incremental Roguelike Deckbuilder with Poker hand combos while collecting items to enhance your progress! Every chip played counts, you won’t waste a single hand. Create your own strategies: there is no single correct way to play this. Break the game, dare to try new things. Everything you do will add to your final score!
