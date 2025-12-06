@@ -54,9 +54,6 @@ header_buttons_row_2:
         <strong>Tags:</strong> Roguelike, Deckbuilder, Colorful
     </div>
 </div>
-
-<h2 style="text-align: center; font-weight: normal;">Description</h2>
-
 <p style="text-align: justify;">
     TEKO is a colorful roguelike deckbuilder where you manipulate echoes to survive. Build your deck, uncover the secrets of a vibrant world, and master the art of color-coded combat. (This is a placeholder description text. You can replace this section with your full game description to talk about the mechanics, story, and unique features of the game).
 </p>
@@ -67,7 +64,7 @@ header_buttons_row_2:
     <img src="/assets/sc3.png" style="width: 48%; height: auto;">
     <img src="/assets/sc4.png" style="width: 48%; height: auto;">
 </div>
-
+<br>
 <div style="width: 100%; margin-bottom: 20px;">
     <iframe width="100%" height="450" src="https://www.youtube.com/embed/au3KDE8622w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
