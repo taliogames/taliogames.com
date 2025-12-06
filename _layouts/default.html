@@ -19,13 +19,15 @@
   </head>
   <body>
 <section class="page-header">
-      <h1 class="project-name">
-        {% if page.url contains '/teko/' %}
-          TEKO
-        {% else %}
-          {{ page.title | default: site.title | default: site.github.repository_name }}
-        {% endif %}
-      </h1>
+<h1 class="project-name">
+  {% if page.url contains '/teko/' %}
+    TEKO
+  {% elsif page.url contains '/aeftb/' %}
+    AEFTB
+  {% else %}
+    {{ page.title | default: site.title | default: site.github.repository_name }}
+  {% endif %}
+</h1>
       
       {% comment %} --- LÓGICA PARA HEADER DIVIDIDO (TEKO) --- {% endcomment %}
       {% if page.header_buttons_row_1 %}
