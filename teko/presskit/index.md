@@ -59,10 +59,10 @@ header_buttons_row_2:
 </p>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 10px;">
-    <img src="/assets/sc1.png" style="width: 48%; height: auto;">
-    <img src="/assets/sc2.png" style="width: 48%; height: auto;">
-    <img src="/assets/sc3.png" style="width: 48%; height: auto;">
-    <img src="/assets/sc4.png" style="width: 48%; height: auto;">
+    <img src="/assets/sc1.png" style="width: 49%; height: auto;">
+    <img src="/assets/sc2.png" style="width: 49%; height: auto;">
+    <img src="/assets/sc3.png" style="width: 49%; height: auto;">
+    <img src="/assets/sc4.png" style="width: 49%; height: auto;">
 </div>
 <br>
 <div style="width: 100%; margin-bottom: 20px;">
