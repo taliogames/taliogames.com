@@ -580,6 +580,13 @@ html {
 .rss-content {
   /* Opcional: Para evitar que el contenido choque con el meta */
   margin-top: 0;
+  text-align: justify;
+  img {
+    display: block;
+    margin: -15px auto; /* AÑADIDO: -15px vertical, centrado horizontal */
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .rss-footer {

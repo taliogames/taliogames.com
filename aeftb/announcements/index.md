@@ -54,8 +54,8 @@ header_buttons_row_2:
     .rss-title { margin-top: 0; margin-bottom: 5px; font-size: 1.8em; }
     .rss-title a { text-decoration: none; color: #159957; }
     .rss-meta { font-size: 0.85em; color: #888; margin-bottom: 20px; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
-    .rss-content { line-height: 1.6; font-size: 1rem; overflow-wrap: break-word; }
-    .rss-content img { max-width: 100%; height: auto !important; display: block; margin: 15px 0; border-radius: 4px; }
+    .rss-content { line-height: 1.6; font-size: 1rem; overflow-wrap: break-word; text-align: justify; }
+    .rss-content img { max-width: 100%; height: auto !important; display: block; margin: -15px auto; border-radius: 4px; }
     .rss-content iframe { max-width: 100%; width: 100%; aspect-ratio: 16 / 9; border: none; }
     .rss-content ul, .rss-content ol { padding-left: 20px; margin-bottom: 15px; }
     .rss-content blockquote { border-left: 4px solid #159957; margin: 15px 0; padding-left: 15px; color: #555; background: #f9f9f9; padding: 10px; }
