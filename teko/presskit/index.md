@@ -50,10 +50,10 @@ header_buttons_row_2:
         <strong>Title:</strong> TEKO<br>
         <strong>Developer/Publisher:</strong> Talio Games<br>
         <strong>Release Date:</strong> March 13, 2026<br>
-        <strong>Size:</strong> 20MB<br>
+        <strong>Size:</strong> 30 MB<br>
         <strong>Supported OS:</strong> Windows<br>
         <strong>Platforms:</strong> <a href="https://store.steampowered.com/app/3835670/TEKO/" target="_blank">Steam</a><br>
-        <strong>Tags:</strong> Roguelike, Deckbuilder, Colorful
+        <strong>Tags:</strong> Indie, 2D, Colorful, Roguelike, Deckbuilder
     </div>
 </div>
 <p style="text-align: justify;">
