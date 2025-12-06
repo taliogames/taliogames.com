@@ -83,14 +83,14 @@ header_buttons_row_2:
     <img src="/assets/sc4.png" style="width: 49%; height: auto;">
 </div>
 
-<div style="width: 100%; margin-bottom: 10px;">
-    <iframe width="100%" height="450" src="https://www.youtube.com/embed/au3KDE8622w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 10px;">
+    <iframe width="100%" height="450" src="https://www.youtube.com/embed/au3KDE8622w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
 </div>
 
-<div style="width: 100%; margin-bottom: 10px;">
-    <iframe width="100%" height="450" src="https://www.youtube.com/embed/vZh8s_Xk0Eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 10px;">
+    <iframe width="100%" height="450" src="https://www.youtube.com/embed/vZh8s_Xk0Eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
 </div>
 
-<div style="width: 100%; margin-bottom: 10px;">
-    <iframe width="100%" height="450" src="https://www.youtube.com/embed/r8VpMwnMZZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 10px;">
+    <iframe width="100%" height="450" src="https://www.youtube.com/embed/r8VpMwnMZZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
 </div>
