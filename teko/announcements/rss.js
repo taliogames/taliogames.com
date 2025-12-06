@@ -52,7 +52,7 @@ function renderPage(page) {
         const div = document.createElement('div');
         div.className = 'rss-item';
         div.innerHTML = `
-            <h2 class="rss-title"><a href="${news.link}" target="_blank">${news.title}</a></h2>
+            <h1 class="rss-title"><a href="${news.link}" target="_blank">${news.title}</a></h1>
             <div class="rss-meta">Posted on ${news.pubDate}</div>
             <div class="rss-content">${news.content}</div>
             <div class="rss-footer">

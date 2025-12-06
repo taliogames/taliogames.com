@@ -541,3 +541,37 @@ html {
   }
 
 } 
+
+/* =========================================
+   10. ESTILOS DE ANUNCIOS (RSS / TEKO)
+   ========================================= */
+
+.rss-item {
+  margin-bottom: 14px;
+}
+
+/* El título ahora es un H1, aplicamos el margen y color al enlace */
+.rss-title {
+  margin-bottom: -0.4rem !important; /* Reduce el espacio debajo del título */
+  
+  a {
+    color: #70eb78 !important; /* Color verde claro solicitado */
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+      color: #ffffff !important; /* Opcional: blanco al pasar el mouse */
+    }
+  }
+}
+
+.rss-meta {
+  color: rgba(255, 255, 255, 0.6); /* Color sugerido para la fecha */
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.rss-footer {
+  margin-top: 6px;
+}
