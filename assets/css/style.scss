@@ -220,7 +220,8 @@ hr.short-divider {
   border: 0;
   border-bottom: 2px solid #333;
   width: 50%;
-  margin: 17px auto;    /* ANTES: 50px auto. Espacio arriba y abajo de la línea reducido a la mitad */
+  margin: 17px auto;
+  margin-bottom: 27px;
 }
 
 /* Texto justificado para "Who I am?" */
