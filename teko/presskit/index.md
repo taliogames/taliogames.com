@@ -57,7 +57,23 @@ header_buttons_row_2:
     </div>
 </div>
 <p style="text-align: justify;">
-    TEKO is a colorful roguelike deckbuilder where you manipulate echoes to survive. Build your deck, uncover the secrets of a vibrant world, and master the art of color-coded combat. (This is a placeholder description text. You can replace this section with your full game description to talk about the mechanics, story, and unique features of the game).
+    TEKO is an Indie Roguelike Deckbuilder where you have to reach the highest possible score by playing Poker hands, but in an unconventional way: making 3 combos at once.
+</p>
+
+<p style="text-align: justify;">
+    Every chip played counts! You won’t waste a single hand. Create your own strategies: each one offers a different way to win your runs. As you progress, you’ll unlock new ways to multiply your score and push your limits even further.
+</p>
+
+<p style="text-align: justify;">
+    Manage your Pocket, delete Chips, buy Consumables, bet to earn more MONEY, gain perks for playing better, take risks, choose whether to save or spend it all, fight bosses, surpass the imposed limits, and pick the strategy that best fits what you find in the Shop!
+</p>
+
+<p style="text-align: justify;">
+    There is no single correct way to play this. Break the game, dare to try new things. Everything you do will add to your final score.
+</p>
+
+<p style="text-align: justify;">
+    There are tons of available combinations, amazing interactions, and dozens of items that will let you create your ideal Build!
 </p>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 10px; margin-bottom: 10px;">
