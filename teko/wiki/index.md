@@ -42,7 +42,7 @@ header_buttons_row_2:
 
 Welcome to the official **Teko Wiki**.
 
-Use the sidebar navigation to explore the cards, rules, and game mechanics.
+This wiki is currently under construction...
 
 ### Quick Links
 * **[Rules](/teko/wiki/rules/)**: Learn how to play.
