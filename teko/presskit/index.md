@@ -38,4 +38,4 @@ header_buttons_row_2:
     url: https://patreon.com/c/TalioGames
     new_tab: true
 ---
-<h2><a href="https://drive.google.com/drive/folders/1XZvEoEDtjP4QgTdbtiIZ826xCb6u1elU?usp=sharing" target="_blank"><strong>Download Presskit</strong></a></h2>
+<h2 style="text-align: center;"><a href="https://drive.google.com/drive/folders/1XZvEoEDtjP4QgTdbtiIZ826xCb6u1elU?usp=sharing" target="_blank"><strong>Download Presskit</strong></a></h2>
