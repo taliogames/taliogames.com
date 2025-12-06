@@ -1,0 +1,62 @@
+[
+  {
+    "title": "BIG ANNOUNCEMENT!",
+    "link": "https://store.steampowered.com/news/app/3157360/view/543364553681928369",
+    "pubDate": "August 01, 2025",
+    "content": "<p class=\"bb_paragraph\"><b>I have a big announcement.</b></p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\">I'm working on my second project. It's a poker-based <b>ROGUELIKE DECKBUILDER</b>, but with many modifications, a different way to play, and a wide variety of elements on screen.</p><p class=\"bb_paragraph\"><b>TEKO</b> ➤ <b><a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F3835670%2FTEKO%20style%3Dbutton%20buttoncolor%3D%230561c5\" target=\"_blank\" rel=\" noopener\" >you can try it by clicking here</a></b> </p><p class=\"bb_paragraph\"><img src=\"https://clan.fastly.steamstatic.com/images/45147917/584e0b8c4ae98d1bd21d1594213ee56b800922d3.png\" /></p><p class=\"bb_paragraph\">Additionally, I have finally created a <b>DISCORD SERVER</b> so you can communicate with me and help my two current projects continue to grow!</p><p class=\"bb_paragraph\">If you'd like, you can also follow me on X and support me on Patreon. I want to try to make a living from this, and I will do my best to build a great community!</p><p class=\"bb_paragraph\">➤ <b><a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.gg%2FXk8RxfWBn6%20style%3Dbutton%20buttoncolor%3D%230561c5\" target=\"_blank\" rel=\" noopener\" >DISCORD</a></b> ➤ <b><a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fx.com%2FTalioGames%20style%3Dbutton%20buttoncolor%3D%230561c5\" target=\"_blank\" rel=\" noopener\" >X</a></b> ➤ <b><a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwww.patreon.com%2FTalioGames%20style%3Dbutton%20buttoncolor%3D%230561c5\" target=\"_blank\" rel=\" noopener\" >PATREON</a></b></p><p class=\"bb_paragraph\">Thank you for everything. My dream of developing games has come true, but I haven't yet reached the goal of supporting myself financially with it. One day, I would love to reach that goal, solely and exclusively to work on what I love without any interruptions. Right now, I have another job, so creating video games is my hobby. I strive every day to stay consistent in all aspects of my life, but honestly, my dream is to just dedicate myself to working with my art, peacefully, from my home, and enjoy a community that I want to grow, sharing with you all of my expression through music, graphics, and all the stories I have to tell.</p><p class=\"bb_paragraph\">I hope you can join me in this new stage as a developer. </p><div onclick=\"javascript:ReplaceWithYouTubeEmbed( this );\" data-youtube=\"&quot;5VEAbyoz38s\" class=\"sharedFilePreviewYouTubeVideo\"><img class=\"sharedFilePreviewYouTubeVideo\" src=\"https://steamcommunity.com/public/shared/images/responsive/youtube_16x9_placeholder.gif\"/><iframe src=\"https://www.youtube-nocookie.com/embed/&quot;5VEAbyoz38s?fs=1&modestbranding=1&rel=0\" allowFullScreen=\"1\" frameBorder=\"0\"></iframe></div>"
+  },
+  {
+    "title": "1.4.5",
+    "link": "https://store.steampowered.com/news/app/3157360/view/543360749096927776",
+    "pubDate": "June 22, 2025",
+    "content": "<p class=\"bb_paragraph\">I just added full presence integration for Steam and Discord. Now, when entering a level or staying in the menu, a \"current status\" will appear as a text display on the user's profile. This way, other people will be able to see which level you're trying to play or how you're progressing.</p><p class=\"bb_paragraph\">That's all for today. More news coming soon! I'm learning and improving a lot.</p>"
+  },
+  {
+    "title": "1.4.3",
+    "link": "https://store.steampowered.com/news/app/3157360/view/543360749096927552",
+    "pubDate": "June 20, 2025",
+    "content": "<p class=\"bb_paragraph\">Fixed a bug in a special level near the end of Story Mode.<br><br>The main menu, the layout of its buttons, and the game title display have been changed to make everything more aesthetic.</p>"
+  },
+  {
+    "title": "v1.4.1",
+    "link": "https://store.steampowered.com/news/app/3157360/view/543358212361945288",
+    "pubDate": "May 21, 2025",
+    "content": "Fixed a bug where it was not possible to advance after rescuing all slaves in story mode.<br><br>Please, if you find more errors of this type (that completely break the game), I ask you to report them using the in-game \"report\" button, which will take you to a form."
+  },
+  {
+    "title": "v1.4 is OUT Now!",
+    "link": "https://store.steampowered.com/news/app/3157360/view/516336075474470082",
+    "pubDate": "May 19, 2025",
+    "content": "<b>Finally.</b> I've wanted to do this for a long time: now when you finish <b>Story Mode</b>, you will unlock <b>Lore Mode</b>, so you can see the whole story again. It's divided into 9 buttons that will take you through the 13 chapters of the complete story.<br><br><img src=\"https://clan.fastly.steamstatic.com/images/45147917/c03a9a007e48e2f3b5827b0c3b7268f3b54f07f7.png\" /><br>I really wanted to do this to give people the chance to <b>enjoy the story again</b>, one of the biggest strengths of my game. It's quite original and it took me a lot of time to create it. I had to do the whole script, the graphics (hundreds of images), the sounds, and the dialogue system.<br><br>So now you can replay the story as many times as you want. I hope you enjoy it a lot, I honestly put a ton of effort into it and the creation process was very fun, and it's one of the reasons I published this game: to <b>tell a story</b>, with my own characters and a plot I came up with a long time ago.<br><br><br>Let's change the subject. I just created a <b>death animation</b>. Now, Almohadin will 'fade away' when he loses all his lives. I quite liked the particle effect and the gameplay doesn't lose momentum because I increased the animation speed.<br><br><img src=\"https://clan.fastly.steamstatic.com/images/45147917/bca708f875c5741352e88bca82bacb76d0f6b1a0.png\" /><br><br>I hope you liked this new patch. I have many things to do, I wish you can make it to the competitive mode (Speedrun/No Hit) so I keep having motivation to make more end-game levels and content.<br><br><i>Don't forget that, if you want to support me, you can <b>review the game</b> so I get more visibility. Thanks!</i>"
+  },
+  {
+    "title": "Launch!",
+    "link": "https://store.steampowered.com/news/app/3157360/view/516336075474469074",
+    "pubDate": "May 15, 2025",
+    "content": "The initial version of the game (v1.0) was released in November 2024, and by then, the complete story mode was already finished.<br><br>Six months later, now at version v1.3, it's clear that all recent updates have concentrated on enhancing the game's end-game, as I've been developing modes outside of the main story.<br><br>Currently, the game offers approximately 20 hours of gameplay (this can extend further depending on how much the player engages with leaderboard competition).<br><br>I will continue to create more content and, naturally, fix any bugs that I encounter.<br><br>As the community grows, I'll be introducing new mechanics, enemies, bosses, and everything needed to expand the gameplay experience and add more playtime hours."
+  },
+  {
+    "title": "v1.3.6",
+    "link": "https://store.steampowered.com/news/app/3157360/view/516335980136890435",
+    "pubDate": "May 14, 2025",
+    "content": "Added a new counter when winning extermination levels. You can start accumulating them now; there will be achievements for this in the future. Yes, even though achievements are not yet \"finalized\" (they don't appear on Steam), by playing, you might already be working towards them without realizing it. This happens with several achievements that are not yet on Steam but are already in the game.<br><br>Fixed the logic for global rankings. Now, those who have taken the least time and completed the most levels appear first; previously, the order did not respect time. And now, the total time score is overwritten if a new personal best is achieved (because the important thing is to take the least possible time in the levels). Previously, despite making high scores, it was not overwritten if all levels were completed.<br><br>Daddy Talio is here to solve any problems that arise. I know more will come, but I understand it won't be too difficult to find a solution. As more people join the game, new issues will appear and will need to be resolved, and I'll be there to do my best in every situation :3"
+  },
+  {
+    "title": "v1.3.4",
+    "link": "https://store.steampowered.com/news/app/3157360/view/543356309683045090",
+    "pubDate": "May 05, 2025",
+    "content": "Fixed collision with the red monster that has a spinning tongue.<br><br>Fixed several interactions with the pause menu during the visual novel. Videos can now be paused and resumed correctly, the resume button no longer crashes the game, and exiting during audio playback now properly stops the sound instead of letting it continue.<br><br>Fewer issues are being found. There probably aren't many serious bugs left. I will continue releasing small patches if I find any further problems."
+  },
+  {
+    "title": "v1.3.2",
+    "link": "https://store.steampowered.com/news/app/3157360/view/543356309683044976",
+    "pubDate": "May 03, 2025",
+    "content": "1.3.2 version:<br><ul class=\"bb_ul\"><li>Fixed the bug where music stopped playing when entering some menus. Now by default, if no song is defined, the main menu song will automatically play.<br></li><li>Removed 14 achievements. I'm making space for new content. The achievements still count within the game. I will expand the number of achievements when Steam allows me to. In the meantime, I have a limit of 100.<br></li><li>Added an option to upload files to forms and display the email for subsequent contact.</li></ul>If you have problems you can use the form presented inside the game (\"report\" button) and send files showing what happens if there is an error."
+  },
+  {
+    "title": "v1.3.1",
+    "link": "https://store.steampowered.com/news/app/3157360/view/543356309683044690",
+    "pubDate": "May 02, 2025",
+    "content": "<div class=\"bb_h3\">Language Changes:</div><ul class=\"bb_ul\"><li>Added the following languages to the game: French, Italian, German, Czech, Japanese, Korean, Polish, Brazilian Portuguese, Portuguese, Russian, Simplified and Traditional Chinese, Thai, Turkish, and Ukrainian.<br></li><li>Made several adjustments to improve the language experience and added a screen at the start of the game to choose a language if it hasn't been set yet. The language selection table turned out great.<br></li><li>I was able to create a line break system for complex languages, now they don't go beyond the margins.<br></li><li>Improved the demo and added language options to it as well.</li></ul><div class=\"bb_h3\">More Changes:</div><ul class=\"bb_ul\"><li>When the game opens, the screen no longer minimizes automatically, and the executable now appears in the taskbar. This was previously malfunctioning.<br></li><li>Fixed a crashing issue in several visual novel scenes (it didn't always happen, it was occasional) and fixed an issue where some visual novel elements wouldn't display if paused and then unpaused.<br></li><li>Fixed a interaction in the options menu; the button to change the pause input now works correctly.<br></li><li>Added Discord integration. Now, when you enter the game, your Discord status will show that you are playing.<br></li><li>I'm going to try to release an HTML5 web version so more people can discover me; meanwhile, I'll be working on promoting the game. It will soon leave Early Access.<br></li><li>From now on, all Steam posts will be only in English.<br></li><li>The game icon now looks nicer, has better quality, and a bit more contrast.<br></li><li>New logo! I got tired of looking so serious with a \"corporate\" logo, so I changed it to my favorite character.</li></ul>"
+  }
+]
