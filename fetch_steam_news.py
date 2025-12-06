@@ -60,6 +60,11 @@ def fetch_news():
                 
                 if content:
                     content = content.strip()
+                    # CORRECCIÓN DE ERROR DE VIDEO:
+                    # A veces Steam incluye &quot; (comillas) dentro de la URL del embed o el atributo data-youtube
+                    # lo cual rompe el reproductor. Lo eliminamos aquí.
+                    content = content.replace('embed/&quot;', 'embed/')
+                    content = content.replace('data-youtube="&quot;', 'data-youtube="')
 
                 news_list.append({
                     'title': title,
