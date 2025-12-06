@@ -39,12 +39,14 @@ header_buttons_row_2:
     new_tab: true
 ---
 <h2 style="text-align: center;"><a href="https://drive.google.com/drive/folders/1XZvEoEDtjP4QgTdbtiIZ826xCb6u1elU?usp=sharing" target="_blank"><strong>Download Presskit</strong></a></h2>
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; justify-content: center;">
     <div style="flex: 0 0 auto;">
         <img src="/assets/teko-capsule.png" alt="TEKO Capsule" style="max-width: 300px; max-height: 240px; height: auto; display: block;">
     </div>
     
-    <div style="flex: 1; text-align: left;">
+    <div style="flex: 0 1 auto; max-width: 500px; text-align: left;">
+
         <strong>Title:</strong> TEKO<br>
         <strong>Developer/Publisher:</strong> Talio Games<br>
         <strong>Release Date:</strong> March 13, 2026<br>
@@ -58,21 +60,21 @@ header_buttons_row_2:
     TEKO is a colorful roguelike deckbuilder where you manipulate echoes to survive. Build your deck, uncover the secrets of a vibrant world, and master the art of color-coded combat. (This is a placeholder description text. You can replace this section with your full game description to talk about the mechanics, story, and unique features of the game).
 </p>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 10px; margin-bottom: 10px;">
     <img src="/assets/sc1.png" style="width: 49%; height: auto;">
     <img src="/assets/sc2.png" style="width: 49%; height: auto;">
     <img src="/assets/sc3.png" style="width: 49%; height: auto;">
     <img src="/assets/sc4.png" style="width: 49%; height: auto;">
 </div>
-<br>
-<div style="width: 100%; margin-bottom: 20px;">
+
+<div style="width: 100%; margin-bottom: 10px;">
     <iframe width="100%" height="450" src="https://www.youtube.com/embed/au3KDE8622w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style="width: 100%; margin-bottom: 20px;">
+<div style="width: 100%; margin-bottom: 10px;">
     <iframe width="100%" height="450" src="https://www.youtube.com/embed/vZh8s_Xk0Eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style="width: 100%; margin-bottom: 20px;">
+<div style="width: 100%; margin-bottom: 10px;">
     <iframe width="100%" height="450" src="https://www.youtube.com/embed/r8VpMwnMZZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
