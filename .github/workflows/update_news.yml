@@ -27,8 +27,8 @@ jobs:
       - name: Fetch News
         run: python fetch_steam_news.py
 
-      - name: Commit and Push changes
+    - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Auto-update Steam news [skip ci]"
-file_pattern: "teko/announcements/news.json aeftb/announcements/news.json"
+          file_pattern: "teko/announcements/news.json aeftb/announcements/news.json"
