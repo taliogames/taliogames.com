@@ -543,35 +543,46 @@ html {
 } 
 
 /* =========================================
-   10. ESTILOS DE ANUNCIOS (RSS / TEKO)
+   10. ESTILOS DE ANUNCIOS (RSS / TEKO) - CORREGIDO
    ========================================= */
 
 .rss-item {
-  margin-bottom: 14px;
+  display: block; /* Asegura que se comporte como bloque */
+  margin-bottom: 14px !important; /* Forzamos el margen de 14px */
 }
 
-/* El título ahora es un H1, aplicamos el margen y color al enlace */
+/* Títulos convertidos a H1 (Requiere cambio en rss.js) */
 .rss-title {
-  margin-bottom: -0.4rem !important; /* Reduce el espacio debajo del título */
+  margin-bottom: -0.4rem !important; 
+  line-height: 1.2;
   
   a {
-    color: #70eb78 !important; /* Color verde claro solicitado */
+    color: #70eb78 !important; 
     text-decoration: none;
+    font-weight: bold;
     
     &:hover {
       text-decoration: underline;
-      color: #ffffff !important; /* Opcional: blanco al pasar el mouse */
+      color: #ffffff !important; 
     }
   }
 }
 
 .rss-meta {
-  color: rgba(255, 255, 255, 0.6); /* Color sugerido para la fecha */
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 0.9rem;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
+  /* Aseguramos los espaciados solicitados */
+  margin-bottom: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.rss-content {
+  /* Opcional: Para evitar que el contenido choque con el meta */
+  margin-top: 0;
 }
 
 .rss-footer {
-  margin-top: 6px;
+  display: block;
+  margin-top: 6px !important; /* Forzamos el margen superior de 6px */
 }
