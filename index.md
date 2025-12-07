@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Talio Games
+description: Talio Games official website! Indie Developer from TEKO and AEFTB. Colorful 2D Game creator.
 header_buttons:
   # 1. Steam (Icon only)
   - url: https://store.steampowered.com/developer/TalioGames
