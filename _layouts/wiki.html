@@ -2,8 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
   <meta charset="utf-8">
+  {% seo title=false %}
+  <title>{{ page.title | default: site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   
   {% if page.url contains '/teko/' %}
     <link rel="icon" type="image/png" href="{{ '/assets/icon_teko.png' | relative_url }}">
