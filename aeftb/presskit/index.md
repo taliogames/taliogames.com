@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Presskit - AEFTB
+title: Presskit | AEFTB
 description: "Almohadin: escape from the basement Presskit with graphic and downloadable resources for presentation."
 # --- FILA 1: NAVEGACIÓN (Actualizada para AEFTB) ---
 header_buttons_row_1:

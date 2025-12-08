@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Announcements - AEFTB
+title: Announcements | AEFTB
 description: "Almohadin: escape from the basement Announcements - Latest news on the Hardcore Platformer Game according to Talio Games dev."
 # --- FILA 1: NAVEGACIÓN (Actualizada para AEFTB) ---
 header_buttons_row_1:

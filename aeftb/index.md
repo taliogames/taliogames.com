@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AEFTB - Talio Games
+title: AEFTB | Talio Games
 description: "Almohadin: escape from the basement Page - A difficult 2D side scrolling game with a visual novel and competitiveness through leaderboards."
 # --- FILA 1: NAVEGACIÓN (Actualizada para AEFTB) ---
 header_buttons_row_1:
