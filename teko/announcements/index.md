@@ -2,6 +2,7 @@
 layout: default
 title: Announcements | TEKO
 description: TEKO Announcements - Latest news on the Roguelike Deckbuilder Game according to Talio Games dev.
+image: /assets/icon_teko.png
 # --- FILA 1: NAVEGACIÓN ---
 header_buttons_row_1:
   - label: Home

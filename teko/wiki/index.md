@@ -3,6 +3,7 @@ layout: wiki
 title: Wiki | TEKO
 permalink: /teko/wiki/
 description: TEKO Wiki with all the information about the game. Rules, cards, mods, stickers, chips, bosses, pockets, packs.
+image: /assets/icon_teko.png
 # --- FILA 1: NAVEGACIÓN ---
 header_buttons_row_1:
   - label: Home

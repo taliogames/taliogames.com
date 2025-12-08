@@ -2,6 +2,7 @@
 layout: default
 title: TEKO | Talio Games
 description: TEKO Page - Roguelike Deckbuilder with incremental formulas, items, cards and chips combined in 3 poker hands at once!
+image: /assets/icon_teko.png
 # --- FILA 1: NAVEGACIÓN ---
 header_buttons_row_1:
   - label: Home

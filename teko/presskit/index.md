@@ -2,6 +2,7 @@
 layout: default
 title: Presskit | TEKO
 description: TEKO Presskit with graphic and downloadable resources for presentation.
+image: /assets/icon_teko.png
 # --- FILA 1: NAVEGACIÓN ---
 header_buttons_row_1:
   - label: Home
