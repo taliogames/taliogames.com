@@ -1,7 +1,7 @@
 title: Talio Games
 description: Talio Games official website - Indie Developer from TEKO and AEFTB
 url: "https://taliogames.com"
-logo: /assets/icon_talio.png
+logo: /assets/icon_talio.ico
 theme: jekyll-theme-cayman
 show_downloads: false
 plugins:

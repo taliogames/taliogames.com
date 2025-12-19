@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   {% if page.url contains '/teko/' %}
-    <link rel="icon" type="image/png" href="{{ '/assets/icon_teko.png' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/icon_teko.ico' | relative_url }}">
   {% elsif page.url contains '/aeftb/' %}
     <link rel="icon" type="image/png" href="{{ '/assets/icon_aeftb.ico' | relative_url }}">
   {% else %}
-    <link rel="icon" type="image/png" href="{{ '/assets/icon_talio.png' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/icon_talio.ico' | relative_url }}">
   {% endif %}
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
