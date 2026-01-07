@@ -34,21 +34,21 @@ header_buttons:
 
   <div class="games-grid">
     
-    <div class="game-card">
-      <h1>TEKO</h1>
-      <a href="/teko" target="_blank">
-        <img src="/assets/teko-logo.png" alt="Teko Logo" width="1280" height="720">
-      </a>
-      <p class="game-desc">Roguelike Deckbuilder</p>
-    </div>
+<div class="game-card">
+  <h1>TEKO</h1>
+  <a href="/teko/" target="_blank">
+    <img src="/assets/teko-logo.png" alt="Teko Logo" width="1280" height="720">
+  </a>
+  <p class="game-desc">Roguelike Deckbuilder</p>
+</div>
 
-    <div class="game-card">
-      <h1>AEFTB</h1>
-      <a href="/aeftb" target="_blank">
-        <img src="/assets/aeftb-logo.png" alt="AEFTB Logo" width="1280" height="720">
-      </a>
-      <p class="game-desc">2d Platformer</p>
-    </div>
+<div class="game-card">
+  <h1>AEFTB</h1>
+  <a href="/aeftb/" target="_blank">
+    <img src="/assets/aeftb-logo.png" alt="AEFTB Logo" width="1280" height="720">
+  </a>
+  <p class="game-desc">2d Platformer</p>
+</div>
 
   </div>
 
