@@ -48,7 +48,7 @@ header_buttons_row_2:
 
         <strong>Title:</strong> Almohadin: escape from the basement<br>
         <strong>Developer/Publisher:</strong> Talio Games<br>
-        <strong>Release Date:</strong> May 15, 2025<br>
+        <strong>Release Date:</strong> Nov 1, 2024<br>
         <strong>Size:</strong> 550 MB<br>
         <strong>Supported OS:</strong> Windows<br>
         <strong>Platforms:</strong> <a href="https://store.steampowered.com/app/3157360/AEFTB/" target="_blank">Steam</a><br>
