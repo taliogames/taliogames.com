@@ -1,5 +1,11 @@
 [
   {
+    "title": "TEKO Roadmap!",
+    "link": "https://store.steampowered.com/news/app/3835670/view/506226349467238405",
+    "pubDate": "January 28, 2026",
+    "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.fastly.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
+  },
+  {
     "title": "Launch announcement!",
     "link": "https://store.steampowered.com/news/app/3835670/view/600794965688188932",
     "pubDate": "November 12, 2025",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/516344858807369732",
     "pubDate": "August 19, 2025",
     "content": "<div class=\"bb_h3\">TEKO u1.2</div><p class=\"bb_paragraph\">I just finished fixing all the sticker functions. All sticker types now work correctly, and they can even be retriggered. Previously, Knife/Duplicator/Retrigger stickers didn’t work at all. Now it’s possible to create builds using these playable elements.</p>"
-  },
-  {
-    "title": "u1.1",
-    "link": "https://store.steampowered.com/news/app/3835670/view/812455995175338954",
-    "pubDate": "August 19, 2025",
-    "content": "<div class=\"bb_h3\">TEKO u1.1</div><p class=\"bb_paragraph\"><i>I had some issues, especially after adding more content to the game.</i></p><p class=\"bb_paragraph\"><b>So I finally decided to fix all the duplicate cards that weren’t working.</b></p><p class=\"bb_paragraph\">Forbidden cards CANNOT be duplicated.</p><p class=\"bb_paragraph\">Some cards are now locked from being duplicated because it wouldn’t make sense to have more than one.</p><p class=\"bb_paragraph\"></p><div class=\"bb_h3\">Fixed cards:</div><p class=\"bb_paragraph\">potentially suspicious man, kurosawa, olga, naughty, kito, kimi, final sacrifice, greedy, idle overlord, perfection, yapa, sobriety, club sandwich, roulette, mogul, profit seeker, mortgage, tryhard, near the edge, let me cook, detachment, alchemy.</p><div class=\"bb_h3\">Locked cards:</div><p class=\"bb_paragraph\">empanadino, sale, cheapskate, lankvian.</p><p class=\"bb_paragraph\"></p><p class=\"bb_paragraph\">All cards are now working.</p>"
   }
 ]
