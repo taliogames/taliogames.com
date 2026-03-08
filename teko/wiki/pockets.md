@@ -33,7 +33,7 @@ header_buttons_row_2:
 ---
 
 | Pocket | Description | Unlock method |
-| :---: | :--- | :---: |
+| :---: | :---: | :---: |
 | <img src="/assets/pockets/jean.png" width="50"><br>**Jean** | Classic game without modifications | - |
 | <img src="/assets/pockets/hacker.png" width="50"><br>**Hacker** | It lets you play an extra chip | Win a run with D0 Jean Pocket to unlock |
 | <img src="/assets/pockets/warlock.png" width="50"><br>**Warlock** | You start with a random card (its rarity depends on difficulty) unsellable and indestructible | Win a run with D0 Hacker Pocket to unlock |
