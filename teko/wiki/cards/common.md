@@ -23,7 +23,8 @@ permalink: /teko/wiki/cards/common/
 | <img src="/assets/cards/startfromscratch.jpg" width="50"><br>**Start from scratch** | +1 base per each $1 |
 | <img src="/assets/cards/cheapskate.jpg" width="50"><br>**Cheapskate** | 1 free reroll per shop round |
 
-<h2 style="text-align: center;">Locked cards</h2>
+
+<br><h2 style="text-align: center;">Locked cards</h2>
 
 | Icon | Description | Unlock method |
 | :---: | :---: | :---: |
