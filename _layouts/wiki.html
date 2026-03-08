@@ -63,15 +63,6 @@
         color: #4db6ac; 
         padding-left: 5px; 
     }
-    
-    .wiki-sidebar .back-link { 
-        font-size: 0.85em; 
-        color: #666; 
-        margin-bottom: 30px; 
-        display: block; 
-        border-bottom: 1px solid #333; 
-        padding-bottom: 10px; 
-    }
 
     .wiki-content {
         flex-grow: 1;
@@ -182,9 +173,9 @@
           {% for btn in page.header_buttons %}
             {% assign btn_class = "btn custom-header-btn" %}
             {% if page.url == btn.url %}
-              {% assign btn_class = btn_class | append: " active-btn" %}
+              {% assign btn_class = "btn custom-header-btn active-btn" %}
             {% elsif btn.url != '/teko/' and page.url contains btn.url %}
-               {% assign btn_class = btn_class | append: " active-btn" %}
+               {% assign btn_class = "btn custom-header-btn active-btn" %}
             {% endif %}
             <a href="{{ btn.url }}" class="{{ btn_class }}" {% if btn.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
               {% if btn.image_path %}
@@ -203,8 +194,6 @@
 
     <div class="wiki-wrapper">
         <aside class="wiki-sidebar">
-            <a href="/teko/" class="back-link">← Back to Teko Game</a>
-            
             <h3>General</h3>
             <ul>
                 <li><a href="/teko/wiki/">Home</a></li>

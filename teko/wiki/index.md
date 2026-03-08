@@ -42,7 +42,7 @@ header_buttons_row_2:
     new_tab: true
 ---
 
-Welcome to the official Teko Wiki.
+Welcome to the official TEKO Wiki!
 
 ### Quick links
 * **[Rules & Glossary](/teko/wiki/rules/)**: Learn all the terms and how to play.
