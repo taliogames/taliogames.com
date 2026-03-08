@@ -35,20 +35,25 @@ header_buttons_row_2:
 <h2 style="text-align: center;">Common mods</h2>
 
 | Mod | Description |
-| :---: | :--- |
-| Placeholder Mod | Effect of the common mod. |
-| Placeholder Mod | Effect of the common mod. |
+| :---: | :---: |
+| <img src="/assets/mods/iron1.png" width="50"><br>**Iron** | +8 base |
+| <img src="/assets/mods/thumb1.png" width="50"><br>**Thumb** | +3 multi |
 
+<div style="height: 20px;"></div>
 <h2 style="text-align: center;">Rare mods</h2>
 
 | Mod | Description |
-| :---: | :--- |
-| Placeholder Mod | Effect of the rare mod. |
-| Placeholder Mod | Effect of the rare mod. |
+| :---: | :---: |
+| <img src="/assets/mods/iron2.png" width="50"><br>**Iron** | +18 base |
+| <img src="/assets/mods/thumb2.png" width="50"><br>**Thumb** | +9 multi |
+| <img src="/assets/mods/blanket.png" width="50"><br>**Blanket** | Score goal -8% |
 
+<div style="height: 20px;"></div>
 <h2 style="text-align: center;">Pro mods</h2>
 
 | Mod | Description |
-| :---: | :--- |
-| Placeholder Mod | Effect of the pro mod (3 slots). |
-| Placeholder Mod | Effect of the pro mod (3 slots). |
+| :---: | :---: |
+| <img src="/assets/mods/iron3.png" width="50"><br>**Iron** | +40 base |
+| <img src="/assets/mods/bat.png" width="50"><br>**Bat** | x1.1 base |
+| <img src="/assets/mods/ball.png" width="50"><br>**Ball** | x1.35 multi |
+| <img src="/assets/mods/thumb3.png" width="50"><br>**Thumb** | +20 multi |
