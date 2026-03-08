@@ -32,8 +32,6 @@ header_buttons_row_2:
     new_tab: true
 ---
 
-<h2 style="text-align: center;">Packs</h2>
-
 | Pack | Description |
 | :---: | :---: |
 | <img src="/assets/packs/random_mod.png" width="50"><br>**Mod Pack** | Contains one random mod of any rarity |
