@@ -46,7 +46,12 @@ Welcome to the official TEKO Wiki!
 
 ### Quick links
 * **[Rules & Glossary](/teko/wiki/rules/)**: Learn all the terms and how to play.
-* **Cards Database**: Browse all available cards by rarity: [Common](/teko/wiki/cards/common/) / [Rare](/teko/wiki/cards/rare/) / [Epic](/teko/wiki/cards/epic/) / [Supreme](/teko/wiki/cards/supreme/) / [Forbidden](/teko/wiki/cards/forbidden/)
+* **Cards Database**: Browse all available cards by rarity:
+    * [Common](/teko/wiki/cards/common/)
+    * [Rare](/teko/wiki/cards/rare/)
+    * [Epic](/teko/wiki/cards/epic/)
+    * [Supreme](/teko/wiki/cards/supreme/)
+    * [Forbidden](/teko/wiki/cards/forbidden/)
 * **Other items and mechanics**:
     * [Pockets](/teko/wiki/pockets/)
     * [Bosses](/teko/wiki/bosses/)
