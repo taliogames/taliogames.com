@@ -32,30 +32,32 @@ header_buttons_row_2:
     new_tab: true
 ---
 
-<h2 style="text-align: center;">Chip color</h2>
-
-| Color | Effect / Base Value |
-| :---: | :--- |
-| Placeholder Color | Base points or special color trait. |
-| Placeholder Color | Base points or special color trait. |
-
 <h2 style="text-align: center;">Chip Shape</h2>
 
 | Shape | Effect / Base Value |
 | :---: | :--- |
-| Placeholder Shape | Base points or special shape trait. |
-| Placeholder Shape | Base points or special shape trait. |
+| <img src="/assets/chips/ultrashape.png" width="50"><br>**Ultrashape** | Count as all shapes |
+| <img src="/assets/chips/shapeless.png" width="50"><br>**Shapeless** | Doesn't count as a shape<br>When playing a hand, if this chip was not played, it will gain +8 base extra. |
 
-<h2 style="text-align: center;">Sticker shape</h2>
+<h2 style="text-align: center; margin-top: 20px;">Chip color</h2>
+
+| Color | Effect / Base Value |
+| :---: | :--- |
+| <img src="/assets/chips/ultracolor.png" width="50"><br>**Ultracolor** | Count as all colors |
+| <img src="/assets/chips/colorless.png" width="50"><br>**Colorless** | Doesn't count as a color<br>Play this chip to gain +$1 in exchange for losing -1 on the 4 colored tubes |
+
+<h2 style="text-align: center; margin-top: 20px;">Sticker shape</h2>
 
 | Shape | Description |
 | :---: | :--- |
-| Placeholder Sticker | Effect when the chip activates. |
-| Placeholder Sticker | Effect when the chip activates. |
+| <img src="/assets/chips/knife.png" width="50"><br>**Knife Sticker** | [chance] chances to kill the chip next to it and keep its base score (value + extra base) |
+| <img src="/assets/chips/duplicator.png" width="50"><br>**Duplicator Sticker** | [chance] chances to duplicate this chip |
+| <img src="/assets/chips/retrigger.png" width="50"><br>**Epic Retrigger Sticker** | Retriggers it 1 time per each epic card |
 
-<h2 style="text-align: center;">Sticker color</h2>
+<h2 style="text-align: center; margin-top: 20px;">Sticker color</h2>
 
 | Color | Description |
 | :---: | :--- |
-| Placeholder Sticker | Effect when the chip activates. |
-| Placeholder Sticker | Effect when the chip activates. |
+| <img src="/assets/chips/base.png" width="50"><br>**Base color** | Gains +5 base everytime it scores |
+| <img src="/assets/chips/multi.png" width="50"><br>**Multi color** | +5 multi |
+| <img src="/assets/chips/money.png" width="50"><br>**Money color** | +$2 when scores |
