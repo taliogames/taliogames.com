@@ -18,13 +18,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <style>
-    /* 1. Fondo Global Oscuro (Ya definido en style.css, pero reforzamos estructura) */
     body { 
         margin: 0; 
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
     }
     
-    /* 2. Contenedor Principal (Tarjeta) */
     .wiki-wrapper {
         display: flex;
         max-width: 1200px;
@@ -34,7 +32,6 @@
         box-shadow: 0 0 20px rgba(0,0,0,0.5);
     }
 
-    /* 3. Barra Lateral */
     .wiki-sidebar {
         width: 250px;
         background: #181818;
@@ -76,7 +73,6 @@
         padding-bottom: 10px; 
     }
 
-    /* 4. Contenido Principal */
     .wiki-content {
         flex-grow: 1;
         padding: 40px 60px;
@@ -105,10 +101,9 @@
         .wiki-content { padding: 20px; }
     }
 
-/* Estilos del Footer Específicos para Wiki (Oscuro) */
     .wiki-footer {
         border-top: 1px solid #333;
-        padding: 20px 40px; /* Alineado con el padding del contenido */
+        padding: 20px 40px;
         font-size: 0.85rem;
         color: #888;
         background: #1e1e1e;
@@ -122,7 +117,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 10px;
-        max-width: 1200px; /* Coincide con wiki-wrapper */
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -152,7 +147,7 @@
           TEKO
         {% else %}
           {{ page.title | default: site.title }}
-        {% endif %}
+        {% endif %} project-name
       </h1>
       
 {% if page.header_buttons_row_1 %}
@@ -182,7 +177,6 @@
           </div>
         </div>
 
-      {% comment %} --- FALLBACK ORIGINAL (OTRAS PÁGINAS) --- {% endcomment %}
       {% elsif page.header_buttons %}
         <div class="header-buttons-container">
           {% for btn in page.header_buttons %}
@@ -214,8 +208,7 @@
             <h3>General</h3>
             <ul>
                 <li><a href="/teko/wiki/">Home</a></li>
-                <li><a href="/teko/wiki/rules/">Rules</a></li>
-                <li><a href="/teko/wiki/glossary/">Glossary</a></li>
+                <li><a href="/teko/wiki/rules/">Rules & Glossary</a></li>
             </ul>
 
             <h3>Cards</h3>
@@ -239,7 +232,7 @@
     <div class="footer-inner">
         <div class="footer-left">
             &lt;&lt; <a href="https://taliogames.com/" target="_blank">Talio Games</a> &gt;&gt; 
-			<a href="/teko/" target="_blank">TEKO</a> | 
+            <a href="/teko/" target="_blank">TEKO</a> | 
             <a href="/aeftb/" target="_blank">AEFTB</a> |
             <a href="https://store.steampowered.com/developer/TalioGames" target="_blank">Steam</a> | 
             <a href="https://discord.com/invite/Xk8RxfWBn6" target="_blank">Discord</a> | 
@@ -253,30 +246,22 @@
     </div>
 </footer>
 
-<button onclick="topFunction()" id="myBtn" title="Ir arriba">
+<button onclick="topFunction()" id="myBtn" title="Go up">
   <i class="fas fa-arrow-up"></i>
 </button>
   
 <script>
-// Obtener el botón
 var mybutton = document.getElementById("myBtn");
-
-// Cuando el usuario hace scroll hacia abajo 300px, mostrar el botón
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    mybutton.style.display = "flex"; // Usamos flex para mantener el centrado
+    mybutton.style.display = "flex";
   } else {
     mybutton.style.display = "none";
   }
 }
-
-// Cuando el usuario hace clic, volver arriba
 function topFunction() {
-  // Para Safari
   document.body.scrollTop = 0;
-  // Para Chrome, Firefox, IE y Opera
   document.documentElement.scrollTop = 0;
 }
 </script>

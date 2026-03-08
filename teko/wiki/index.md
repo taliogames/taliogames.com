@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Wiki | TEKO
+title: TEKO Wiki
 permalink: /teko/wiki/
 description: TEKO Wiki with all the information about the game. Rules, cards, mods, stickers, chips, bosses, pockets, packs.
 image: /assets/icon_teko.ico
@@ -23,7 +23,7 @@ header_buttons_row_2:
   - url: https://store.steampowered.com/developer/TalioGames
     icon_class: fab fa-steam
     new_tab: true
-    custom_class: "steam-desktop-margin"  # <--- Usamos una clase personalizada
+    custom_class: "steam-desktop-margin"
 
   - url: https://discord.com/invite/Xk8RxfWBn6
     icon_class: fab fa-discord
@@ -42,10 +42,8 @@ header_buttons_row_2:
     new_tab: true
 ---
 
-Welcome to the official **Teko Wiki**.
+Welcome to the official Teko Wiki.
 
-This wiki is currently under construction...
-
-### Quick Links
-* **[Rules](/teko/wiki/rules/)**: Learn how to play.
-* **[Cards Database](/teko/wiki/cards/common/)**: Browse all available cards by rarity.
+### Quick links
+* **[Rules & Glossary](/teko/wiki/rules/)**: Learn all the terms and how to play.
+* **Cards Database**: Browse all available cards by rarity: [Common](/teko/wiki/cards/common/) / [Rare](/teko/wiki/cards/rare/) / [Epic](/teko/wiki/cards/epic/) / [Supreme](/teko/wiki/cards/supreme/) / [Forbidden](/teko/wiki/cards/forbidden/)
