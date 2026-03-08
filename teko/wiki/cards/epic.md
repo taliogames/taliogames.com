@@ -24,7 +24,7 @@ permalink: /teko/wiki/cards/epic/
 | <img src="/assets/cards/sobriety.jpg" width="50"><br>**Sobriety** | +2 multi when sell a consumable |
 | <img src="/assets/cards/exploiter.jpg" width="50"><br>**Exploiter** | +8 base each time you use a consumable |
 | <img src="/assets/cards/snackfortheguests.jpg" width="50"><br>**Snack for the guests** | + x0.1 multi when you bake the cookies |
-| <img src="/assets/cards/thebeast3.jpg" width="50"><br>**The Beast** | +30 multi<br>28% chances of increasing rarity upon entering the shop (will kill 3 random card)<br>+5/7/8/9 base (depends on rarity) for each card killed<br>It will become unsellable if it evolves into epic rarity | Defeat the beast 5 times |
+| <img src="/assets/cards/thebeast3.jpg" width="50"><br>**The Beast** | +30 multi<br>28% chances of increasing rarity upon entering the shop (will kill 3 random card)<br>+5/7/8/9 base (depends on rarity) for each card killed |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>

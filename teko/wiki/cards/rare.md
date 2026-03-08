@@ -24,7 +24,7 @@ permalink: /teko/wiki/cards/rare/
 | <img src="/assets/cards/greenwich.jpg" width="50"><br>**Greenwich** | +3 multi per each green chip played |
 | <img src="/assets/cards/fux.jpg" width="50"><br>**Fux** | +3 multi per each pink chip played |
 | <img src="/assets/cards/orangello.jpg" width="50"><br>**Orangello** | +3 multi per each orange chip played |
-| <img src="/assets/cards/thebeast2.jpg" width="50"><br>**The Beast** | +20 multi<br>28% chances of increasing rarity upon entering the shop (will kill 2 random card)<br>+4/6/7/8 base (depends on rarity) for each card killed<br>It will become unsellable if it evolves into epic rarity | Defeat the beast 5 times |
+| <img src="/assets/cards/thebeast2.jpg" width="50"><br>**The Beast** | +20 multi<br>28% chances of increasing rarity upon entering the shop (will kill 2 random card)<br>+4/6/7/8 base (depends on rarity) for each card killed<br>It will become unsellable if it evolves into epic rarity |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>
