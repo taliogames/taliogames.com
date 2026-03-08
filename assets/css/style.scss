@@ -592,3 +592,7 @@ html {
   display: block;
   margin-top: 6px !important; /* Forzamos el margen superior de 6px */
 }
+
+.wiki-content table td:nth-child(2) {
+    text-align: justify;
+}
