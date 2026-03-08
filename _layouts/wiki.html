@@ -86,9 +86,37 @@
         background-color: #2d2d2d;
     }
     
+    /* Estilos para el botón del menú en móvil */
+    .wiki-mobile-toggle {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        background: #252525;
+        padding: 12px 20px;
+        cursor: pointer;
+        color: #4db6ac;
+        font-weight: bold;
+        border-bottom: 1px solid #333;
+    }
+    
     @media (max-width: 768px) {
         .wiki-wrapper { flex-direction: column; }
-        .wiki-sidebar { width: auto; border-right: none; border-bottom: 1px solid #333; }
+        .wiki-sidebar { 
+            width: auto; 
+            border-right: none; 
+            padding: 0 !important; 
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .wiki-mobile-toggle { display: flex; }
+        .wiki-sidebar-content { 
+            display: none; 
+            padding: 10px 20px 20px 20px;
+            background: #181818;
+        }
+        .wiki-sidebar.open .wiki-sidebar-content { display: block; }
+        .wiki-sidebar.open .wiki-mobile-toggle i { transform: rotate(180deg); }
         .wiki-content { padding: 20px; }
     }
 
@@ -192,33 +220,39 @@
       {% endif %}
     </section>
 
-    <div class="wiki-wrapper">
-        <aside class="wiki-sidebar">
-            <h3>General</h3>
-            <ul>
-                <li><a href="/teko/wiki/">Home</a></li>
-                <li><a href="/teko/wiki/rules/">Rules & Glossary</a></li>
-            </ul>
+<div class="wiki-wrapper">
+        <aside class="wiki-sidebar" id="wikiSidebar">
+            <div class="wiki-mobile-toggle" onclick="toggleWikiMenu()">
+                <span>Wiki Navigation</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="wiki-sidebar-content">
+                <h3>General</h3>
+                <ul>
+                    <li><a href="/teko/wiki/">Home</a></li>
+                    <li><a href="/teko/wiki/rules/">Rules & Glossary</a></li>
+                </ul>
 
-            <h3>Cards</h3>
-            <ul>
-                <li><a href="/teko/wiki/cards/common/">Common</a></li>
-                <li><a href="/teko/wiki/cards/rare/">Rare</a></li>
-                <li><a href="/teko/wiki/cards/epic/">Epic</a></li>
-                <li><a href="/teko/wiki/cards/supreme/">Supreme</a></li>
-                <li><a href="/teko/wiki/cards/forbidden/">Forbidden</a></li>
-            </ul>
+                <h3>Cards</h3>
+                <ul>
+                    <li><a href="/teko/wiki/cards/common/">Common</a></li>
+                    <li><a href="/teko/wiki/cards/rare/">Rare</a></li>
+                    <li><a href="/teko/wiki/cards/epic/">Epic</a></li>
+                    <li><a href="/teko/wiki/cards/supreme/">Supreme</a></li>
+                    <li><a href="/teko/wiki/cards/forbidden/">Forbidden</a></li>
+                </ul>
 
-            <h3>Items & Mechanics</h3>
-            <ul>
-                <li><a href="/teko/wiki/pockets/">Pockets</a></li>
-                <li><a href="/teko/wiki/bosses/">Bosses</a></li>
-                <li><a href="/teko/wiki/mods/">Mods</a></li>
-                <li><a href="/teko/wiki/consumables/">Consumables</a></li>
-                <li><a href="/teko/wiki/chips-stickers/">Chips & Stickers</a></li>
-                <li><a href="/teko/wiki/packs/">Packs</a></li>
-				<li><a href="/teko/wiki/perks/">Perks</a></li>
-            </ul>
+                <h3>Items & Mechanics</h3>
+                <ul>
+                    <li><a href="/teko/wiki/pockets/">Pockets</a></li>
+                    <li><a href="/teko/wiki/bosses/">Bosses</a></li>
+                    <li><a href="/teko/wiki/mods/">Mods</a></li>
+                    <li><a href="/teko/wiki/consumables/">Consumables</a></li>
+                    <li><a href="/teko/wiki/chips-stickers/">Chips & Stickers</a></li>
+                    <li><a href="/teko/wiki/packs/">Packs</a></li>
+                    <li><a href="/teko/wiki/perks/">Perks</a></li>
+                </ul>
+            </div>
         </aside>
 
         <main class="wiki-content">
@@ -263,6 +297,11 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+function toggleWikiMenu() {
+    var sidebar = document.getElementById("wikiSidebar");
+    sidebar.classList.toggle("open");
 }
 </script>
   
