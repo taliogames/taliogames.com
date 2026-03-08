@@ -24,7 +24,7 @@ permalink: /teko/wiki/cards/common/
 | <img src="/assets/cards/cheapskate.jpg" width="50"><br>**Cheapskate** | 1 free reroll per shop round |
 
 
-<br><h2 style="text-align: center;">Locked cards</h2>
+<h2 style="text-align: center;">Locked cards</h2>
 
 | Icon | Description | Unlock method |
 | :---: | :---: | :---: |
