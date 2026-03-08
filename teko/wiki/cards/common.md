@@ -6,8 +6,8 @@ permalink: /teko/wiki/cards/common/
 
 Unlocked cards
 
-| Icon & Name | Description |
-| :---: | :--- |
+| Icon | Description |
+| :---: | :---: |
 | <img src="/assets/cards/enrichment.jpg" width="50"><br>**Enrichment** | +1 multi for each chip beyond 40 |
 | <img src="/assets/cards/pixi.jpg" width="50"><br>**Pixi** | +6 multi |
 | <img src="/assets/cards/clubsandwich.jpg" width="50"><br>**Club Sandwich** | Wins +3 base everytime you make a trio combo |
@@ -25,8 +25,8 @@ Unlocked cards
 
 Locked cards
 
-| Icon & Name | Description | Unlock method |
-| :---: | :--- | :---: |
+| Icon | Description | Unlock method |
+| :---: | :---: | :---: |
 | <img src="/assets/cards/empanadino.jpg" width="50"><br>**Empanadino** | Every shop round generates a free empanada race pack | Win 10 empanada races |
 | <img src="/assets/cards/finalsacrifice.jpg" width="50"><br>**Final Sacrifice** | Draw 3 extra chips in the final turn | Lose 5 times |
 | <img src="/assets/cards/thebeast.jpg" width="50"><br>**The Beast** | +[value2] multi<br>[chance] chances of increasing rarity upon entering the shop (will kill [value1] random cards)<br>+[value3] base (depends on rarity) for each card killed<br>It will become unsellable if it evolves into epic rarity | Defeat the beast 5 times |
