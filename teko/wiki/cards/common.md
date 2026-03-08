@@ -4,7 +4,7 @@ title: Common Cards
 permalink: /teko/wiki/cards/common/
 ---
 
-Unlocked cards
+<h2 style="text-align: center;">Unlocked cards</h2>
 
 | Icon | Description |
 | :---: | :---: |
@@ -13,7 +13,7 @@ Unlocked cards
 | <img src="/assets/cards/clubsandwich.jpg" width="50"><br>**Club Sandwich** | Wins +3 base everytime you make a trio combo |
 | <img src="/assets/cards/mogul.jpg" width="50"><br>**Mogul** | +$2 per round and allows to win +$1 with interests |
 | <img src="/assets/cards/theordinary.jpg" width="50"><br>**The Ordinary** | Chips with default sticker shape scores +2 multi |
-| <img src="/assets/cards/greedy.jpg" width="50"><br>**Greedy** | Draws 2 extra chips at the beginning of each round (this effect is lost if you discard a hand) |
+| <img src="/assets/cards/greedy.jpg" width="50"><br>**Greedy** | Draws 2 extra chips at the beginning of each round<br>(this effect is lost if you discard a hand) |
 | <img src="/assets/cards/hexagoncollector.jpg" width="50"><br>**Hexagon Collector** | +20 base per each hexagon chip hold in hand |
 | <img src="/assets/cards/hoarder.jpg" width="50"><br>**Hoarder** | +1 base per each chip with default sticker shape in the pocket |
 | <img src="/assets/cards/spacetimejump.jpg" width="50"><br>**Space-time Jump** | Retriggers a random chip 2 times if a least play 3 chips |
@@ -23,7 +23,7 @@ Unlocked cards
 | <img src="/assets/cards/startfromscratch.jpg" width="50"><br>**Start from scratch** | +1 base per each $1 |
 | <img src="/assets/cards/cheapskate.jpg" width="50"><br>**Cheapskate** | 1 free reroll per shop round |
 
-Locked cards
+<h2 style="text-align: center;">Locked cards</h2>
 
 | Icon | Description | Unlock method |
 | :---: | :---: | :---: |
