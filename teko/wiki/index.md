@@ -59,3 +59,4 @@ Welcome to the official TEKO Wiki!
     * [Consumables](/teko/wiki/consumables/)
     * [Chips & Stickers](/teko/wiki/chips-stickers/)
     * [Packs](/teko/wiki/packs/)
+	* [Perks](/teko/wiki/perks/)
