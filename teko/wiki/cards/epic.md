@@ -9,10 +9,10 @@ permalink: /teko/wiki/cards/epic/
 | Icon | Description |
 | :---: | :---: |
 | <img src="/assets/cards/spittoon.jpg" width="50"><br>**Spittoon** | +1 discards<br>x1.3 multi |
-| <img src="/assets/cards/thecollector.jpg" width="50"><br>**The collector** | +3 base per each chip without default sticker shape/color<br>[chance] chances of adding a random sticker to each played chip (if it still have default sticker) |
+| <img src="/assets/cards/thecollector.jpg" width="50"><br>**The collector** | +3 base per each chip without default sticker shape/color<br>16% chances of adding a random sticker to each played chip (if it still have default sticker) |
 | <img src="/assets/cards/betrayal.jpg" width="50"><br>**Betrayal** | x0.065 multi per each full mansion discarded |
 | <img src="/assets/cards/thetamer.jpg" width="50"><br>**The tamer** | Breaks a random card when entering shop<br>x0.2/0.25/0.32/0.37 multi (depends on rarity) per each destroyed card |
-| <img src="/assets/cards/thevast.jpg" width="50"><br>**The Vast** | +1 draws<br>[chance] chance of winning a common card pack and [chance2] chance of winning a guaranteed rare card pack when you enter the store |
+| <img src="/assets/cards/thevast.jpg" width="50"><br>**The Vast** | +1 draws<br>55% chance of winning a common card pack and 36% chance of winning a guaranteed rare card pack when you enter the store |
 | <img src="/assets/cards/buoyant.jpg" width="50"><br>**Buoyant** | +1 multi when the hand played is level 1 |
 | <img src="/assets/cards/loudmouth.jpg" width="50"><br>**Loudmouth** | +x0.1 multi per each '4 Different' combo played (stacks max 1 per turn) |
 | <img src="/assets/cards/neartheedge.jpg" width="50"><br>**Near the edge** | Upgrades combos played if you have 1 mana |
@@ -24,6 +24,7 @@ permalink: /teko/wiki/cards/epic/
 | <img src="/assets/cards/sobriety.jpg" width="50"><br>**Sobriety** | +2 multi when sell a consumable |
 | <img src="/assets/cards/exploiter.jpg" width="50"><br>**Exploiter** | +8 base each time you use a consumable |
 | <img src="/assets/cards/snackfortheguests.jpg" width="50"><br>**Snack for the guests** | + x0.1 multi when you bake the cookies |
+| <img src="/assets/cards/thebeast3.jpg" width="50"><br>**The Beast** | +30 multi<br>28% chances of increasing rarity upon entering the shop (will kill 3 random card)<br>+5/7/8/9 base (depends on rarity) for each card killed<br>It will become unsellable if it evolves into epic rarity | Defeat the beast 5 times |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>
@@ -41,4 +42,4 @@ permalink: /teko/wiki/cards/epic/
 | <img src="/assets/cards/gasparov.jpg" width="50"><br>**Gasparov** | +2 multi per each activated tube | Defeat gasparov 5 times |
 | <img src="/assets/cards/luckyfool.jpg" width="50"><br>**Lucky fool** | +1 multi per each reroll done in shop<br>Chances of cards and stickers are increased by 50% | Win a run with D2 Chosen Pocket to unlock |
 | <img src="/assets/cards/washingmachine.jpg" width="50"><br>**Washing Machine** | x0.06 multi per each reroll done in shop | Reroll shop 100 times |
-| <img src="/assets/cards/promoted.jpg" width="50"><br>**Promoted!** | +4 multi per each epic card<br>+x0.3 multi per each supreme card<br>[chance] chances of increasing the rarity of the card on the right (it will protect it from killer cards while it transforms)<br>It cannot upgrade evolution cards (like The Beast) | Buy 35 epic cards |
+| <img src="/assets/cards/promoted.jpg" width="50"><br>**Promoted!** | +4 multi per each epic card<br>+x0.3 multi per each supreme card<br>48% chances of increasing the rarity of the card on the right (it will protect it from killer cards while it transforms)<br>It cannot upgrade evolution cards (like The Beast) | Buy 35 epic cards |

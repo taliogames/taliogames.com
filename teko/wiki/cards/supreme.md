@@ -11,6 +11,7 @@ permalink: /teko/wiki/cards/supreme/
 | <img src="/assets/cards/trickster.jpg" width="50"><br>**Trickster** | +1 play size |
 | <img src="/assets/cards/symmetry.jpg" width="50"><br>**Symmetry** | Even number chips scores one more time |
 | <img src="/assets/cards/asymmetry.jpg" width="50"><br>**Asymmetry** | Odd number chips scores one more time |
+| <img src="/assets/cards/thebeast4.jpg" width="50"><br>**The Beast** | +50 multi<br>+6/8/9/10 base (depends on rarity) for each card killed<br>Will kill all the cards to its right when entering the shop | Defeat the beast 5 times |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>

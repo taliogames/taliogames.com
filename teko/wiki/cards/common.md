@@ -28,12 +28,12 @@ permalink: /teko/wiki/cards/common/
 
 | Icon | Description | Unlock method |
 | :---: | :---: | :---: |
-| <img src="/assets/cards/empanadino.jpg" width="50"><br>**Empanadino** | Every shop round generates a free empanada race pack | Win 10 empanada races |
 | <img src="/assets/cards/finalsacrifice.jpg" width="50"><br>**Final Sacrifice** | Draw 3 extra chips in the final turn | Lose 5 times |
-| <img src="/assets/cards/thebeast.jpg" width="50"><br>**The Beast** | +[value2] multi<br>[chance] chances of increasing rarity upon entering the shop (will kill [value1] random cards)<br>+[value3] base (depends on rarity) for each card killed<br>It will become unsellable if it evolves into epic rarity | Defeat the beast 5 times |
 | <img src="/assets/cards/lino.jpg" width="50"><br>**Lino** | +$2 when fill the pillbox | Defeat lino 5 times |
 | <img src="/assets/cards/roulette.jpg" width="50"><br>**Roulette** | Level up a random combo at the final of the round | Reach round 13 |
-| <img src="/assets/cards/sticky.jpg" width="50"><br>**Sticky** | [chance] chance to level up a combo when applying stickers | Apply 100 stickers |
+| <img src="/assets/cards/sticky.jpg" width="50"><br>**Sticky** | 22% chance to level up a combo when applying stickers | Apply 100 stickers |
 | <img src="/assets/cards/lastdrink.jpg" width="50"><br>**Last Drink** | Pink/green/multicolor tubes activate automatically when they fill up<br>+2 efficiency in normal tubes | Activate 50 tubes |
 | <img src="/assets/cards/control.jpg" width="50"><br>**Control** | Shows 1 extra sticker and 1 extra chip in the shop | Buy 50 chips |
 | <img src="/assets/cards/allinto4.jpg" width="50"><br>**All in to 4** | x1.4 multi when playing exactly 4 chips | Score 100 Quadras |
+| <img src="/assets/cards/empanadino.jpg" width="50"><br>**Empanadino** | Every shop round generates a free empanada race pack | Win 10 empanada races |
+| <img src="/assets/cards/thebeast.jpg" width="50"><br>**The Beast** | +8 multi<br>28% chances of increasing rarity upon entering the shop (will kill 1 random card)<br>+3/4/5/6 base (depends on rarity) for each card killed<br>It will become unsellable if it evolves into epic rarity | Defeat the beast 5 times |
