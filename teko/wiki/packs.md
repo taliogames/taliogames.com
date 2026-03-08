@@ -35,6 +35,15 @@ header_buttons_row_2:
 <h2 style="text-align: center;">Packs</h2>
 
 | Pack | Description |
-| :---: | :--- |
-| Placeholder Pack | Items or benefits granted when opening. |
-| Placeholder Pack | Items or benefits granted when opening. |
+| :---: | :---: |
+| <img src="/assets/packs/random_mod.png" width="50"><br>**Mod Pack** | Contains one random mod of any rarity |
+| <img src="/assets/packs/random_sticker.png" width="50"><br>**Sticker Pack** | Contains one random sticker or number |
+| <img src="/assets/packs/random_relic.png" width="50"><br>**Card Pack** | Contains one random card of any rarity |
+| <img src="/assets/packs/rare_relic.png" width="50"><br>**Rare Card Pack** | Contains one random card of Rare, Epic, or Supreme rarity |
+| <img src="/assets/packs/multi_stickers.png" width="50"><br>**Multipack** | Contains a random Card, Mod, Sticker, and a special chip |
+| <img src="/assets/packs/tray_shapes.png" width="50"><br>**Tray Shapes Pack** | Contains one random sticker and a special chip |
+| <img src="/assets/packs/empanada.png" width="50"><br>**Empanada Race Pack** | Race cost: $[value3]<br>Win chance: [value1]%<br>Win Prize: $[value2]<br>You'll bet on an empanada. Every time you lose, you'll gain a 10% chance of winning the next race. Winning will reset the chance to 50%.<br>For each race played, win prize and race cost will increase $1 |
+| <img src="/assets/packs/upgrade_safe.png" width="50"><br>**Safe Upgrade Pack** | Upgrade 1 selected combo |
+| <img src="/assets/packs/upgrade_risky.png" width="50"><br>**Risky Upgrade Pack** | Upgrades 2 random combos |
+| <img src="/assets/packs/delete.png" width="50"><br>**Delete pack** | Delete a chip of your pocket |
+| <img src="/assets/packs/licuadora.png" width="50"><br>**Blender Pack** | Choose 3 cards, mods or consumables to combine and turn into another item of the same type<br>Combining 3 items of the same rarity will guarantee to convert them into one of the next rarity<br>Unsellable items cannot be liquefied |
