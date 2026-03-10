@@ -60,7 +60,7 @@ header_buttons_row_2:
 | <img src="/assets/cards/gatulio.jpg" width="50"><br>**Gatulio** | +2 discards | Defeat gatulio 5 times |
 | <img src="/assets/cards/hernan.jpg" width="50"><br>**Hernan** | x1.13 base<br>+2 draws<br><span style="color:#00FF1A">Action</span> | Defeat hernan 5 times |
 | <img src="/assets/cards/kurosawa.jpg" width="50"><br>**Kurosawa XD** | +1 random sticker everytime you spend mana<br>+4 base for each sticker glued<br><span style="color:#00FF1A">Action</span> | Defeat kurosawa 5 times |
-| <img src="/assets/cards/flowor.jpg" width="50"><br>**Flowar** | The card to its right will transform into another of the same rarity each time you enter the shop (it will protect it from killer cards while it transforms)<br><span style="color:#FFE500">Indestructible</span> | Defeat flowar 5 times |
+| <img src="/assets/cards/flowor.jpg" width="50"><br>**Flowar** | The card to its right will transform into another of the same rarity each time you enter the shop (it will protect it from killer cards while it transforms)<br>Can't transform Unsellable cards<br><span style="color:#FFE500">Indestructible</span> | Defeat flowar 5 times |
 | <img src="/assets/cards/tryhard.jpg" width="50"><br>**Tryhard** | -1 mana<br>Downgrades levels of discarded combos and upgrades levels of played combos | Win or advance beyond round 12 in 30 runs |
 | <img src="/assets/cards/thetransgressor.jpg" width="50"><br>**The transgressor** | +$2 per each 3 discarded chips | Win a run with D4 Drab Pocket to unlock |
 | <img src="/assets/cards/parrotshell.jpg" width="50"><br>**Parrot shell** | x1.6 base<br><span style="color:#00FF1A">Action</span> | Win a run with D2 Ruin Pocket to unlock |
