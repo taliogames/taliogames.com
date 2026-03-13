@@ -35,8 +35,7 @@ header_buttons_row_2:
 You can create your own CARDS tier list [here](https://tiermaker.com/create/teko-cards-19231236).
 
 <h2 style="text-align: center;">TEKO u4.0 - Best CARDS for beginners!</h2>
-<div style="height: -11px;"></div>
-<p align="center">
+<p align="center" style="margin-top: -10px;">
   <img src="/assets/tierlist1.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </p>
 The criterion used to measure whether a card is easy for a beginner to use is how easy it's to include within a build. Note that the simplest cards usually have "flat" effects, while the more complex ones involve more pocket management and learning how to optimize interest.
