@@ -37,5 +37,5 @@ Aquí puedes encontrar la clasificación de las mejores cartas del juego según 
 [link](https://taliogames.com/teko/wiki/)
 
 <p align="center">
-  <img src="/assets/tierlist1.jpg" alt="Cards Tier List">
+  <img src="/assets/tierlist1.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </p>

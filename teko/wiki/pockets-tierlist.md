@@ -37,5 +37,5 @@ Análisis detallado de los bolsillos (Pockets) y su impacto en las diferentes es
 [link](https://taliogames.com/teko/wiki/)
 
 <p align="center">
-  <img src="/assets/tierlist2.jpg" alt="Pockets Tier List">
+  <img src="/assets/tierlist2.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </p>
