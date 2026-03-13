@@ -60,3 +60,6 @@ Welcome to the official TEKO Wiki!
     * [Chips & Stickers](/teko/wiki/chips-stickers/)
     * [Packs](/teko/wiki/packs/)
 	* [Perks](/teko/wiki/perks/)
+* **Tier lists**:
+    * [Cards tierlist](/teko/wiki/cards-tierlist/)
+    * [Pockets tierlist](/teko/wiki/pockets-tierlist/)
