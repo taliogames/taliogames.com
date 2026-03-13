@@ -32,9 +32,9 @@ header_buttons_row_2:
     new_tab: true
 ---
 
-Análisis detallado de los bolsillos (Pockets) y su impacto en las diferentes estrategias de juego.
+You can create your own POCKETS tier list [here](https://tiermaker.com/create/teko-pockets-19231236).
 
-[link](https://taliogames.com/teko/wiki/)
+<h2 style="text-align: center;">TEKO u4.0 - Best POCKETS!</h2>
 
 <p align="center">
   <img src="/assets/tierlist2.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
