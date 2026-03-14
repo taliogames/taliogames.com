@@ -41,7 +41,7 @@ header_buttons_row_2:
 | <img src="/assets/consumables/hairtonic.png" width="50"><br>**Hair Tonic** | -6% goal<br>(use only in play screen) |
 | <img src="/assets/consumables/refill.png" width="50"><br>**Refill** | +2 to all color tubes except multicolor tube<br>(use only in play screen) |
 | <img src="/assets/consumables/delivery.png" width="50"><br>**Delivery** | Generates a random pack |
-| <img src="/assets/consumables/oneforall.png" width="50"><br>**One for all** | +1 extra base to all chips |
+| <img src="/assets/consumables/oneforall.png" width="50"><br>**One for all** | +3 extra base to all chips |
 | <img src="/assets/consumables/lolxd.png" width="50"><br>**LOL XD** | Levels up a random combo |
 | <img src="/assets/consumables/trash.png" width="50"><br>**Trash** | Deletes a chip<br>(use only in shop) |
 | <img src="/assets/consumables/grapejuice.png" width="50"><br>**Weird Grape Juice** | Tints a chip to cyan color<br>(use only in shop) |
@@ -58,6 +58,7 @@ header_buttons_row_2:
 | <img src="/assets/consumables/shovel.png" width="50"><br>**Shovel** | Unlocks one new Card slot |
 | <img src="/assets/consumables/folio.png" width="50"><br>**Folio** | Choose a common or rare card to make it indestructible<br>(use only in shop) |
 | <img src="/assets/consumables/printer.png" width="50"><br>**Printer** | Duplicate a chip<br>(use only in shop) |
+| <img src="/assets/consumables/padlock.png" width="50"><br>**Padlock** | Choose a epic or supreme card to make it indestructible<br>(use only in shop) |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Epic consumables</h2>
@@ -68,4 +69,3 @@ header_buttons_row_2:
 | <img src="/assets/consumables/masquerade.png" width="50"><br>**Masquerade** | Duplicates a epic or supreme card<br>(use only in shop)<br>Doesn't duplicate mods or extra slots |
 | <img src="/assets/consumables/mask.png" width="50"><br>**Mask** | Duplicates a normal or rare card<br>(use only in shop)<br>Doesn't duplicate mods or extra slots |
 | <img src="/assets/consumables/ticket.png" width="50"><br>**Ticket** | Give a mod slot to a card of your choice<br>(use only in shop) |
-| <img src="/assets/consumables/padlock.png" width="50"><br>**Padlock** | Choose a epic or supreme card to make it indestructible<br>(use only in shop) |

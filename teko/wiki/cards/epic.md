@@ -45,7 +45,7 @@ header_buttons_row_2:
 | Icon | Description |
 | :---: | :---: |
 | <img src="/assets/cards/spittoon.jpg" width="50"><br>**Spittoon** | +1 discards<br>x1.3 multi<br><span style="color:#00FF1A">Action</span> |
-| <img src="/assets/cards/thecollector.jpg" width="50"><br>**The collector** | +3 base per each chip without default sticker shape/color<br>16% chances of adding a random sticker to each played chip (if it still have default sticker)<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/thecollector.jpg" width="50"><br>**The collector** | +4 base per each chip without default sticker shape/color<br>16% chances of adding a random sticker to each played chip (if it still have default sticker)<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/betrayal.jpg" width="50"><br>**Betrayal** | x0.065 multi per each full mansion discarded<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/thetamer.jpg" width="50"><br>**The tamer** | Breaks a random card when entering shop<br>x0.2/0.25/0.32/0.37 multi (depends on rarity) per each destroyed card<br><span style="color:#00FF1A">Action</span> <span style="color:#FFFFFF">/</span> <span style="color:#FFE500">Indestructible</span> |
 | <img src="/assets/cards/thevast.jpg" width="50"><br>**The Vast** | +1 draws<br>55% chance of winning a common card pack and 36% chance of winning a guaranteed rare card pack when you enter the store |
@@ -74,7 +74,7 @@ header_buttons_row_2:
 | <img src="/assets/cards/olga.jpg" width="50"><br>**Olga** | +$2 everytime you spend mana | Defeat olga 5 times |
 | <img src="/assets/cards/lankvian.jpg" width="50"><br>**Lankvian** | Raises the number of the first chip played (if it's at 10, it will go to 1)<br>If lankvian is to the right of all cards, the effect can combine with retriggers and raise the number more than once, otherwise it will only raise the number on the chip once<br><span style="color:#FF00D7">Unique</span> | Defeat lankvian 5 times |
 | <img src="/assets/cards/idleoverlord.jpg" width="50"><br>**Idle overlord** | Generates 2 random mods everytime you won a round<br>+1/2/4 multi (depends on rarity) for each mod equipped on all cards<br><span style="color:#00FF1A">Action</span> | Open 10 mod packs |
-| <img src="/assets/cards/mikello.jpg" width="50"><br>**Mikello** | Each play kills a chip from your hand<br>+5 base per each chip deleted<br><span style="color:#00FF1A">Action</span> | Defeat mikello 5 times |
+| <img src="/assets/cards/mikello.jpg" width="50"><br>**Mikello** | Each play kills a chip from your hand<br>+6 base per each chip deleted<br><span style="color:#00FF1A">Action</span> | Defeat mikello 5 times |
 | <img src="/assets/cards/gasparov.jpg" width="50"><br>**Gasparov** | +2 multi per each activated tube<br><span style="color:#00FF1A">Action</span> | Defeat gasparov 5 times |
 | <img src="/assets/cards/luckyfool.jpg" width="50"><br>**Lucky fool** | +1 multi per each reroll done in shop<br>Chances of cards and stickers are increased by 50%<br><span style="color:#00FF1A">Action</span> <span style="color:#FFFFFF">/</span> <span style="color:#FF00D7">Unique</span> | Win a run with D2 Chosen Pocket to unlock |
 | <img src="/assets/cards/washingmachine.jpg" width="50"><br>**Washing Machine** | x0.06 multi per each reroll done in shop<br><span style="color:#00FF1A">Action</span> | Reroll shop 100 times |

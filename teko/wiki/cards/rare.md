@@ -44,7 +44,7 @@ header_buttons_row_2:
 
 | Icon | Description |
 | :---: | :---: |
-| <img src="/assets/cards/yapa.jpg" width="50"><br>**Yapa** | Gifts you two stickers everytime you use the blender<br>+5 base each time you liquefy<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/yapa.jpg" width="50"><br>**Yapa** | Gifts you two stickers everytime you use the blender<br>+7 base each time you liquefy<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/wobbly.jpg" width="50"><br>**Wobbly** | x2 multi but decreases 0.25 with each hand played<br>It will be destroyed upon reaching x1<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/gluejunkie.jpg" width="50"><br>**Glue Junkie** | +1 multi everytime you stick a sticker<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/detachment.jpg" width="50"><br>**Detachment** | -$2 when you enter shop<br>Generates a delete pack |
@@ -67,7 +67,7 @@ header_buttons_row_2:
 
 | Icon | Description | Unlock method |
 | :---: | :---: | :---: |
-| <img src="/assets/cards/blacksmith.jpg" width="50"><br>**Blacksmith** | It makes the card to his left indestructible upon entering the store<br>Spends $5 (this card activates before killer cards)<br><span style="color:#FFE500">Indestructible</span> <span style="color:#FFFFFF">/</span> <span style="color:#FF00D7">Unique</span> | Kill 50 cards |
+| <img src="/assets/cards/blacksmith.jpg" width="50"><br>**Blacksmith** | It makes the card to his left indestructible upon entering the store<br>Spends $3/4/5/6 depending on rarity (this card activates before killer cards)<br><span style="color:#FFE500">Indestructible</span> <span style="color:#FFFFFF">/</span> <span style="color:#FF00D7">Unique</span> | Kill 50 cards |
 | <img src="/assets/cards/whitesparklegend.jpg" width="50"><br>**White Spark Legend** | -8% goal | Roll the fifth face of the pirinola |
 | <img src="/assets/cards/zeke.jpg" width="50"><br>**Zeke** | -1 draws +14 multi<br><span style="color:#00FF1A">Action</span> | Defeat zeke 5 times |
 | <img src="/assets/cards/filling.jpg" width="50"><br>**Filling** | +20 base and copies the left card mods (everytime a round starts)<br><span style="color:#00FF1A">Action</span> | Equip a card with 4 thumb mods |

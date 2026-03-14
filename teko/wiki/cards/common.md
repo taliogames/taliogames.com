@@ -46,17 +46,17 @@ header_buttons_row_2:
 | :---: | :---: |
 | <img src="/assets/cards/enrichment.jpg" width="50"><br>**Enrichment** | +1 multi for each chip beyond 40<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/pixi.jpg" width="50"><br>**Pixi** | +6 multi<br><span style="color:#00FF1A">Action</span> |
-| <img src="/assets/cards/clubsandwich.jpg" width="50"><br>**Club Sandwich** | Wins +3 base everytime you make a trio combo<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/clubsandwich.jpg" width="50"><br>**Club Sandwich** | Wins +4 base everytime you make a trio combo<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/mogul.jpg" width="50"><br>**Mogul** | +$2 per round and allows to win +$1 with interests |
 | <img src="/assets/cards/theordinary.jpg" width="50"><br>**The Ordinary** | Chips with default sticker shape scores +2 multi |
 | <img src="/assets/cards/greedy.jpg" width="50"><br>**Greedy** | Draws 2 extra chips at the beginning of each round<br>(this effect is lost if you discard a hand) |
-| <img src="/assets/cards/hexagoncollector.jpg" width="50"><br>**Hexagon Collector** | +20 base per each hexagon chip hold in hand<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/hexagoncollector.jpg" width="50"><br>**Hexagon Collector** | +25 base per each hexagon chip hold in hand<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/hoarder.jpg" width="50"><br>**Hoarder** | +1 base per each chip with default sticker shape in the pocket<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/spacetimejump.jpg" width="50"><br>**Space-time Jump** | Retriggers a random chip 2 times if a least play 3 chips |
 | <img src="/assets/cards/rebirth.jpg" width="50"><br>**Rebirth** | Chips that scores wins +2 permanent base |
-| <img src="/assets/cards/separation.jpg" width="50"><br>**Separation** | +2 base per each pair and double pair played<br><span style="color:#00FF1A">Action</span> |
-| <img src="/assets/cards/brokenpowerscale.jpg" width="50"><br>**Broken Power Scale** | +2 base per each straight played<br><span style="color:#00FF1A">Action</span> |
-| <img src="/assets/cards/startfromscratch.jpg" width="50"><br>**Start from scratch** | +1 base per each $1<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/separation.jpg" width="50"><br>**Separation** | +4 base per each pair and double pair played<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/brokenpowerscale.jpg" width="50"><br>**Broken Power Scale** | +4 base per each straight played<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/startfromscratch.jpg" width="50"><br>**Start from scratch** | +1.5 base per each $1<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/cheapskate.jpg" width="50"><br>**Cheapskate** | 1 free reroll per shop round<br><span style="color:#FF00D7">Unique</span> |
 
 <div style="height: 20px;"></div>
@@ -65,7 +65,7 @@ header_buttons_row_2:
 | Icon | Description | Unlock method |
 | :---: | :---: | :---: |
 | <img src="/assets/cards/finalsacrifice.jpg" width="50"><br>**Final Sacrifice** | Draw 3 extra chips in the final turn | Lose 5 times |
-| <img src="/assets/cards/lino.jpg" width="50"><br>**Lino** | +$2 when fill the pillbox | Defeat lino 5 times |
+| <img src="/assets/cards/lino.jpg" width="50"><br>**Lino** | +$2 when fill the pillbox<br>+1 pillbox efficiency | Defeat lino 5 times |
 | <img src="/assets/cards/roulette.jpg" width="50"><br>**Roulette** | Level up a random combo at the final of the round | Reach round 13 |
 | <img src="/assets/cards/sticky.jpg" width="50"><br>**Sticky** | 22% chance to level up a combo when applying stickers | Apply 100 stickers |
 | <img src="/assets/cards/lastdrink.jpg" width="50"><br>**Last Drink** | Pink/green/multicolor tubes activate automatically when they fill up<br>+2 efficiency in normal tubes<br><span style="color:#FF00D7">Unique</span> | Activate 50 tubes |
