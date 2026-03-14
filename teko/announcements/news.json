@@ -1,5 +1,11 @@
 [
   {
+    "title": "4.0.2",
+    "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301714",
+    "pubDate": "March 14, 2026",
+    "content": "<ul class=\"bb_ul\"><li> Fixed Outlay consumable bug. It didn't allow reuse for the entire run after being used once.<br></li><li> It's now possible to use multiple Outlays and have them stack the Extra Base on the first chip played. Previously only one per turn was allowed (this was intentional), but I'd like to encourage chip builds.<br></li><li> Improved discard animation. Remaining chips now move responsively depending on the sorting method instead of rearranging twice unnecessarily.<br></li><li> Sped up chip draw animations for smoother gameplay.<br></li><li> On the gameplay screen, when selecting a potion, the pocket tooltip will no longer appear.<br></li><li> From now on, the version text (main menu, top-right corner) will display the full version number including small hotfix patches (instead of only showing u4.0, it'll show u4.0.2).</li></ul>"
+  },
+  {
     "title": "4.0.1",
     "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301694",
     "pubDate": "March 13, 2026",
@@ -15,7 +21,7 @@
     "title": "TEKO Roadmap!",
     "link": "https://store.steampowered.com/news/app/3835670/view/506226349467238405",
     "pubDate": "January 28, 2026",
-    "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.akamai.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
+    "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.fastly.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
   },
   {
     "title": "Launch announcement!",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/543368994111881220",
     "pubDate": "September 17, 2025",
     "content": "<div class=\"bb_h3\">TEKO u2.2</div>Fixed an exploit that allowed players to indefinitely buy items to obtain infinite copies of the same item.<br>Fixed the item 'reservation' system bug that occurred when exiting to the menu and returning while not in the shop.<br>Fixed the positioning of some items that would appear in strange ways after exiting and re-entering the game.<br>Maximum mana and maximum discards are now saved correctly. Previously, there were bugs related to this when exiting and re-entering the game.<br>The 'Color Tubes' efficiency Perk now subtracts -1 from the multicolor tube instead of -2.<br>Added text indicators (x/x) in the shop inventories to show the current and maximum number of items.<br>Players can now go into debt by betting on empanada races.<br>Finally fixed the expenses and earnings for the empanada race. The buff has been finished and now works as it should have from the beginning.<br>Fixed an issue with the 'Dice' consumable where it could reroll a card into a card the player already owned, which wouldn't work if duplicated. For example, if the player has the Lankvian Card and uses the Dice on an epic card, Lankvian Card will not appear again, as it doesn't function when duplicated.<br>The 'Continue' button no longer appears in the main menu after finishing a run.<br>The 'Outlay' and 'Castle' consumables can now stack correctly and be used multiple times at once.<br>Removed the 'Codex' button from within the tutorial, as it was causing several bugs.<br>The tutorial now correctly deletes progress from the current run. A tooltip has been added to notify players of this if they have an unfinished standard run.<br>The tutorial now properly deletes its own progress if exited and re-entered to prevent bugs.<br>Now it's possible to access the Settings screen from the tutorial shop. The button was previously visible but unclickable."
-  },
-  {
-    "title": "u2.1",
-    "link": "https://store.steampowered.com/news/app/3835670/view/787688820859470167",
-    "pubDate": "September 12, 2025",
-    "content": "<div class=\"bb_h3\">TEKO u2.1</div>Fixed the 'reserve' function in the shop. Previously, upon reaching the next shop, the item would not be saved but the money would be spent anyway. This bug was urgently fixed.<br>Fixed the interaction with the Pirinola in the shop. Now it can only be clicked after the other animations finish. Before, for example, a consumable could get stuck on the screen when purchased and instantly clicking the pirinola.<br>The correct number of chips in the pocket is now displayed in the shop.<br>Fixed the Greedy Card's tooltip and added a clarification to its text.<br>Improved the tooltip text for the empanada race pack.<br>Buff to the Pirinola: it now gives more money.<br>Empanada races now give a random pack as a consolation prize after losing.<br>The appearance percentages of Mods and Cards in the shop and in packs have been improved.<br>The prices of these items have been reduced: Upgrade packs (safe/risk), Stickers, Chips."
   }
 ]
