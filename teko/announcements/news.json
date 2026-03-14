@@ -1,5 +1,17 @@
 [
   {
+    "title": "4.1.1",
+    "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301733",
+    "pubDate": "March 14, 2026",
+    "content": "I just fixed Tekano and Parrot Shell. These two cards literally didn't work at all since the game's release. My apologies in advance. The good news is that I fixed it as soon as it was reported—it was a really silly mistake. I'm committed to fixing everything that's wrong."
+  },
+  {
+    "title": "4.1.0",
+    "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301729",
+    "pubDate": "March 14, 2026",
+    "content": "<div class=\"bb_h3\">Fixes:</div><ul class=\"bb_ul\"><li>Hexagon collector card now also counts chips that are Ultrashape.<br></li><li>Fixed a visual bug where double boss tooltips didn't appear in the shop, specifically in endless mode.<br></li><li>Added minimum efficiency limits: Pillbox (4), Cookie Tray (7).<br></li><li>Added efficiency text to the Pillbox and Cookie Tray tooltips.</li></ul><div class=\"bb_h3\">Card changes:</div><ul class=\"bb_ul\"><li>Lino: NEW → +1 pillbox efficiency<br></li><li>Start from scratch: +1 base → 1.5 base<br></li><li>Broken power scale: +2 base → +4 base<br></li><li>Separation: +2 base → +4 base<br></li><li>Club sandwich: +3 base → +4 base<br></li><li>Hexagon collector: +20 base → +25 base<br></li><li>Yapa: +5 base → +7 base<br></li><li>Blacksmith: $5 for any card → $3/4/5/6 depending on rarity<br></li><li>Mikello: +5 base → +6 base<br></li><li>The collector: +3 base → +4 base</li></ul><div class=\"bb_h3\">Consumable changes:</div><ul class=\"bb_ul\"><li>One for all: +1 extra base → +3 extra base<br></li><li>Padlock: RARITY CHANGE! Epic → Rare</li></ul><div class=\"bb_h3\">Changes in the information of the Rules section in the <a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Ftaliogames.com%2Fteko%2Fwiki%2F\" target=\"_blank\" rel=\" noopener\" >Wiki</a>:</div><ul class=\"bb_ul\"><li>Rounds/Stages.<br></li><li>Card slots.<br></li><li>Money return when selling purchased items.<br></li><li>Pillbox and Cookie Tray efficiency.</li></ul>"
+  },
+  {
     "title": "4.0.2",
     "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301714",
     "pubDate": "March 14, 2026",
@@ -21,7 +33,7 @@
     "title": "TEKO Roadmap!",
     "link": "https://store.steampowered.com/news/app/3835670/view/506226349467238405",
     "pubDate": "January 28, 2026",
-    "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.akamai.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
+    "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.fastly.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
   },
   {
     "title": "Launch announcement!",
@@ -46,17 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/543369627969783416",
     "pubDate": "October 04, 2025",
     "content": "<div class=\"bb_h1\">TEKO u3.0</div><div class=\"bb_h3\">Most important changes:</div>Completely revamped OST! I stopped using placeholders — all the music is now fully composed by me from scratch.<br>Added track variations for specific events (when you’re on your last attempt before losing, the music will change).<br>New sounds added.<br>Added LATAM Spanish.<br>All windowed mode controls are now visible: you can move, resize, and use the maximize/minimize/close buttons.<br><div class=\"bb_h3\">Other changes:</div>Fixed some translations that weren’t properly defined in the code.<br>Fixed the positioning and text of the notification box.<br>Several interactions now appear as notifications instead of full-screen text.<br>Fixed parts of the tutorial that froze when selecting chips.<br>Fixed many bugs where card tooltips appeared behind other scenes.<br>Fixed the Castle consumable, it no longer breaks your plays.<br>Using the Delete Pack no longer auto selects a chip.<br>Repositioned buttons in the settings screen.<br>Added a sprite for the Codex (previously just a text button).<br>Added new graphical elements to the main menu.<br>Improved the text on the Blender selection screen."
-  },
-  {
-    "title": "u2.3",
-    "link": "https://store.steampowered.com/news/app/3835670/view/543368994111883006",
-    "pubDate": "September 20, 2025",
-    "content": "<div class=\"bb_h3\">TEKO u2.3</div>Fixed consistent issue: the run was saved regardless of winning/losing and could be resumed instead of wiping all data. In other words, after finishing a run it was possible to replay the last round played (exploit).<br><br>Nerfed Empanada Race: it was very unbalanced, and I didn’t consider that the system scaled too much. The consolation prize was removed and a -$1 penalty per race played on loss was added."
-  },
-  {
-    "title": "u2.2",
-    "link": "https://store.steampowered.com/news/app/3835670/view/543368994111881220",
-    "pubDate": "September 17, 2025",
-    "content": "<div class=\"bb_h3\">TEKO u2.2</div>Fixed an exploit that allowed players to indefinitely buy items to obtain infinite copies of the same item.<br>Fixed the item 'reservation' system bug that occurred when exiting to the menu and returning while not in the shop.<br>Fixed the positioning of some items that would appear in strange ways after exiting and re-entering the game.<br>Maximum mana and maximum discards are now saved correctly. Previously, there were bugs related to this when exiting and re-entering the game.<br>The 'Color Tubes' efficiency Perk now subtracts -1 from the multicolor tube instead of -2.<br>Added text indicators (x/x) in the shop inventories to show the current and maximum number of items.<br>Players can now go into debt by betting on empanada races.<br>Finally fixed the expenses and earnings for the empanada race. The buff has been finished and now works as it should have from the beginning.<br>Fixed an issue with the 'Dice' consumable where it could reroll a card into a card the player already owned, which wouldn't work if duplicated. For example, if the player has the Lankvian Card and uses the Dice on an epic card, Lankvian Card will not appear again, as it doesn't function when duplicated.<br>The 'Continue' button no longer appears in the main menu after finishing a run.<br>The 'Outlay' and 'Castle' consumables can now stack correctly and be used multiple times at once.<br>Removed the 'Codex' button from within the tutorial, as it was causing several bugs.<br>The tutorial now correctly deletes progress from the current run. A tooltip has been added to notify players of this if they have an unfinished standard run.<br>The tutorial now properly deletes its own progress if exited and re-entered to prevent bugs.<br>Now it's possible to access the Settings screen from the tutorial shop. The button was previously visible but unclickable."
   }
 ]
