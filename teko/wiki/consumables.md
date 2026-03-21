@@ -66,6 +66,6 @@ header_buttons_row_2:
 | Consumable | Description |
 | :---: | :---: |
 | <img src="/assets/consumables/dice.png" width="50"><br>**Dice** | Rerolls one card<br>(use only in shop) |
-| <img src="/assets/consumables/masquerade.png" width="50"><br>**Masquerade** | Duplicates a epic or supreme card<br>(use only in shop)<br>Doesn't duplicate mods or extra slots |
+| <img src="/assets/consumables/masquerade.png" width="50"><br>**Masquerade** | Duplicates an epic or supreme card<br>(use only in shop)<br>Doesn't duplicate mods or extra slots |
 | <img src="/assets/consumables/mask.png" width="50"><br>**Mask** | Duplicates a normal or rare card<br>(use only in shop)<br>Doesn't duplicate mods or extra slots |
 | <img src="/assets/consumables/ticket.png" width="50"><br>**Ticket** | Give a mod slot to a card of your choice<br>(use only in shop) |

@@ -44,8 +44,8 @@ header_buttons_row_2:
 
 | Mod | Description |
 | :---: | :---: |
-| <img src="/assets/mods/iron2.png" width="50"><br>**Iron** | +18 base |
-| <img src="/assets/mods/thumb2.png" width="50"><br>**Thumb** | +9 multi |
+| <img src="/assets/mods/iron2.png" width="50"><br>**Iron** | +16 base |
+| <img src="/assets/mods/thumb2.png" width="50"><br>**Thumb** | +6 multi |
 | <img src="/assets/mods/blanket.png" width="50"><br>**Blanket** | Score goal -8% |
 
 <div style="height: 20px;"></div>
@@ -53,7 +53,7 @@ header_buttons_row_2:
 
 | Mod | Description |
 | :---: | :---: |
-| <img src="/assets/mods/iron3.png" width="50"><br>**Iron** | +40 base |
+| <img src="/assets/mods/iron3.png" width="50"><br>**Iron** | +56 base |
 | <img src="/assets/mods/bat.png" width="50"><br>**Bat** | x1.1 base |
 | <img src="/assets/mods/ball.png" width="50"><br>**Ball** | x1.35 multi |
-| <img src="/assets/mods/thumb3.png" width="50"><br>**Thumb** | +20 multi |
+| <img src="/assets/mods/thumb3.png" width="50"><br>**Thumb** | +24 multi |

@@ -36,7 +36,7 @@ header_buttons_row_2:
 
 | Shape | Effect / Base Value |
 | :---: | :---: |
-| <img src="/assets/chips/ultrashape.png" width="50"><br>**Ultrashape** | Count as all shapes |
+| <img src="/assets/chips/ultrashape.png" width="50"><br>**Ultrashape** | Counts as all shapes |
 | <img src="/assets/chips/shapeless.png" width="50"><br>**Shapeless** | Doesn't count as a shape<br>When playing a hand, if this chip was not played, it will gain +8 base extra. |
 
 <div style="height: 20px;"></div>
@@ -44,7 +44,7 @@ header_buttons_row_2:
 
 | Color | Effect / Base Value |
 | :---: | :---: |
-| <img src="/assets/chips/ultracolor.png" width="50"><br>**Ultracolor** | Count as all colors |
+| <img src="/assets/chips/ultracolor.png" width="50"><br>**Ultracolor** | Counts as all colors |
 | <img src="/assets/chips/colorless.png" width="50"><br>**Colorless** | Doesn't count as a color<br>Play this chip to gain +$1 in exchange for losing -1 on the 4 colored tubes |
 
 <div style="height: 20px;"></div>
@@ -61,6 +61,6 @@ header_buttons_row_2:
 
 | Color | Description |
 | :---: | :---: |
-| <img src="/assets/chips/base.png" width="50"><br>**Base color** | Gains +5 base everytime it scores |
+| <img src="/assets/chips/base.png" width="50"><br>**Base color** | Gains +5 base every time it scores |
 | <img src="/assets/chips/multi.png" width="50"><br>**Multi color** | +5 multi |
-| <img src="/assets/chips/money.png" width="50"><br>**Money color** | +$2 when scores |
+| <img src="/assets/chips/money.png" width="50"><br>**Money color** | +$2 when it scores |
