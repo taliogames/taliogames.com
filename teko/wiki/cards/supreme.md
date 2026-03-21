@@ -47,7 +47,6 @@ header_buttons_row_2:
 | <img src="/assets/cards/trickster.jpg" width="50"><br>**Trickster** | +1 play size |
 | <img src="/assets/cards/symmetry.jpg" width="50"><br>**Symmetry** | Even number chips scores one more time |
 | <img src="/assets/cards/asymmetry.jpg" width="50"><br>**Asymmetry** | Odd number chips scores one more time |
-| <img src="/assets/cards/thebeast4.jpg" width="50"><br>**The Beast** | +50 multi<br>+6/8/9/10 base (depends on rarity) for each card killed<br>Will kill all the cards to its right when entering the shop<br><span style="color:#00FF1A">Action</span> <span style="color:#FFFFFF">/</span> <span style="color:#00FCFF">Unsellable</span> <span style="color:#FFFFFF">/</span> <span style="color:#FFE500">Indestructible</span> <span style="color:#FFFFFF">/</span> <span style="color:#FF00D7">Unique</span> |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>

@@ -60,7 +60,6 @@ header_buttons_row_2:
 | <img src="/assets/cards/sobriety.jpg" width="50"><br>**Sobriety** | +2 multi when you sell a consumable<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/exploiter.jpg" width="50"><br>**Exploiter** | +8 base each time you use a consumable<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/snackfortheguests.jpg" width="50"><br>**Snack for the guests** | + x0.1 multi when you bake the cookies<br><span style="color:#00FF1A">Action</span> |
-| <img src="/assets/cards/thebeast3.jpg" width="50"><br>**The Beast** | +30 multi<br>28% chances of increasing rarity upon entering the shop (will kill 3 random card)<br>+5/7/8/9 base (depends on rarity) for each card killed<br><span style="color:#00FF1A">Action</span> <span style="color:#FFFFFF">/</span> <span style="color:#00FCFF">Unsellable</span> <span style="color:#FFFFFF">/</span> <span style="color:#FFE500">Indestructible</span> <span style="color:#FFFFFF">/</span> <span style="color:#FF00D7">Unique</span> |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>
