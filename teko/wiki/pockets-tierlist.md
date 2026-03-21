@@ -34,7 +34,7 @@ header_buttons_row_2:
 
 You can create your own POCKETS tier list [here](https://tiermaker.com/create/teko-pockets-19231236).
 
-<h2 style="text-align: center;">TEKO u4.0 - Best POCKETS!</h2>
+<h2 style="text-align: center;">TEKO u5.0 - Best POCKETS!</h2>
 <p align="center" style="margin-top: -5px;">
   <img src="/assets/tierlist2.jpg" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
 </p>
