@@ -60,6 +60,9 @@ header_buttons_row_2:
 | <img src="/assets/cards/greenwich.jpg" width="50"><br>**Greenwich** | +3 multi per each green chip played |
 | <img src="/assets/cards/fux.jpg" width="50"><br>**Fux** | +3 multi per each pink chip played |
 | <img src="/assets/cards/orangello.jpg" width="50"><br>**Orangello** | +3 multi per each orange chip played |
+| <img src="/assets/cards/theoldtrick.jpg" width="50"><br>**The old trick** | -1 play size<br>x1.8 multi<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/theblonde.jpg" width="50"><br>**The blond elf vampire vs the flogger spider** | +1 play size on last turn |
+| <img src="/assets/cards/thepathoftemptations.jpg" width="50"><br>**The path of temptations** | +5 multi per each rare card<br><span style="color:#00FF1A">Action</span> |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>
@@ -79,3 +82,4 @@ header_buttons_row_2:
 | <img src="/assets/cards/manolo.jpg" width="50"><br>**Manolo** | Upon entering shop, will kill the card to his left (if there is none, will kill the rightmost card) and will gain +2/4/6/10 multi (depends on rarity) per each card killed<br><span style="color:#00FF1A">Action</span> <span style="color:#FFFFFF">/</span> <span style="color:#FFE500">Indestructible</span> | Defeat manolo 5 times |
 | <img src="/assets/cards/layeni.jpg" width="50"><br>**La Yeni** | +2 multi per each filled pillbox<br><span style="color:#00FF1A">Action</span> | Defeat la yeni 5 times |
 | <img src="/assets/cards/pdz.jpg" width="50"><br>**PDZ** | +2 multi per each cookie tray completed<br><span style="color:#00FF1A">Action</span> | Defeat pdz 5 times |
+| <img src="/assets/cards/elitecard.jpg" width="50"><br>**Elite card** | Increases the sell value of all cards by +$1 when entering the shop | Equip a pro thumb mod to Promoted! card |

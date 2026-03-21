@@ -60,6 +60,7 @@ header_buttons_row_2:
 | <img src="/assets/cards/sobriety.jpg" width="50"><br>**Sobriety** | +2 multi when you sell a consumable<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/exploiter.jpg" width="50"><br>**Exploiter** | +8 base each time you use a consumable<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/snackfortheguests.jpg" width="50"><br>**Snack for the guests** | + x0.1 multi when you bake the cookies<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/damntemptingalfajor.jpg" width="50"><br>**Damn mouthwatering alfajor** | Your most played combo gains 1 level for every 3 consumables used |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>
@@ -78,3 +79,4 @@ header_buttons_row_2:
 | <img src="/assets/cards/luckyfool.jpg" width="50"><br>**Lucky fool** | +1 multi per reroll done in shop<br>Chances of cards and stickers are increased by 50%<br><span style="color:#00FF1A">Action</span> <span style="color:#FFFFFF">/</span> <span style="color:#FF00D7">Unique</span> | Win a run with D2 Chosen Pocket to unlock |
 | <img src="/assets/cards/washingmachine.jpg" width="50"><br>**Washing Machine** | x0.06 multi per reroll done in shop<br><span style="color:#00FF1A">Action</span> | Reroll shop 100 times |
 | <img src="/assets/cards/promoted.jpg" width="50"><br>**Promoted!** | +4 multi per each epic card<br>+x0.3 multi per each supreme card<br>48% chances of increasing the rarity of the card on the right (it will protect it from killer cards while it transforms)<br>It cannot upgrade unsellable/evolution cards (like The Beast)<br><span style="color:#00FF1A">Action</span> | Buy 35 epic cards |
+| <img src="/assets/cards/bluemascalitus.jpg" width="50"><br>**Blue mascalitus?!** | x0.20 multi per each rare card<br><span style="color:#00FF1A">Action</span> | Buy 100 rare cards |
