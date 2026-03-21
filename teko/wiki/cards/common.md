@@ -60,10 +60,10 @@ header_buttons_row_2:
 | <img src="/assets/cards/cheapskate.jpg" width="50"><br>**Cheapskate** | 1 free reroll per shop round<br><span style="color:#FF00D7">Unique</span> |
 | <img src="/assets/cards/givemetheusual.jpg" width="50"><br>**Give me the usual** | Generates a safe upgrade pack when you enter the shop but spends $6 |
 | <img src="/assets/cards/calmhere.jpg" width="50"><br>**Everything is calm here on the throne** | +15 base per each card<br><span style="color:#00FF1A">Action</span> |
-| <img src="/assets/cards/basementescape.jpg" width="50"><br>**Basement escape** | -1 mana and x0.18 multi per each common card<br><span style="color:#00FF1A">Action</span> |
+| <img src="/assets/cards/basementescape.jpg" width="50"><br>**Basement escape** | -1 mana<br>x0.18 multi per each common card<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/undercontrol.jpg" width="50"><br>**Foreshadowing** | -1 play size<br>+4 multi per each common card<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/falsehope.jpg" width="50"><br>**False hope** | -1 draw -1 discard<br>+50 base per each common card<br><span style="color:#00FF1A">Action</span> |
-| <img src="/assets/cards/basemascalitus.jpg" width="50"><br>**Base mascalitus** | [chance] chances of turning discarded chips into colorless chips (the chance applies to each chip individually)<br>+7 base per each colorless chip in pocket<br><span style="color:#00FF1A">Action</span><br><span style="color:#FF00D7">Unique</span> |
+| <img src="/assets/cards/basemascalitus.jpg" width="50"><br>**Base mascalitus** | 20% chances of turning discarded chips into colorless chips (the chance applies to each chip individually)<br>+7 base per each colorless chip in pocket<br><span style="color:#00FF1A">Action</span><br><span style="color:#FF00D7">Unique</span> |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Locked cards</h2>
