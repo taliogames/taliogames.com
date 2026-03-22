@@ -1,5 +1,11 @@
 [
   {
+    "title": "5.0.1",
+    "link": "https://store.steampowered.com/news/app/3835670/view/507356684541232349",
+    "pubDate": "March 22, 2026",
+    "content": "<ul class=\"bb_ul\"><li> Fixed Spanish correction for The old trick Card, it doesn't give -1 draws, it gives -1 play size.<br></li><li> Fixed Give me the usual Card, it should now correctly grant the pack.<br></li><li> Fixed notification for defeating bosses five times (achievements) + fixed Steam boss achievements.<br></li><li> Added clarification in Profitseeker Card description, it now specifies that it gives money for each unlocked empty card slot.</li></ul>"
+  },
+  {
     "title": "5.0.0",
     "link": "https://store.steampowered.com/news/app/3835670/view/507356684541232266",
     "pubDate": "March 21, 2026",
@@ -45,18 +51,12 @@
     "title": "TEKO Roadmap!",
     "link": "https://store.steampowered.com/news/app/3835670/view/506226349467238405",
     "pubDate": "January 28, 2026",
-    "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.akamai.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
+    "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.fastly.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
   },
   {
     "title": "Launch announcement!",
     "link": "https://store.steampowered.com/news/app/3835670/view/600794965688188932",
     "pubDate": "November 12, 2025",
     "content": "<div class=\"bb_h2\">TEKO will be launched on March 13, 2016</div><div onclick=\"javascript:ReplaceWithYouTubeEmbed( this );\" data-youtube=\"au3KDE8622w\" class=\"sharedFilePreviewYouTubeVideo sizeFull\"><img class=\"sharedFilePreviewYouTubeVideo sizeFull\" src=\"https://steamcommunity.com/public/shared/images/responsive/youtube_16x9_placeholder.gif\"/><iframe src=\"https://www.youtube-nocookie.com/embed/au3KDE8622w?fs=1&modestbranding=1&rel=0\" allowFullScreen=\"1\" frameBorder=\"0\"></iframe></div><br><div class=\"bb_h3\"><b><a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.com%2Finvite%2FXk8RxfWBn6\" target=\"_blank\" rel=\" noopener\" >Don't forget to join Discord.</a></b></div><b><a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.patreon.com%2Fc%2FTalioGames\" target=\"_blank\" rel=\" noopener\" >You can also support me on Patreon!</a></b>"
-  },
-  {
-    "title": "u3.2",
-    "link": "https://store.steampowered.com/news/app/3835670/view/658213406635985165",
-    "pubDate": "October 21, 2025",
-    "content": "<div class=\"bb_h3\">TEKO u3.2</div>'Outline' system reworked. Previously it was more like an 'Outglow'. Now every element has a solid outline when hovered or selected, greatly improving visibility. I also reworked all their colors.<br>Added a relief (button-like) effect to all in-game buttons.<br>Wobbly Card no longer deletes mods. If there's free space, they are restored after the card is removed.<br>Fixed 'Loudmouth' interaction, now it stacks previously played combos without needing to have the card.<br>The goal point deduction sound now plays earlier to better match the text animation.<br>Added Cam Mode: content creators now have a dedicated space for their camera in the top-right corner. This mode is disabled during the tutorial.<br>Changes to forbidden cards: their appearance rate was increased (from 0.1% to 0.25%), and when they trigger, they automatically unlock a card slot. If no space is available, they replace the leftmost card.<br>Fixed the tooltip description for the Empanada Race Pack in the Codex.<br>The Codex will now remain hidden for new players.<br>Codex item names were only showing in English, now this is fixed.<br>Performed several code optimizations to improve performance on low-end PCs.<br>Changed button colors in the main menu.<br>Fixed the 'Add Card Slot' button in the shop.<br>Changed the tooltip background color.<br>New adaptive text sizing system: all texts now scale responsively within their frames and share a unified size, creating a beautiful visual harmony.<br>Reworked all texts, now they all start with uppercase letters.<br>Improved the appearance of the Settings screen."
   }
 ]
