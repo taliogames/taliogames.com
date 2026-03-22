@@ -19,8 +19,7 @@
     
   </head>
   <body>
-<section class="page-header" data-nosnippet>
-<h1 class="project-name">
+<section class="page-header" {% if page.url contains '/teko/' %}style="margin-bottom: 0;"{% endif %} data-nosnippet> <h1 class="project-name">
   {% if page.url contains '/teko/' %}
     TEKO
   {% elsif page.url contains '/aeftb/' %}

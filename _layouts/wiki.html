@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   {% seo title=false %}
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.url == '/teko/wiki/' %}Wiki | TEKO{% else %}{{ page.title }} | TEKO{% endif %}</title> <meta name="viewport" content="width=device-width, initial-scale=1">
   
   {% if page.url contains '/teko/' %}
     <link rel="icon" type="image/png" href="{{ '/assets/icon_teko.png' | relative_url }}">
@@ -29,7 +28,6 @@
         margin: 0 auto;
         min-height: 100vh;
         background: #1e1e1e;
-        box-shadow: 0 0 20px rgba(0,0,0,0.5);
     }
 
     .wiki-sidebar {
@@ -167,8 +165,7 @@
 <section class="page-header" style="margin-bottom: 0;">
       <h1 class="project-name">
         {% if page.url contains '/teko/' %}
-          TEKO Wiki
-        {% else %}
+          TEKO {% else %}
           {{ page.title | default: site.title }}
         {% endif %}
       </h1>

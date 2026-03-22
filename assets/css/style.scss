@@ -71,7 +71,10 @@ hr {
   
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid #000; /* Borde sutil abajo */
+  border-bottom: 1px solid #000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 10;
 }
 
 
@@ -92,9 +95,9 @@ hr {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 0.6rem 1.2rem; /* Padding lateral aumentado para que "Donate" se vea bien ancho */
+  padding: 0.5rem 1rem;
   line-height: 1;
-  min-height: 48px; /* Unificamos la altura mínima */
+  min-height: 40px;
   
   /* Estilo "Glass" para modo oscuro */
   background-color: rgba(255, 255, 255, 0.1);
@@ -126,8 +129,8 @@ hr {
 .custom-header-btn i:only-child, 
 .custom-header-btn img:only-child {
   padding: 0;
-  width: 48px;  
-  height: 48px; 
+  width: 40px;
+  height: 40px;
   
   /* Flexbox explícito para centrado perfecto */
   display: flex;
