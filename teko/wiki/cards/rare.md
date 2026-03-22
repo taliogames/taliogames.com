@@ -51,7 +51,7 @@ header_buttons_row_2:
 | <img src="/assets/cards/sale.jpg" width="50"><br>**Sale** | Rerolls cost less<br><span style="color:#FF00D7">Unique</span> |
 | <img src="/assets/cards/lastmanstanding.jpg" width="50"><br>**Last Man Standing** | Retriggers the last chip |
 | <img src="/assets/cards/fairdeal.jpg" width="50"><br>**Fair Trade** | +1 mana -1 discard -1 draw |
-| <img src="/assets/cards/profitseeker.jpg" width="50"><br>**Profit Seeker** | +$2 for every empty card slot after you win each round |
+| <img src="/assets/cards/profitseeker.jpg" width="50"><br>**Profit Seeker** | +$2 for each unlocked empty card slot after winning each round |
 | <img src="/assets/cards/conspiracy.jpg" width="50"><br>**Conspiracy** | Triangle chips score +3 multi |
 | <img src="/assets/cards/lowkey.jpg" width="50"><br>**Low key** | +2 multi for each chip below 40<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/tasty.jpg" width="50"><br>**Tasty** | +4 multi each time you use the blender<br>55% chance of getting a blender pack when you enter the store<br><span style="color:#00FF1A">Action</span> |
