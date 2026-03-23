@@ -46,7 +46,7 @@ header_buttons_row_2:
 | :---: | :---: |
 | <img src="/assets/mods/iron2.png" width="50"><br>**Iron** | +16 base |
 | <img src="/assets/mods/thumb2.png" width="50"><br>**Thumb** | +6 multi |
-| <img src="/assets/mods/blanket.png" width="50"><br>**Blanket** | Score goal -8% |
+| <img src="/assets/mods/blanket.png" width="50"><br>**Blanket** | Score goal -8%<br>You can only have 4 of these |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Pro mods</h2>
