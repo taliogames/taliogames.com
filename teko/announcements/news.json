@@ -1,5 +1,11 @@
 [
   {
+    "title": "5.1.0",
+    "link": "https://store.steampowered.com/news/app/3835670/view/507356684541232650",
+    "pubDate": "March 23, 2026",
+    "content": "I just made a substantial change to the percentage reduction mechanic. Previously, the logic worked in a very strange way, probably additively: for example, having 3 Blanket mods (-8%) resulted in a -24% reduction to the score goal. In reality, the reduction should have been sequential, meaning applying -8%, then -8% to that result, and then another -8% to the new result, instead of stacking them all together.<br><br>Now I've adjusted it so the reduction system works strictly in a sequential way rather than additively, and it applies to the current score goal instead of the maximum score goal. This is extremely important, as it prevents the reduction from breaking the game balance. Previously, the logic was very confusing and apparently each item had its own separate behavior; now it's been unified and fixed to match how it was originally intended.<br><br>Now you might be wondering: why didn't I do this earlier? The answer is simpler than it seems. Some parts of the game hadn't been revisited in a long time, since every player has their own playstyle. I was the only person testing the game for months, and since my playstyle doesn't rely much on reductions, I didn't pay much attention to it. This change was made thanks to feedback from another player. From there, I made the necessary adjustments, which is why this Early Access phase and communication with you are so important. Above all, I want you to see that these patches show I'm listening to the community and that I'm willing to keep releasing updates with meaningful balance changes.<br><br>Additionally, the Green Tube has been nerfed (-15% → -11%), and Blanket Mods are now limited to 4 per run (I also added a clarification in the description just in case). Sometimes limiting overpowered mechanics is the best way to fix things. Having more than 4 blankets felt excessive, so I finally decided to enforce this. Previously there was already logic to prevent these mods from appearing in the shop, but now they've been banned from all systems (for example, the Blender).<br><br>I also reworked a section of the tutorial to make it shorter. It previously required opening too many packs unnecessarily, including the Empanada Race pack (which doesn't make much sense, since players normally can't use them unless they're in a specific Pocket). I also changed a few things to prevent players from encountering a bug that would stop them from continuing the game."
+  },
+  {
     "title": "5.0.1",
     "link": "https://store.steampowered.com/news/app/3835670/view/507356684541232349",
     "pubDate": "March 22, 2026",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/506226349467238405",
     "pubDate": "January 28, 2026",
     "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.fastly.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
-  },
-  {
-    "title": "Launch announcement!",
-    "link": "https://store.steampowered.com/news/app/3835670/view/600794965688188932",
-    "pubDate": "November 12, 2025",
-    "content": "<div class=\"bb_h2\">TEKO will be launched on March 13, 2016</div><div onclick=\"javascript:ReplaceWithYouTubeEmbed( this );\" data-youtube=\"au3KDE8622w\" class=\"sharedFilePreviewYouTubeVideo sizeFull\"><img class=\"sharedFilePreviewYouTubeVideo sizeFull\" src=\"https://steamcommunity.com/public/shared/images/responsive/youtube_16x9_placeholder.gif\"/><iframe src=\"https://www.youtube-nocookie.com/embed/au3KDE8622w?fs=1&modestbranding=1&rel=0\" allowFullScreen=\"1\" frameBorder=\"0\"></iframe></div><br><div class=\"bb_h3\"><b><a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.com%2Finvite%2FXk8RxfWBn6\" target=\"_blank\" rel=\" noopener\" >Don't forget to join Discord.</a></b></div><b><a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.patreon.com%2Fc%2FTalioGames\" target=\"_blank\" rel=\" noopener\" >You can also support me on Patreon!</a></b>"
   }
 ]
