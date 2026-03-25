@@ -1,5 +1,11 @@
 [
   {
+    "title": "5.1.1",
+    "link": "https://store.steampowered.com/news/app/3835670/view/507356684541232879",
+    "pubDate": "March 24, 2026",
+    "content": "Fixed all issues related to the latest changes: percentage reduction, and specifically Green Tubes. I'm a bit burned out, so I'll take more time to prepare the next major patch."
+  },
+  {
     "title": "5.1.0",
     "link": "https://store.steampowered.com/news/app/3835670/view/507356684541232650",
     "pubDate": "March 23, 2026",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301676",
     "pubDate": "March 13, 2026",
     "content": "<div class=\"bb_h3\">Finally. It’s here!</div><div class=\"bb_h1\">TEKO EA has just been released.</div><a class=\"bb_link\" href=\"https://store.steampowered.com/app/3835670/TEKO/\" target=\"_blank\" rel=\"\" >https://store.steampowered.com/app/3835670/TEKO/</a><br><div class=\"bb_h2\">What does the new version include?</div><ul class=\"bb_ul\"><li>96 Cards<br></li><li>16 Pockets<br></li><li>5 Levels for each Pocket<br></li><li>10 New Bosses<br></li><li>63 Achievements<br></li><li>Endless Mode</li></ul>There’s still a lot of work ahead. For now, all efforts were focused on creating as much variety as possible in <b>CARDS</b> and <b>POCKETS</b> (they’re the two elements that bring the most hours of gameplay). Don’t worry about the current lack of stickers/consumables or the balance, everything will be properly adjusted as I continue releasing more content.<br><br>I have a lot to say after working on this for a year. But I think I’ll share those thoughts week by week. I don’t want to talk too much right now. I’d rather show that I can keep supporting this project in the long term.<br><br>We can agree that the game is already a complete experience. Even so, I’m ready to create tons of expansions. Stay tuned: there’s much more coming for TEKO!<br><br><i>Don’t forget that I’m open to feedback and willing to read all of your comments.</i><br>You can join the <a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.com%2Finvite%2FXk8RxfWBn6\" target=\"_blank\" rel=\" noopener\" >Discord server</a>.<br>You can also check out the <a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Ftaliogames.com%2Fteko%2Fwiki%2F\" target=\"_blank\" rel=\" noopener\" >Official TEKO Wiki</a>.<br>If you’d like to support the project, you can join the <a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.patreon.com%2Fc%2FTalioGames\" target=\"_blank\" rel=\" noopener\" >Patreon</a>."
-  },
-  {
-    "title": "TEKO Roadmap!",
-    "link": "https://store.steampowered.com/news/app/3835670/view/506226349467238405",
-    "pubDate": "January 28, 2026",
-    "content": "<p class=\"bb_paragraph\"><img src=\"https://clan.akamai.steamstatic.com/images/45722653/a10106e35658a00cc54c7d66c9be960652037530.png\" /></p>"
   }
 ]
