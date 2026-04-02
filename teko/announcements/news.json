@@ -1,5 +1,11 @@
 [
   {
+    "title": "6.0.1",
+    "link": "https://store.steampowered.com/news/app/3835670/view/499476653639992266",
+    "pubDate": "April 02, 2026",
+    "content": "Fixed a crash when using a Delete Pack while having at least one Ultranumber chip. This trait may still cause issues.<br>Fixed a bug where Mods were not contributing to scoring.<br><br>There may still be more bugs related to chip/sticker interactions, as well as the scoring execution order. Overall things are fairly clean, but keep an eye on those two aspects of the game."
+  },
+  {
     "title": "6.0.0",
     "link": "https://store.steampowered.com/news/app/3835670/view/499476653639992046",
     "pubDate": "April 02, 2026",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301714",
     "pubDate": "March 14, 2026",
     "content": "<ul class=\"bb_ul\"><li> Fixed Outlay consumable bug. It didn't allow reuse for the entire run after being used once.<br></li><li> It's now possible to use multiple Outlays and have them stack the Extra Base on the first chip played. Previously only one per turn was allowed (this was intentional), but I'd like to encourage chip builds.<br></li><li> Improved discard animation. Remaining chips now move responsively depending on the sorting method instead of rearranging twice unnecessarily.<br></li><li> Sped up chip draw animations for smoother gameplay.<br></li><li> On the gameplay screen, when selecting a potion, the pocket tooltip will no longer appear.<br></li><li> From now on, the version text (main menu, top-right corner) will display the full version number including small hotfix patches (instead of only showing u4.0, it'll show u4.0.2).</li></ul>"
-  },
-  {
-    "title": "4.0.1",
-    "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301694",
-    "pubDate": "March 13, 2026",
-    "content": "<ul class=\"bb_ul\"><li>Fixed a screen freeze crash when receiving more than 13 draws (this is the default limit). Also, the Oily Pocket is currently visually bugged (it's playable, but the chips should resize correctly instead of overflowing the table).<br></li><li>Fixed a bug with sticker accumulation cards (their progress was not being saved/cleared), such as Glue Junkie or Kurosawa.</li></ul>"
   }
 ]
