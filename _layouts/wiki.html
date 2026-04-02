@@ -109,18 +109,31 @@
         }
         .wiki-mobile-toggle { display: flex; }
 
-        /* Estilos para el diseño compacto y centrado */
+        /* Diseño compacto con padding reducido y separador final */
         .wiki-sidebar-content { 
             display: none; 
-            padding: 20px;
+            padding: 5px 20px 15px 20px; /* Reducido el padding superior e inferior */
             background: #181818;
-            text-align: center; /* Centra todo */
+            text-align: center;
+            border-bottom: 2px solid #4db6ac; /* Línea del color de Wiki Navigation */
         }
-        .wiki-sidebar h3 { margin-top: 15px; margin-bottom: 5px; font-size: 0.9em; }
-        .wiki-sidebar ul { margin-bottom: 10px; padding: 0; list-style: none; }
+        
+        /* Ajuste de márgenes de los títulos para quitar espacio "antes de General" */
+        .wiki-sidebar h3 { 
+            margin-top: 10px; 
+            margin-bottom: 5px; 
+            font-size: 0.9em; 
+        }
+
+        /* Ajuste de márgenes de las listas para quitar espacio "después de tierlist" */
+        .wiki-sidebar ul { 
+            margin-bottom: 5px; 
+            padding: 0; 
+            list-style: none; 
+        }
+        
         .wiki-sidebar li { display: inline-block; margin-bottom: 0; }
         
-        /* Genera el separador "/" automáticamente */
         .wiki-sidebar li:not(:last-child)::after {
             content: "/";
             color: #555;
