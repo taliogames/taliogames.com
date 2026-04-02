@@ -108,11 +108,26 @@
             z-index: 100;
         }
         .wiki-mobile-toggle { display: flex; }
+
+        /* Estilos para el diseño compacto y centrado */
         .wiki-sidebar-content { 
             display: none; 
-            padding: 10px 20px 20px 20px;
+            padding: 20px;
             background: #181818;
+            text-align: center; /* Centra todo */
         }
+        .wiki-sidebar h3 { margin-top: 15px; margin-bottom: 5px; font-size: 0.9em; }
+        .wiki-sidebar ul { margin-bottom: 10px; padding: 0; list-style: none; }
+        .wiki-sidebar li { display: inline-block; margin-bottom: 0; }
+        
+        /* Genera el separador "/" automáticamente */
+        .wiki-sidebar li:not(:last-child)::after {
+            content: "/";
+            color: #555;
+            margin: 0 8px;
+        }
+        .wiki-sidebar a { display: inline; padding: 0; }
+
         .wiki-sidebar.open .wiki-sidebar-content { display: block; }
         .wiki-sidebar.open .wiki-mobile-toggle i { transform: rotate(180deg); }
         .wiki-content { padding: 20px; }
@@ -235,9 +250,11 @@
                     <li><a href="/teko/wiki/cards/common/">Common</a></li>
                     <li><a href="/teko/wiki/cards/rare/">Rare</a></li>
                     <li><a href="/teko/wiki/cards/epic/">Epic</a></li>
+                </ul>
+                <ul>
                     <li><a href="/teko/wiki/cards/supreme/">Supreme</a></li>
                     <li><a href="/teko/wiki/cards/forbidden/">Forbidden</a></li>
-					<li><a href="/teko/wiki/cards/evolution/">Evolution</a></li> </ul>
+                    <li><a href="/teko/wiki/cards/evolution/">Evolution</a></li>
                 </ul>
 
                 <h3>Items & Mechanics</h3>
@@ -245,12 +262,17 @@
                     <li><a href="/teko/wiki/pockets/">Pockets</a></li>
                     <li><a href="/teko/wiki/bosses/">Bosses</a></li>
                     <li><a href="/teko/wiki/mods/">Mods</a></li>
+                </ul>
+                <ul>
                     <li><a href="/teko/wiki/consumables/">Consumables</a></li>
                     <li><a href="/teko/wiki/chips-stickers/">Chips & Stickers</a></li>
+                </ul>
+                <ul>
                     <li><a href="/teko/wiki/packs/">Packs</a></li>
                     <li><a href="/teko/wiki/perks/">Perks</a></li>
                 </ul>
-				<h3>TIER LISTS</h3>
+
+                <h3>TIER LISTS</h3>
                 <ul>
                     <li><a href="/teko/wiki/cards-tierlist/">Cards tierlist</a></li>
                     <li><a href="/teko/wiki/pockets-tierlist/">Pockets tierlist</a></li>
