@@ -602,39 +602,43 @@ html {
 
 /* Ajustes específicos para tablas en dispositivos muy pequeños (< 378px) */
 @media (max-width: 378px) {
-  /* 1. Reducir paddings laterales del contenedor de 20px a 8px */
+  /* Ajuste del contenedor principal */
   .wiki-content {
     padding-left: 8px !important;
     padding-right: 8px !important;
   }
 
-  /* 2. Forzar que la tabla se ajuste al ancho disponible y nunca deje de achicarse */
+  /* Configuración de la tabla para evitar el corte de palabras */
   .wiki-content table {
     display: table;
     width: 100% !important;
-    table-layout: auto; /* Permite que el navegador distribuya el espacio según el contenido */
-    word-break: break-word; /* Rompe palabras largas para evitar que la tabla se ensanche */
+    table-layout: auto; 
+    /* Eliminamos break-word y usamos normal */
+    word-break: normal !important;
+    overflow-wrap: normal !important;
   }
 
-  /* 3. Ajustes generales de celdas (Fuente -1px y padding mínimo) */
   .wiki-content th, 
   .wiki-content td {
-    padding: 6px 2px !important; /* Reducimos el padding interno de las celdas */
-    font-size: 0.85rem !important; /* Achica la letra general aproximadamente 1px */
-    word-break: break-word;
+    padding: 6px 4px !important; /* Aumentamos ligeramente el padding para evitar que el texto toque los bordes */
+    font-size: 0.85rem !important; 
+    /* Aseguramos que las palabras no se corten internamente */
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
   }
 
-  /* 4. Primera columna (Icono y Nombre): Reducir padding lateral al mínimo */
+  /* Primera columna: Icono y Nombre */
   .wiki-content table td:nth-child(1),
   .wiki-content table th:nth-child(1) {
-    padding-left: 1px !important;
-    padding-right: 1px !important;
-    min-width: 52px; /* Espacio suficiente para mantener la imagen de 50px */
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    min-width: 60px; /* Un poco más de margen para que el nombre no se amontone con la imagen */
   }
 
-  /* 5. Tercera columna (Unlock method): Letra -2px respecto a la base */
+  /* Tercera columna: Unlock method (2px más pequeña que la base) */
   .wiki-content table td:nth-child(3),
   .wiki-content table th:nth-child(3) {
-    font-size: 0.75rem !important; /* Letra notablemente más pequeña para ahorrar espacio */
+    font-size: 0.75rem !important;
   }
 }
