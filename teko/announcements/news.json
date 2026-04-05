@@ -1,5 +1,11 @@
 [
   {
+    "title": "6.1.1",
+    "link": "https://store.steampowered.com/news/app/3835670/view/499476653639993338",
+    "pubDate": "April 05, 2026",
+    "content": "<ul class=\"bb_ul\"><li> Fixed a visual bug: Starlight Chips now appear with the Noise/Grain effect in the shop; previously they appeared gray.<br></li><li> Numberless/Ultranumber descriptions no longer duplicate in chip tooltips.<br></li><li> Modified tooltip title colors. Previously, all trait titles were the same purple color; now each has a distinct color. For example, if a chip is 'Ultracolor' and 'Shapeless' and also has a 'Knife Sticker', the titles of those three traits will each have different colors instead of all being purple.<br></li><li> If the player has Last Drink Card, Lino will now remove -$5. Previously this didn't work, making it easy to bypass this boss debuff.<br></li><li> Confirmed: chips with Knife Sticker CAN remove Numberless/Ultranumber chips.</li></ul>"
+  },
+  {
     "title": "6.1.0",
     "link": "https://store.steampowered.com/news/app/3835670/view/499476653639993285",
     "pubDate": "April 04, 2026",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301733",
     "pubDate": "March 14, 2026",
     "content": "I just fixed Tekano and Parrot Shell. These two cards literally didn't work at all since the game's release. My apologies in advance. The good news is that I fixed it as soon as it was reported—it was a really silly mistake. I'm committed to fixing everything that's wrong."
-  },
-  {
-    "title": "4.1.0",
-    "link": "https://store.steampowered.com/news/app/3835670/view/541133047968301729",
-    "pubDate": "March 14, 2026",
-    "content": "<div class=\"bb_h3\">Fixes:</div><ul class=\"bb_ul\"><li>Hexagon collector card now also counts chips that are Ultrashape.<br></li><li>Fixed a visual bug where double boss tooltips didn't appear in the shop, specifically in endless mode.<br></li><li>Added minimum efficiency limits: Pillbox (4), Cookie Tray (7).<br></li><li>Added efficiency text to the Pillbox and Cookie Tray tooltips.</li></ul><div class=\"bb_h3\">Card changes:</div><ul class=\"bb_ul\"><li>Lino: NEW → +1 pillbox efficiency<br></li><li>Start from scratch: +1 base → 1.5 base<br></li><li>Broken power scale: +2 base → +4 base<br></li><li>Separation: +2 base → +4 base<br></li><li>Club sandwich: +3 base → +4 base<br></li><li>Hexagon collector: +20 base → +25 base<br></li><li>Yapa: +5 base → +7 base<br></li><li>Blacksmith: $5 for any card → $3/4/5/6 depending on rarity<br></li><li>Mikello: +5 base → +6 base<br></li><li>The collector: +3 base → +4 base</li></ul><div class=\"bb_h3\">Consumable changes:</div><ul class=\"bb_ul\"><li>One for all: +1 extra base → +3 extra base<br></li><li>Padlock: RARITY CHANGE! Epic → Rare</li></ul><div class=\"bb_h3\">Changes in the information of the Rules section in the <a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Ftaliogames.com%2Fteko%2Fwiki%2F\" target=\"_blank\" rel=\" noopener\" >Wiki</a>:</div><ul class=\"bb_ul\"><li>Rounds/Stages.<br></li><li>Card slots.<br></li><li>Money return when selling purchased items.<br></li><li>Pillbox and Cookie Tray efficiency.</li></ul>"
   }
 ]
