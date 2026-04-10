@@ -48,8 +48,8 @@ header_buttons_row_2:
 | <img src="/assets/consumables/applejuice.png" width="50"><br>**Weird Apple Juice** | Tints a chip to orange color<br>(use only in shop) |
 | <img src="/assets/consumables/pearjuice.png" width="50"><br>**Weird Pear Juice** | Tints a chip to green color<br>(use only in shop) |
 | <img src="/assets/consumables/strawberryjuice.png" width="50"><br>**Weird Strawberry Juice** | Tints a chip to pink color<br>(use only in shop) |
-| <img src="/assets/consumables/scratchandwin.png" width="50"><br>**Scratch and win** | Clean the pillbox<br>+$1.25 for each pill removed<br>(rounds down)<br>You will get [value1] |
-| <img src="/assets/consumables/vacuum.png" width="50"><br>**Vacuum** | Clean the cookie tray<br>+$0.7 per piece removed<br>(rounds up)<br>You will get [value1] |
+| <img src="/assets/consumables/scratchandwin.png" width="50"><br>**Scratch and win** | Clean the pillbox<br>+$1.25 for each pill removed<br>(rounds down) |
+| <img src="/assets/consumables/vacuum.png" width="50"><br>**Vacuum** | Clean the cookie tray<br>+$0.7 per piece removed<br>(rounds up) |
 | <img src="/assets/consumables/battery.png" width="50"><br>**Battery** | Add 0.20 multi to the Trixi combo |
 | <img src="/assets/consumables/duckling.png" width="50"><br>**Duckling** | Draw 1 chip<br>(use only in play screen) |
 
