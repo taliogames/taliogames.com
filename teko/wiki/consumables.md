@@ -36,7 +36,7 @@ header_buttons_row_2:
 
 | Consumable | Description |
 | :---: | :---: |
-| <img src="/assets/consumables/outlay.png" width="50"><br>**Outlay** | Permanently adds +10 Base Value to the first chip played this turn<br>(use only in play screen) |
+| <img src="/assets/consumables/outlay.png" width="50"><br>**Outlay** | Permanently adds +16 Base Value to the first chip played this turn<br>(use only in play screen) |
 | <img src="/assets/consumables/profit.png" width="50"><br>**Profit** | Instantly gain $4 |
 | <img src="/assets/consumables/hairtonic.png" width="50"><br>**Hair Tonic** | -6% goal<br>(use only in play screen) |
 | <img src="/assets/consumables/refill.png" width="50"><br>**Refill** | +2 to all color tubes except multicolor tube<br>(use only in play screen) |
@@ -59,7 +59,7 @@ header_buttons_row_2:
 | Consumable | Description |
 | :---: | :---: |
 | <img src="/assets/consumables/castle.png" width="50"><br>**Castle** | Levels up the best played combo this turn<br>(use only in play screen) |
-| <img src="/assets/consumables/shovel.png" width="50"><br>**Shovel** | Unlocks one new Card slot |
+| <img src="/assets/consumables/shovel.png" width="50"><br>**Shovel** | Unlocks one new Card slot<br>10% chance of getting a sinister common card |
 | <img src="/assets/consumables/folio.png" width="50"><br>**Folio** | Choose a common or rare card to make it indestructible<br>(use only in shop) |
 | <img src="/assets/consumables/printer.png" width="50"><br>**Printer** | Duplicate a chip<br>(use only in shop) |
 | <img src="/assets/consumables/padlock.png" width="50"><br>**Padlock** | Choose a epic or supreme card to make it indestructible<br>(use only in shop) |
@@ -75,6 +75,7 @@ header_buttons_row_2:
 | <img src="/assets/consumables/supplement.png" width="50"><br>**Supplement** | +60 extra base to a selected chip<br>(use only in shop) |
 | <img src="/assets/consumables/transfuser.png" width="50"><br>**Transfuser** | Transfer the extra base from one chip to another<br>(use only in shop) |
 | <img src="/assets/consumables/reverseblender.png" width="50"><br>**Reverse blender** | Transform 1 card into 2 cards of a lower rarity<br>(use only in shop) |
+| <img src="/assets/consumables/ticket.png" width="50"><br>**Ticket** | Give a mod slot to a card of your choice<br>(use only in shop) |
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Epic consumables</h2>
@@ -83,8 +84,7 @@ header_buttons_row_2:
 | :---: | :---: |
 | <img src="/assets/consumables/dice.png" width="50"><br>**Dice** | Rerolls one card<br>(use only in shop) |
 | <img src="/assets/consumables/masquerade.png" width="50"><br>**Masquerade** | Duplicates an epic or supreme card<br>(use only in shop)<br>Doesn't duplicate mods or extra slots |
-| <img src="/assets/consumables/mask.png" width="50"><br>**Mask** | Duplicates a normal or rare card<br>(use only in shop)<br>Doesn't duplicate mods or extra slots |
-| <img src="/assets/consumables/ticket.png" width="50"><br>**Ticket** | Give a mod slot to a card of your choice<br>(use only in shop) |
+| <img src="/assets/consumables/mask.png" width="50"><br>**Mask** | Duplicates a common or rare card<br>(use only in shop)<br>Doesn't duplicate mods or extra slots |
 | <img src="/assets/consumables/pocketstretcher.png" width="50"><br>**Pocket stretcher** | +1 permanent discard<br>10% chance of obtaining a rare sinister card<br>(use only in shop) |
 | <img src="/assets/consumables/pentagram.png" width="50"><br>**Pentagram** | Give a card sinister trait<br>It will not take up space in the card inventory<br>(use only in shop) |
 | <img src="/assets/consumables/binoculars.png" width="50"><br>**Binoculars** | Choose any rare card<br>(use only in shop) |
