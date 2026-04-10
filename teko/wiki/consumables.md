@@ -69,7 +69,7 @@ header_buttons_row_2:
 | <img src="/assets/consumables/starsoul.png" width="50"><br>**Star soul** | Convert the color of a chip to starlight<br>(use only in shop) |
 | <img src="/assets/consumables/humanblood.png" width="50"><br>**Human blood** | Convert the color of a chip to red<br>(use only in shop) |
 | <img src="/assets/consumables/forbiddenblood.png" width="50"><br>**Forbidden blood** | Convert the color of a chip to violet<br>(use only in shop) |
-| <img src="/assets/consumables/holster.png" width="50"><br>**Holster (not for a pistol)** | Convert the shape of a chip to boomerang<br>(use only in shop) |
+| <img src="/assets/consumables/holster.png" width="50"><br>**Holster** | Convert the shape of a chip to boomerang<br>(use only in shop) |
 | <img src="/assets/consumables/crayon.png" width="50"><br>**Crayon** | Convert the shape of a chip to star<br>(use only in shop) |
 | <img src="/assets/consumables/glasses.png" width="50"><br>**Glasses** | Convert the shape of a chip to real hexagon<br>(use only in shop) |
 | <img src="/assets/consumables/supplement.png" width="50"><br>**Supplement** | +60 extra base to a selected chip<br>(use only in shop) |
