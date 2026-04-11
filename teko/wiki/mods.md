@@ -68,5 +68,5 @@ header_buttons_row_2:
 | <img src="/assets/mods/deck.png" width="50"><br>**Deck** | +1 draw<br>You can only have 2 of these |
 | <img src="/assets/mods/fire.png" width="50"><br>**Fire** | Retrigger the card if it's an Action card<br>You can only have 2 of these |
 | <img src="/assets/mods/drop.png" width="50"><br>**Drop** | Retrigger the card if it isn't an Action card<br>You can only have 2 of these |
-| <img src="/assets/mods/skull.png" width="50"><br>**Skull** | Convert the card to sinister<br>Destroy the mod and remove 3 slots from the card |
+| <img src="/assets/mods/skull.png" width="50"><br>**Skull** | Convert the card to sinister<br>Destroy the mod and remove all the slots from the card |
 | <img src="/assets/mods/shield.png" width="50"><br>**Shield** | Convert the card to indestructible<br>Destroy the mod and remove 3 slots from the card |
