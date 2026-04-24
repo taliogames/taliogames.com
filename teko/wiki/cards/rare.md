@@ -72,7 +72,7 @@ header_buttons_row_2:
 | <img src="/assets/cards/blacksmith.jpg" width="50"><br>**Blacksmith** | Makes the card to his left indestructible upon entering the shop<br>Spends $3/4/5/6 depending on rarity (this card activates before killer cards)<br><span style="color:#FFE500">Indestructible</span> <span style="color:#FFFFFF">/</span> <span style="color:#FF00D7">Unique</span> | Kill 50 cards |
 | <img src="/assets/cards/whitesparklegend.jpg" width="50"><br>**White Spark Legend** | -8% goal | Roll the fifth face of the pirinola |
 | <img src="/assets/cards/zeke.jpg" width="50"><br>**Zeke** | -1 draws +14 multi<br><span style="color:#00FF1A">Action</span> | Defeat zeke 5 times |
-| <img src="/assets/cards/filling.jpg" width="50"><br>**Filling** | +20 base and copies the left card mods (every time a round starts)<br><span style="color:#00FF1A">Action</span> | Equip a card with 4 thumb mods |
+| <img src="/assets/cards/filling.jpg" width="50"><br>**Filling** | +20 base and copies the left card mods (every time a round starts)<br>You can't duplicate fire, drop, skull, or shield mods<br><span style="color:#00FF1A">Action</span> | Equip a card with 4 thumb mods |
 | <img src="/assets/cards/gela.jpg" width="50"><br>**Ms Gela** | x1.1 base<br><span style="color:#00FF1A">Action</span> | Defeat gela 5 times |
 | <img src="/assets/cards/flan.jpg" width="50"><br>**Mr Flan** | x1.2 multi<br><span style="color:#00FF1A">Action</span> | Defeat flan 5 times |
 | <img src="/assets/cards/kimi.jpg" width="50"><br>**Kimi** | +1 play size in the first turn | Defeat kimi 5 times |
