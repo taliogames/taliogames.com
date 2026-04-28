@@ -1,5 +1,11 @@
 [
   {
+    "title": "8.1.2",
+    "link": "https://store.steampowered.com/news/app/3835670/view/541136853162525679",
+    "pubDate": "April 27, 2026",
+    "content": "Fixed the missing interaction between special combos and The Based Card when the player is using Outlaw Pocket. Some achievements weren't working either. It's all been fixed now."
+  },
+  {
     "title": "8.1.1",
     "link": "https://store.steampowered.com/news/app/3835670/view/541136853162525529",
     "pubDate": "April 25, 2026",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/499476653639993338",
     "pubDate": "April 05, 2026",
     "content": "<ul class=\"bb_ul\"><li> Fixed a visual bug: Starlight Chips now appear with the Noise/Grain effect in the shop; previously they appeared gray.<br></li><li> Numberless/Ultranumber descriptions no longer duplicate in chip tooltips.<br></li><li> Modified tooltip title colors. Previously, all trait titles were the same purple color; now each has a distinct color. For example, if a chip is 'Ultracolor' and 'Shapeless' and also has a 'Knife Sticker', the titles of those three traits will each have different colors instead of all being purple.<br></li><li> If the player has Last Drink Card, Lino will now remove -$5. Previously this didn't work, making it easy to bypass this boss debuff.<br></li><li> Confirmed: chips with Knife Sticker CAN remove Numberless/Ultranumber chips.</li></ul>"
-  },
-  {
-    "title": "6.1.0",
-    "link": "https://store.steampowered.com/news/app/3835670/view/499476653639993285",
-    "pubDate": "April 04, 2026",
-    "content": "<div class=\"bb_h1\">A LOT OF BUFFS.</div>I've just made the most generous patch in the game! I hope it doesn't make things too easy, otherwise I'll have to adjust more. I want this to be balanced and for the winrate to stabilize. I obviously want players to win more runs, and I've realized the game has been unfair. I agree that balance still needs work, and I'll keep taking feedback. If I see that the winrate improves without getting out of control, I won't nerf the mechanics, I'll leave them as they are.<br><br><div class=\"bb_h3\">GENERAL BUFFS:</div><ul class=\"bb_ul\"><li> It's now easier to play with higher max mana. Previously, I had implemented a mechanic that heavily penalized this. This is one of the most important changes, allowing players to accumulate more resources and scale much more easily.<br></li><li> Playing with more mana in D3 and D4 will be even easier. This is because the mechanics in these higher difficulties make it more punishing to have low mana, making it one of the most valuable stats.<br></li><li> Starting from round 21, it's now also possible to earn additional money (there's a passive bonus for winning rounds; it was previously penalized, but now all runs beyond round 22 will earn money as well, including in Endless mode).<br></li><li> Increased general Initial Money (the amount players start runs with).<br></li><li> Special Money bonus in D4. Important for scaling better against bosses, as their effects are very punishing.<br></li><li> Reduced mod costs in D3 and D4 (-$1).<br></li><li> Chips with two traits at once (special color and shape) now cost $1 less.<br></li><li> Reduced Score Goal and Overkill scaling in D4.<br></li><li> Reduced Pro Mod cost to $9.</li></ul><div class=\"bb_h3\">SPECIFIC BUFFS:</div><ul class=\"bb_ul\"><li> Wood Pocket: -1 card cost. Players now start with 7 unlocked card slots instead of 5. Reduced cost of all card slots.<br></li><li> Forbidden Pocket: reduced Score Goal and Overkill increase percentages.<br></li><li> Hacker Pocket: increased Initial Money and +1 efficiency to all colored tubes.<br></li><li> Warlock/Chosen Pockets: restored Initial Money. Previously, they gave $0 to offset their strength.<br></li><li> Outlaw Pocket: reduced Overkill penalty.<br></li><li> Ruin Pocket: increased chances for Cards/Stickers.<br></li><li> Oily Pocket: reduced card cost, it was unnecessarily high.<br></li><li> Linen Pocket: buffed eco divisor ($1 every $3).<br></li><li> Drab Pocket: more Initial Money.<br></li><li> Empanada Pocket: more Initial Money.</li></ul><div class=\"bb_h3\">BUG FIXES:</div><ul class=\"bb_ul\"><li> Fixed crashes that ULTRANUMBER was causing. Also, ULTRANUMBER/NUMBERLESS should now position correctly in hand when discarding/playing chips and during draw animations.<br></li><li> Fixed Lankvian bug, it can no longer convert ULTRANUMBER/NUMBERLESS.</li></ul>"
   }
 ]
