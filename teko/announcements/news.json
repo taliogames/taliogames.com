@@ -1,5 +1,11 @@
 [
   {
+    "title": "8.1.3",
+    "link": "https://store.steampowered.com/news/app/3835670/view/705520142370472672",
+    "pubDate": "May 15, 2026",
+    "content": "Fixed an exploit with the Stamp Block Consumable. With this, it was practically possible to win any run."
+  },
+  {
     "title": "8.1.2",
     "link": "https://store.steampowered.com/news/app/3835670/view/541136853162525679",
     "pubDate": "April 27, 2026",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/505106787182054057",
     "pubDate": "April 10, 2026",
     "content": "<div class=\"bb_h1\">u.7.0.0!</div><br><div class=\"bb_h3\">21 new Consumables:</div>4 Common / 12 Rare / 5 Epic.<br><br><div class=\"bb_h3\">Consumable changes:</div><ul class=\"bb_ul\"><li> Outlay: +10 base -> +16 base.<br></li><li> Ticket: Epic -> Rare.<br></li><li> Shovel: NEW! 10% chance to drop a Common Sinister Card. Now you can only use this Consumable in the shop.<br></li><li> Mask: Fixed the description (instead of \"common card\" it said \"normal card\").</li></ul><div class=\"bb_h3\">New mechanic: Sinister.</div><ul class=\"bb_ul\"><li> Cards that are Sinister won't take up any slots. This means you can get infinite Cards, slots are no longer a limitation.<br></li><li> You can't blend Sinister Cards.<br></li><li> Now Forbidden Cards won't take up space because they'll all be Sinister, so they won't delete the leftmost Card anymore.</li></ul><div class=\"bb_h3\">Fixes:</div><ul class=\"bb_ul\"><li> Visual rework to Card management in the inventory, the drag animation, the arrangement, and position calculation. When hovering over a Card, it now appears on top of the others if they're too close together. Having more than 12 Cards makes the system change completely so it's not uncomfortable to manage them. Besides, I remade the Mod management from scratch (transferring/equipping/unequipping them should be easier when we have a lot of Cards). Cards will get smaller and separate from each other when we need to interact with them, otherwise they'll be grouped together, one on top of the other.<br></li><li> Linen Pocket no longer acts like Outlaw Pocket. That was a huge mistake. The logic for the 2 Pockets got mixed up. It's fixed now.<br></li><li> The order of consumables and Mods in the Codex has been fixed. Now they display correctly depending on their rarity, from highest to lowest.<br></li><li> The Cross Sticker is working now, it should give the Consumable/Sticker correctly when discarding it.<br></li><li> Improved the name color in the tooltip for Stickers that have an individual trait.<br></li><li> Purchased consumables will give $0 when sold.<br></li><li> Fixed Flowar Boss, it wasn't working before. Now it correctly blocks a random Action Card.</li></ul><br>I've created a basic <b>guide</b> with super hidden pro tips for everyone who just started playing the game, I highly recommend checking it out, it's completely free: <a class=\"bb_link\" href=\"https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwww.patreon.com%2Fposts%2Fteko-101-basic-155233740\" target=\"_blank\" rel=\" noopener\" ><b>LINK</b></a>. Yes, it's on Patreon, but it's a FREE post. I recommend following me there, I started making posts visible to everyone. Sometimes I publish paid content, but I also think about the people who can't pay. I upload very interesting stuff, whether it's about my life as a dev, tips, lore, and teasers. I love writing."
-  },
-  {
-    "title": "6.1.1",
-    "link": "https://store.steampowered.com/news/app/3835670/view/499476653639993338",
-    "pubDate": "April 05, 2026",
-    "content": "<ul class=\"bb_ul\"><li> Fixed a visual bug: Starlight Chips now appear with the Noise/Grain effect in the shop; previously they appeared gray.<br></li><li> Numberless/Ultranumber descriptions no longer duplicate in chip tooltips.<br></li><li> Modified tooltip title colors. Previously, all trait titles were the same purple color; now each has a distinct color. For example, if a chip is 'Ultracolor' and 'Shapeless' and also has a 'Knife Sticker', the titles of those three traits will each have different colors instead of all being purple.<br></li><li> If the player has Last Drink Card, Lino will now remove -$5. Previously this didn't work, making it easy to bypass this boss debuff.<br></li><li> Confirmed: chips with Knife Sticker CAN remove Numberless/Ultranumber chips.</li></ul>"
   }
 ]
