@@ -1,7 +1,5 @@
 # Terms of Service
 
-**Effective Date:** [To be completed]
-
 Welcome to **TEKO** ("the Game"), developed and published by **Talio Games** ("we," "us," or "our").
 
 By downloading, installing, accessing, or playing TEKO through Steam or any official Talio Games service, including our official website at https://taliogames.com and our official Discord community, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you must not use the Game.
