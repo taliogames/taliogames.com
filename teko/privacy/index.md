@@ -1,7 +1,5 @@
 # Privacy Policy
 
-**Effective Date:** [To be completed]
-
 This Privacy Policy explains how **Talio Games** ("we," "us," or "our") collects, uses, stores, and protects information when you play **TEKO** or interact with our official services.
 
 By using TEKO, you acknowledge the practices described in this Privacy Policy.
@@ -12,7 +10,6 @@ Talio Games collects only the information necessary to analyze gameplay and impr
 
 Gameplay data may include, but is not limited to:
 
-* Steam ID.
 * Steam display name.
 * Game version.
 * Difficulty level.
