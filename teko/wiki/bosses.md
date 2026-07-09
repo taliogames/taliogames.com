@@ -57,7 +57,7 @@ header_buttons_row_2:
 | <img src="/assets/bosses/hernan.png" width="50"><br>**Hernan** | Reduces your hand size by 2 |
 | <img src="/assets/bosses/kimi.png" width="50"><br>**Kimi** | -1 play size |
 | <img src="/assets/bosses/thebeast.png" width="50"><br>**The Beast** | If you haven't won, increase the score goal |
-| <img src="/assets/bosses/flowor.png" width="50"><br>**Flowar** | Every turn cancels the effect of a random action card |
+| <img src="/assets/bosses/flowor.png" width="50"><br>**Flowar** | Every turn cancels the effect of a random action card<br>It also cancels the effects of Thumb, Iron, Ball, Bat mods |
 | <img src="/assets/bosses/gasparov.png" width="50"><br>**Gasparov** | Cancels the color combo and doesn't fill the tubes |
 | <img src="/assets/bosses/layeni.png" width="50"><br>**La Yeni** | Cancels the number combo and doesn't fill the pillbox |
 | <img src="/assets/bosses/pdz.png" width="50"><br>**PDZ** | Cancels the shape combo and doesn't bake cookies |

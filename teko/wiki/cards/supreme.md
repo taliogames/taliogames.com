@@ -55,7 +55,7 @@ header_buttons_row_2:
 | Icon | Description | Unlock method |
 | :---: | :---: | :---: |
 | <img src="/assets/cards/tekano.jpg" width="50"><br>**Tekano** | x2.7 multi<br><span style="color:#00FF1A">Action</span> | Score your first tekano special combo |
-| <img src="/assets/cards/golddigger.jpg" width="50"><br>**Gold Digger** | + x0.25 multi per each $10<br><span style="color:#00FF1A">Action</span> | Reach $100 |
+| <img src="/assets/cards/golddigger.jpg" width="50"><br>**Gold Digger** | x0.25 multi per each $10<br><span style="color:#00FF1A">Action</span> | Reach $100 |
 | <img src="/assets/cards/wawa.jpg" width="50"><br>**Wawa** | +1 mana +1 discards | Defeat wawa 5 times |
 | <img src="/assets/cards/gatulio.jpg" width="50"><br>**Gatulio** | +2 discards | Defeat gatulio 5 times |
 | <img src="/assets/cards/hernan.jpg" width="50"><br>**Hernan** | x1.13 base<br>+2 draws<br><span style="color:#00FF1A">Action</span> | Defeat hernan 5 times |
