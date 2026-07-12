@@ -37,7 +37,7 @@ header_buttons_row_2:
 | <img src="/assets/pockets/jean.png" width="50"><br>**Jean** | Classic game without modifications | - |
 | <img src="/assets/pockets/hacker.png" width="50"><br>**Hacker** | It lets you play an extra chip | Win a run with D0 Jean Pocket to unlock |
 | <img src="/assets/pockets/warlock.png" width="50"><br>**Warlock** | You start with a random card (its rarity depends on difficulty) unsellable and indestructible | Win a run with D0 Hacker Pocket to unlock |
-| <img src="/assets/pockets/outlaw.png" width="50"><br>**Outlaw** | You will always have 2 mana and special combos won't degrade with use | Win a run with D2 Jean Pocket to unlock |
+| <img src="/assets/pockets/outlaw.png" width="50"><br>**Outlaw** | You will always start rounds with 2 max mana and special combos won't degrade with use | Win a run with D2 Jean Pocket to unlock |
 | <img src="/assets/pockets/linen.png" width="50"><br>**Linen** | You can have a minimum of 5 chips and there is no shuffle limit | Win a run with D0 Warlock Pocket to unlock |
 | <img src="/assets/pockets/ruin.png" width="50"><br>**Ruin** | Your starting chips begin with knife stickers | Win a run with D2 Outlaw Pocket to unlock |
 | <img src="/assets/pockets/chosen.png" width="50"><br>**Chosen** | You start with a card of your choice (it will be unsellable and indestructible) its rarity depends on difficulty | Win a run with D4 Warlock Pocket to unlock |
