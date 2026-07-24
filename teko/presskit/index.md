@@ -67,43 +67,51 @@ header_buttons_row_2:
 </p>
 
 <p style="text-align: justify;">
-    CORE GAMEPLAY: SCORE BIG OR GO HOME
-TEKO takes the combo scoring formula to the next level. You play hands using Chips, each featuring a specific color, number, and shape. But here is the twist: your goal is to form 3 independent combos at the same time per hand. 
-* Mana Management: You spend 1 mana per turn, which refreshes every round. If you run out of mana before reaching the score goal, it's game over.
-* Dynamic Combos: Level up your base combos (like Pairs), discover rare and illegal Hands, or trigger special effects by landing specific combo combinations. Countings aren't strictly rigid, giving you room to strategize.
-* Passive Triggers: Every Chip played fills up tubes, a cookie tray, and a pillbox, granting you crucial bonuses throughout your run.
-* Boss Fights: Face off against challenging Bosses that inflict temporary debuffs. Defeat them, and you will be rewarded with powerful permanent perks.
-* The Overkill Mechanic: Want to get rich? Exceed the score goal (Overkill) to earn massive cash payouts. But beware: doing so will exponentially increasing the point requirements for future rounds. 
+    <strong>CORE GAMEPLAY: SCORE BIG OR GO HOME</strong><br>
+    TEKO takes the combo scoring formula to the next level. You play hands using Chips, each featuring a specific color, number, and shape. But here is the twist: your goal is to form 3 independent combos at the same time per hand. 
 </p>
+<ul style="text-align: justify;">
+    <li><strong>Mana Management:</strong> You spend 1 mana per turn, which refreshes every round. If you run out of mana before reaching the score goal, it's game over.</li>
+    <li><strong>Dynamic Combos:</strong> Level up your base combos (like Pairs), discover rare and illegal Hands, or trigger special effects by landing specific combo combinations. Countings aren't strictly rigid, giving you room to strategize.</li>
+    <li><strong>Passive Triggers:</strong> Every Chip played fills up tubes, a cookie tray, and a pillbox, granting you crucial bonuses throughout your run.</li>
+    <li><strong>Boss Fights:</strong> Face off against challenging Bosses that inflict temporary debuffs. Defeat them, and you will be rewarded with powerful permanent perks.</li>
+    <li><strong>The Overkill Mechanic:</strong> Want to get rich? Exceed the score goal (Overkill) to earn massive cash payouts. But beware: doing so will exponentially increasing the point requirements for future rounds.</li>
+</ul>
 
 <p style="text-align: justify;">
-    BUILDING YOUR ENGINE
-Your success entirely depends on how you manipulate your deck and economy. The shop is your playground:
-* Cards & Mods: Acquire Cards (powerful relics that grant active and passive effects to your stats and scoring) and upgrade them using Mods for even better bonuses. Furthermore, every action taken in the game will retroactively count towards the Cards that interact with those actions.
-* Stickers: Apply Stickers directly to your Chips, permanently granting them unique, game-changing effects.
-* Manipulate your Pocket: Your deck is called a Pocket. Modify it by deleting, cloning, or interacting with your Chips to craft the perfect setup.
-* Shop Mastery: Earn interest by saving your money, reroll the shop for better loot, lock items for the next round, or even pre-ban cards so they never appear in your run. Got unwanted items? Blend them to create items of a higher rarity!
+    <strong>BUILDING YOUR ENGINE</strong><br>
+    Your success entirely depends on how you manipulate your deck and economy. The shop is your playground:
 </p>
+<ul style="text-align: justify;">
+    <li><strong>Cards & Mods:</strong> Acquire Cards (powerful relics that grant active and passive effects to your stats and scoring) and upgrade them using Mods for even better bonuses. Furthermore, every action taken in the game will retroactively count towards the Cards that interact with those actions.</li>
+    <li><strong>Stickers:</strong> Apply Stickers directly to your Chips, permanently granting them unique, game-changing effects.</li>
+    <li><strong>Manipulate your Pocket:</strong> Your deck is called a Pocket. Modify it by deleting, cloning, or interacting with your Chips to craft the perfect setup.</li>
+    <li><strong>Shop Mastery:</strong> Earn interest by saving your money, reroll the shop for better loot, lock items for the next round, or even pre-ban cards so they never appear in your run. Got unwanted items? Blend them to create items of a higher rarity!</li>
+</ul>
 
 <p style="text-align: justify;">
-    INSANE ITEM VARIETY
-With over 200 distinct and unique items, no two runs will ever feel the same. 
-* Open Packs to obtain random powerful items.
-* Use Consumables for immediate, clutch saves when you are backed into a corner.
-* Hunt for Forbidden Cards: Extremely rare, highly illegal, and obscenely powerful items capable of completely breaking the game's balance.
+    <strong>INSANE ITEM VARIETY</strong><br>
+    With over 200 distinct and unique items, no two runs will ever feel the same. 
 </p>
+<ul style="text-align: justify;">
+    <li>Open Packs to obtain random powerful items.</li>
+    <li>Use Consumables for immediate, clutch saves when you are backed into a corner.</li>
+    <li>Hunt for Forbidden Cards: Extremely rare, highly illegal, and obscenely powerful items capable of completely breaking the game's balance.</li>
+</ul>
 
 <p style="text-align: justify;">
-    ENDLESS REPLAYABILITY & SCALING DIFFICULTY
-TEKO is designed to be highly entertaining for casual players, but a true playground for hardcore completionists. 
-* Unlock a wide variety of Pockets, each offering a unique playstyle.
-* Test your skills across 5 levels of Deepness (difficulty scaling). As you dive deeper, managing your money and score goals becomes significantly harder, high rarity resources become scarce, and the final depth forces you to fight brutal double boss encounters.
-* Hundreds of hours of content, unlockables, and dozens of achievements to conquer.
+    <strong>ENDLESS REPLAYABILITY & SCALING DIFFICULTY</strong><br>
+    TEKO is designed to be highly entertaining for casual players, but a true playground for hardcore completionists. 
 </p>
+<ul style="text-align: justify;">
+    <li>Unlock a wide variety of Pockets, each offering a unique playstyle.</li>
+    <li>Test your skills across 5 levels of Deepness (difficulty scaling). As you dive deeper, managing your money and score goals becomes significantly harder, high rarity resources become scarce, and the final depth forces you to fight brutal double boss encounters.</li>
+    <li>Hundreds of hours of content, unlockables, and dozens of achievements to conquer.</li>
+</ul>
 
 <p style="text-align: justify;">
-    A GROWING UNIVERSE
-Developed entirely by a passionate solo developer who actively listens to player feedback, TEKO is a constantly expanding experience. Backed by an active, dedicated niche community, the game receives periodic updates packed with fresh content, ensuring there is always a new secret to uncover in Mid World.
+    <strong>A GROWING UNIVERSE</strong><br>
+    Developed entirely by a passionate solo developer who actively listens to player feedback, TEKO is a constantly expanding experience. Backed by an active, dedicated niche community, the game receives periodic updates packed with fresh content, ensuring there is always a new secret to uncover in Mid World.
 </p>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 10px; margin-bottom: 10px;">
