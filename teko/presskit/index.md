@@ -59,7 +59,7 @@ header_buttons_row_2:
     </div>
 </div>
 <p style="text-align: justify;">
-    Enter the casino in TEKO, an addictive Roguelike Deckbuilder! Hit the score goal by playing 3 poker hands simultaneously. Modify your Chips, collect Cards, and take risks to maximize your profits. An indie progressive scoring game inspired by Balatro.
+    Enter the casino in <strong>TEKO</strong>, an addictive Roguelike Deckbuilder! Hit the score goal by playing 3 poker hands simultaneously. Modify your Chips, collect Cards, and take risks to maximize your profits. An indie progressive scoring game inspired by Balatro.
 </p>
 
 <p style="text-align: justify;">
@@ -119,6 +119,10 @@ header_buttons_row_2:
     <img src="/assets/sc2.png" style="width: 49%; height: auto;">
     <img src="/assets/sc3.png" style="width: 49%; height: auto;">
     <img src="/assets/sc4.png" style="width: 49%; height: auto;">
+	<img src="/assets/sc5.png" style="width: 49%; height: auto;">
+    <img src="/assets/sc6.png" style="width: 49%; height: auto;">
+    <img src="/assets/sc7.png" style="width: 49%; height: auto;">
+    <img src="/assets/sc8.png" style="width: 49%; height: auto;">
 </div>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 10px;">
