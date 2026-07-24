@@ -34,7 +34,7 @@ header_buttons_row_2:
 
 You can create your own CARDS tier list [here](https://tiermaker.com/create/teko-cards-19231236).
 
-<h2 style="text-align: center;">TEKO u5.0 - Best CARDS for beginners!</h2>
+<h2 style="text-align: center;">TEKO u9.0 - Best CARDS for beginners!</h2>
 <p align="center" style="margin-top: -5px;">
   <img src="/assets/tierlist1.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </p>
