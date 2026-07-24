@@ -59,23 +59,51 @@ header_buttons_row_2:
     </div>
 </div>
 <p style="text-align: justify;">
-    TEKO is an Indie Roguelike Deckbuilder where you have to reach the highest possible score by playing Poker hands, but in an unconventional way: making 3 combos at once.
+    Enter the casino in TEKO, an addictive Roguelike Deckbuilder! Hit the score goal by playing 3 poker hands simultaneously. Modify your Chips, collect Cards, and take risks to maximize your profits. An indie progressive scoring game inspired by Balatro.
 </p>
 
 <p style="text-align: justify;">
-    Every chip played counts! You won’t waste a single hand. Create your own strategies: each one offers a different way to win your runs. As you progress, you’ll unlock new ways to multiply your score and push your limits even further.
+    Set in a vibrant, highly saturated 2D original universe with hand-drawn characters and a deep hidden lore, TEKO is a colorful Roguelike Deckbuilder inspired by games like Balatro and classic retro flash games. Push your luck, break the game, and build the ultimate scoring engine!
 </p>
 
 <p style="text-align: justify;">
-    Manage your Pocket, delete Chips, buy Consumables, bet to earn more MONEY, gain perks for playing better, take risks, choose whether to save or spend it all, fight bosses, surpass the imposed limits, and pick the strategy that best fits what you find in the Shop!
+    CORE GAMEPLAY: SCORE BIG OR GO HOME
+TEKO takes the combo scoring formula to the next level. You play hands using Chips, each featuring a specific color, number, and shape. But here is the twist: your goal is to form 3 independent combos at the same time per hand. 
+* Mana Management: You spend 1 mana per turn, which refreshes every round. If you run out of mana before reaching the score goal, it's game over.
+* Dynamic Combos: Level up your base combos (like Pairs), discover rare and illegal Hands, or trigger special effects by landing specific combo combinations. Countings aren't strictly rigid, giving you room to strategize.
+* Passive Triggers: Every Chip played fills up tubes, a cookie tray, and a pillbox, granting you crucial bonuses throughout your run.
+* Boss Fights: Face off against challenging Bosses that inflict temporary debuffs. Defeat them, and you will be rewarded with powerful permanent perks.
+* The Overkill Mechanic: Want to get rich? Exceed the score goal (Overkill) to earn massive cash payouts. But beware: doing so will exponentially increasing the point requirements for future rounds. 
 </p>
 
 <p style="text-align: justify;">
-    There is no single correct way to play this. Break the game, dare to try new things. Everything you do will add to your final score.
+    BUILDING YOUR ENGINE
+Your success entirely depends on how you manipulate your deck and economy. The shop is your playground:
+* Cards & Mods: Acquire Cards (powerful relics that grant active and passive effects to your stats and scoring) and upgrade them using Mods for even better bonuses. Furthermore, every action taken in the game will retroactively count towards the Cards that interact with those actions.
+* Stickers: Apply Stickers directly to your Chips, permanently granting them unique, game-changing effects.
+* Manipulate your Pocket: Your deck is called a Pocket. Modify it by deleting, cloning, or interacting with your Chips to craft the perfect setup.
+* Shop Mastery: Earn interest by saving your money, reroll the shop for better loot, lock items for the next round, or even pre-ban cards so they never appear in your run. Got unwanted items? Blend them to create items of a higher rarity!
 </p>
 
 <p style="text-align: justify;">
-    There are tons of available combinations, amazing interactions, and dozens of items that will let you create your ideal Build!
+    INSANE ITEM VARIETY
+With over 200 distinct and unique items, no two runs will ever feel the same. 
+* Open Packs to obtain random powerful items.
+* Use Consumables for immediate, clutch saves when you are backed into a corner.
+* Hunt for Forbidden Cards: Extremely rare, highly illegal, and obscenely powerful items capable of completely breaking the game's balance.
+</p>
+
+<p style="text-align: justify;">
+    ENDLESS REPLAYABILITY & SCALING DIFFICULTY
+TEKO is designed to be highly entertaining for casual players, but a true playground for hardcore completionists. 
+* Unlock a wide variety of Pockets, each offering a unique playstyle.
+* Test your skills across 5 levels of Deepness (difficulty scaling). As you dive deeper, managing your money and score goals becomes significantly harder, high rarity resources become scarce, and the final depth forces you to fight brutal double boss encounters.
+* Hundreds of hours of content, unlockables, and dozens of achievements to conquer.
+</p>
+
+<p style="text-align: justify;">
+    A GROWING UNIVERSE
+Developed entirely by a passionate solo developer who actively listens to player feedback, TEKO is a constantly expanding experience. Backed by an active, dedicated niche community, the game receives periodic updates packed with fresh content, ensuring there is always a new secret to uncover in Mid World.
 </p>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 10px; margin-bottom: 10px;">
@@ -86,13 +114,5 @@ header_buttons_row_2:
 </div>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 10px;">
-    <iframe width="100%" height="450" src="https://www.youtube.com/embed/au3KDE8622w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-</div>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 10px;">
-    <iframe width="100%" height="450" src="https://www.youtube.com/embed/vZh8s_Xk0Eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-</div>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 10px;">
-    <iframe width="100%" height="450" src="https://www.youtube.com/embed/r8VpMwnMZZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+    <iframe width="100%" height="450" src="https://www.youtube.com/embed/AnDpX4KsGiw" title="TEKO Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
 </div>
