@@ -1,5 +1,11 @@
 [
   {
+    "title": "9.1.0",
+    "link": "https://store.steampowered.com/news/app/3835670/view/702149418116186726",
+    "pubDate": "July 30, 2026",
+    "content": "<p class=\"bb_paragraph\">NEW! Shop Filter Feature. Now, after beating the round 13 boss, the player will be able to choose which items they don't want to show up on sale in the shop for the rest of the run. This feature has also been added as an achievement.</p><p class=\"bb_paragraph\">Along with the Shop Filter, you can also revert the pre-bans made to cards!</p><p class=\"bb_paragraph\">Both in the Shop Filter and the Codex, the 'Current' text for the cards values should now be visible. I think this wasn't happening before; it has been fixed. There was a small issue calling the respective lines.</p><p class=\"bb_paragraph\">Added a new button to reset the card ban selection in the codex.</p><p class=\"bb_paragraph\">2 Steam achievements (pre-ban & boss preview features) have been fixed and can now be earned retroactively.</p><p class=\"bb_paragraph\">Fixed two errors when changing profiles: (1) a white border would appear on the sides of the screen, it was a screen manager bug. (2) On the next run, shapeless chips would appear instead of the normal ones.</p><p class=\"bb_paragraph\">Now mod texts can stack in the tooltip (if you have more than 1 mod of the same type, it will show, for example, 'x2' instead of repeating the name and its description twice).</p><p class=\"bb_paragraph\">The text on the button to buy card slots has been made smaller (in its Spanish version, it didn't fit well before).</p>"
+  },
+  {
     "title": "Good news for TEKO",
     "link": "https://store.steampowered.com/news/app/3835670/view/714533682400985725",
     "pubDate": "July 24, 2026",
@@ -52,11 +58,5 @@
     "link": "https://store.steampowered.com/news/app/3835670/view/705520142370472672",
     "pubDate": "May 15, 2026",
     "content": "Fixed an exploit with the Stamp Block Consumable. With this, it was practically possible to win any run."
-  },
-  {
-    "title": "8.1.2",
-    "link": "https://store.steampowered.com/news/app/3835670/view/541136853162525679",
-    "pubDate": "April 27, 2026",
-    "content": "Fixed the missing interaction between special combos and The Based Card when the player is using Outlaw Pocket. Some achievements weren't working either. It's all been fixed now."
   }
 ]
