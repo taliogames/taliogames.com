@@ -65,5 +65,5 @@ header_buttons_row_2:
 | <img src="/assets/cards/thetransgressor.jpg" width="50"><br>**The transgressor** | +$2 per every 3 discarded chips | Win a run with D4 Drab Pocket to unlock |
 | <img src="/assets/cards/parrotshell.jpg" width="50"><br>**Parrot shell** | x1.6 base<br><span style="color:#00FF1A">Action</span> | Win a run with D2 Ruin Pocket to unlock |
 | <img src="/assets/cards/oracle.jpg" width="50"><br>**Oracle** | Shows an extra card and mod in shop<br><span style="color:#FF00D7">Unique</span> | Win a run with D4 Outlaw Pocket to unlock |
-| <img src="/assets/cards/theunstoppableduo.jpg" width="50"><br>**The unstoppable duo** | Retriggers a random action card<br>+6 multi per each action card<br><span style="color:#00FF1A">Action</span> | Transform Mikello card with Flowor card |
+| <img src="/assets/cards/theunstoppableduo.jpg" width="50"><br>**The unstoppable duo** | Retriggers a random action card<br>+6 multi per each action card<br><span style="color:#00FF1A">Action</span> | Transform Mikello card with Flowar card |
 | <img src="/assets/cards/pixibar.jpg" width="50"><br>**Pixibar** | 20% chances to keep the consumable you used<br>+1 multi for each consumable used<br><span style="color:#00FF1A">Action</span><br><span style="color:#FF00D7">Unique</span> | Sell 250 consumables |
