@@ -18,17 +18,21 @@ except Exception as e:
 # Obtener el nombre del parche (si está vacío, usamos un texto por defecto)
 patch_name = data.get('patch_name', 'PATCH -')
 
-# Construimos la tabla envuelta en HTML para centrarla en la página.
-# Le damos un ancho máximo (ej: 400px) para que no se estire demasiado, y margin: auto para centrarla.
-table_md = (
+# Construimos la tabla en HTML puro. 
+# display: flex centra la tabla en la página.
+# width: max-content anula el "width: 100%" de tu CSS.
+# padding da ese espacio lindo (aire) dentro de las celdas.
+table_html = (
     f"<h2 style=\"text-align: center;\">{patch_name}</h2>\n\n"
-    "<div style=\"max-width: 400px; margin: 0 auto;\">\n\n"
-    "| | |\n"
-    "| :---: | :---: |\n"
-    f"| **Runs** | {data.get('runs', 0)} |\n"
-    f"| **Won** | {data.get('won', 0)} |\n"
-    f"| **Lost** | {data.get('lost', 0)} |\n"
-    f"| **Winrate** | {data.get('winrate', '0%')} |\n\n"
+    "<div style=\"display: flex; justify-content: center; margin: 20px 0;\">\n"
+    "  <table style=\"width: max-content; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);\">\n"
+    "    <tbody>\n"
+    f"      <tr><td style=\"text-align: center; padding: 10px 30px;\"><strong>Runs</strong></td><td style=\"text-align: center; padding: 10px 30px;\">{data.get('runs', 0)}</td></tr>\n"
+    f"      <tr><td style=\"text-align: center; padding: 10px 30px;\"><strong>Won</strong></td><td style=\"text-align: center; padding: 10px 30px;\">{data.get('won', 0)}</td></tr>\n"
+    f"      <tr><td style=\"text-align: center; padding: 10px 30px;\"><strong>Lost</strong></td><td style=\"text-align: center; padding: 10px 30px;\">{data.get('lost', 0)}</td></tr>\n"
+    f"      <tr><td style=\"text-align: center; padding: 10px 30px;\"><strong>Winrate</strong></td><td style=\"text-align: center; padding: 10px 30px;\">{data.get('winrate', '0%')}</td></tr>\n"
+    "    </tbody>\n"
+    "  </table>\n"
     "</div>"
 )
 
@@ -36,10 +40,10 @@ try:
     with open(FILE_PATH, "r", encoding="utf-8") as file:
         content = file.read()
 
-    # Agregamos los reemplazos con saltos de línea
+    # Reemplazamos el contenido en runs.md
     new_content = re.sub(
         r"<!-- STATS_START -->.*?<!-- STATS_END -->",
-        f"<!-- STATS_START -->\n\n{table_md}\n\n<!-- STATS_END -->",
+        f"<!-- STATS_START -->\n{table_html}\n<!-- STATS_END -->",
         content,
         flags=re.DOTALL
     )
@@ -47,7 +51,7 @@ try:
     with open(FILE_PATH, "w", encoding="utf-8") as file:
         file.write(new_content)
         
-    print("runs.md actualizado exitosamente.")
+    print("runs.md actualizado exitosamente con tabla HTML.")
 except Exception as e:
     print(f"Error modificando el archivo Markdown: {e}")
     sys.exit(1)
