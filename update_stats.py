@@ -3,7 +3,7 @@ import re
 import sys
 
 # 1. Reemplaza con la URL de tu Web App de Google Apps Script
-URL = "TU_URL_DE_GOOGLE_APPS_SCRIPT_AQUI"
+URL = "https://script.google.com/macros/s/AKfycbzUPJSGk3kyRRgGt38DlWPjLP5SF0HkNk6b07anPPB7HTaqoN7FznAKfGBcWlcUB3vi/exec"
 
 # 2. Ajusta la ruta exacta hacia tu archivo runs.md dentro del repositorio
 FILE_PATH = "teko/wiki/stats/runs/runs.md"
