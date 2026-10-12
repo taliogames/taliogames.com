@@ -43,9 +43,7 @@ header_buttons_row_2:
 
 <h2 style="text-align: center;">u10.0</h2>
 
-<div style="max-width: 400px; margin: 0 auto;">
-
-| | |
+| bro?! |
 | :---: | :---: |
 | **Runs** | 548 |
 | **Won** | 114 |
