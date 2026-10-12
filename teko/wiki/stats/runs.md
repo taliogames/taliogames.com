@@ -43,10 +43,15 @@ header_buttons_row_2:
 
 <h2 style="text-align: center;">u10.0</h2>
 
+<div style="max-width: 400px; margin: 0 auto;">
+
+| | |
 | :---: | :---: |
 | **Runs** | 548 |
 | **Won** | 114 |
 | **Lost** | 434 |
 | **Winrate** | 20,80% |
+
+</div>
 
 <!-- STATS_END -->
