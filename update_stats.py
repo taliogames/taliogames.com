@@ -15,9 +15,15 @@ except Exception as e:
     print(f"Error obteniendo los datos de Google Sheets: {e}")
     sys.exit(1)
 
-# Construir la tabla asegurando que no haya espacios (sangría) al inicio de las líneas
+# Obtener el nombre del parche (si está vacío, usamos un texto por defecto)
+patch_name = data.get('patch_name', 'PATCH -')
+
+# Construir el HTML del título y la tabla sin la primera fila (Métrica/Valor)
+# Mantenemos la fila de alineación (| :--- | :---: |) porque Markdown la exige para renderizar la tabla,
+# pero en Jekyll, al no tener encabezados con texto, suele ocultarlos o dejarlos invisibles.
 table_md = (
-    "| Métrica | Valor |\n"
+    f"<h2 style=\"text-align: center;\">{patch_name}</h2>\n\n"
+    "| | |\n"
     "| :--- | :---: |\n"
     f"| **Runs** | {data.get('runs', 0)} |\n"
     f"| **Won** | {data.get('won', 0)} |\n"
@@ -29,7 +35,7 @@ try:
     with open(FILE_PATH, "r", encoding="utf-8") as file:
         content = file.read()
 
-    # NOTA: Agregamos \n\n (dos saltos de línea) antes y después de la tabla
+    # Agregamos los reemplazos con saltos de línea
     new_content = re.sub(
         r"<!-- STATS_START -->.*?<!-- STATS_END -->",
         f"<!-- STATS_START -->\n\n{table_md}\n\n<!-- STATS_END -->",
