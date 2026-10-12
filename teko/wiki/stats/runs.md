@@ -46,6 +46,12 @@ header_buttons_row_2:
 | <img src="/assets/cards/enrichment.jpg" width="50"><br>**Enrichment** | +1 multi for each chip beyond 40<br><span style="color:#00FF1A">Action</span> |
 
 <!-- STATS_START -->
+| Métrica | Valor |
+| :--- | :---: |
+| **Runs** | 548 |
+| **Won** | 114 |
+| **Lost** | 434 |
+| **Winrate** | 20,80% |
 <!-- STATS_END -->
 
 <h2 style="text-align: center;">Unlocked cards</h2>
