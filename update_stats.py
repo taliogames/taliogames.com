@@ -18,13 +18,12 @@ except Exception as e:
 # Obtener el nombre del parche (si está vacío, usamos un texto por defecto)
 patch_name = data.get('patch_name', 'PATCH -')
 
-# Construir el HTML del título y la tabla sin la primera fila (Métrica/Valor)
-# Mantenemos la fila de alineación (| :--- | :---: |) porque Markdown la exige para renderizar la tabla,
-# pero en Jekyll, al no tener encabezados con texto, suele ocultarlos o dejarlos invisibles.
+# Construir el HTML del título y la tabla.
+# Se omitió la fila de cabeceras.
+# Se usan los delimitadores :---: para alinear todo al centro.
 table_md = (
     f"<h2 style=\"text-align: center;\">{patch_name}</h2>\n\n"
-    "| | |\n"
-    "| :--- | :---: |\n"
+    "| :---: | :---: |\n"
     f"| **Runs** | {data.get('runs', 0)} |\n"
     f"| **Won** | {data.get('won', 0)} |\n"
     f"| **Lost** | {data.get('lost', 0)} |\n"
