@@ -18,16 +18,18 @@ except Exception as e:
 # Obtener el nombre del parche (si está vacío, usamos un texto por defecto)
 patch_name = data.get('patch_name', 'PATCH -')
 
-# Construir el HTML del título y la tabla.
-# Se omitió la fila de cabeceras.
-# Se usan los delimitadores :---: para alinear todo al centro.
+# Construimos la tabla envuelta en HTML para centrarla en la página.
+# Le damos un ancho máximo (ej: 400px) para que no se estire demasiado, y margin: auto para centrarla.
 table_md = (
     f"<h2 style=\"text-align: center;\">{patch_name}</h2>\n\n"
+    "<div style=\"max-width: 400px; margin: 0 auto;\">\n\n"
+    "| | |\n"
     "| :---: | :---: |\n"
     f"| **Runs** | {data.get('runs', 0)} |\n"
     f"| **Won** | {data.get('won', 0)} |\n"
     f"| **Lost** | {data.get('lost', 0)} |\n"
-    f"| **Winrate** | {data.get('winrate', '0%')} |"
+    f"| **Winrate** | {data.get('winrate', '0%')} |\n\n"
+    "</div>"
 )
 
 try:
