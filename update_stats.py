@@ -6,7 +6,7 @@ import sys
 URL = "https://script.google.com/macros/s/AKfycbzUPJSGk3kyRRgGt38DlWPjLP5SF0HkNk6b07anPPB7HTaqoN7FznAKfGBcWlcUB3vi/exec"
 
 # 2. Ajusta la ruta exacta hacia tu archivo runs.md dentro del repositorio
-FILE_PATH = "teko/wiki/stats/runs/runs.md"
+FILE_PATH = "teko/wiki/stats/runs.md"
 
 try:
     response = requests.get(URL)
