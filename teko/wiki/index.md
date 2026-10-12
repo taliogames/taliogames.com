@@ -64,3 +64,7 @@ Welcome to the official TEKO Wiki!
 * **Tier lists**:
     * [Cards tierlist](/teko/wiki/cards-tierlist/)
     * [Pockets tierlist](/teko/wiki/pockets-tierlist/)
+* **Stats**:
+	  * [Runs stats](/teko/wiki/stats/runs/)
+	  * [Cards stats](/teko/wiki/stats/cards/)
+	  * [Pockets stats](/teko/wiki/stats/pockets/)
