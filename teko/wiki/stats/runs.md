@@ -40,10 +40,12 @@ header_buttons_row_2:
     new_tab: true
 ---
 <!-- STATS_START -->
+
 | Métrica | Valor |
 | :--- | :---: |
 | **Runs** | 548 |
 | **Won** | 114 |
 | **Lost** | 434 |
 | **Winrate** | 20,80% |
+
 <!-- STATS_END -->
