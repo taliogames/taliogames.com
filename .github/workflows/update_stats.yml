@@ -1,0 +1,32 @@
+name: Update Stats from Google Sheets
+
+on:
+  schedule:
+    # Se ejecuta cada 12 horas (en el minuto 0 de las horas 0 y 12 UTC)
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # Permite ejecutar el script manualmente desde la pestaña "Actions"
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Python script
+        run: python update_stats.py # Ajusta la ruta si guardaste el script en otra carpeta
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add teko/wiki/stats/runs/runs.md # Ajusta la ruta a tu archivo MD
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated stats update" && git push)
