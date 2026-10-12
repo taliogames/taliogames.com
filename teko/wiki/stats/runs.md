@@ -40,16 +40,16 @@ header_buttons_row_2:
     new_tab: true
 ---
 <!-- STATS_START -->
-
 <h2 style="text-align: center;">u10.0</h2>
 
-| bro?! |
-| :---: | :---: |
-| **Runs** | 548 |
-| **Won** | 114 |
-| **Lost** | 434 |
-| **Winrate** | 20,80% |
-
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <table style="width: max-content; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <tbody>
+      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Runs</strong></td><td style="text-align: center; padding: 10px 30px;">548</td></tr>
+      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Won</strong></td><td style="text-align: center; padding: 10px 30px;">114</td></tr>
+      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Lost</strong></td><td style="text-align: center; padding: 10px 30px;">434</td></tr>
+      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Winrate</strong></td><td style="text-align: center; padding: 10px 30px;">20,80%</td></tr>
+    </tbody>
+  </table>
 </div>
-
 <!-- STATS_END -->
