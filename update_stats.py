@@ -8,6 +8,7 @@ URL = "https://script.google.com/macros/s/AKfycbzUPJSGk3kyRRgGt38DlWPjLP5SF0HkNk
 # 2. Las rutas hacia tus archivos Markdown
 FILE_PATH_RUNS = "teko/wiki/stats/runs.md"
 FILE_PATH_CARDS = "teko/wiki/stats/cards.md"
+FILE_PATH_POCKETS = "teko/wiki/stats/pockets.md"
 
 try:
     response = requests.get(URL)
@@ -128,7 +129,30 @@ html_cards += build_html_table(data.get('cards_most_played', []), has_header=Tru
 
 
 # =========================================================
+# CONSTRUCCIÓN PARA POCKETS.MD
+# =========================================================
+html_pockets = f"<h2 style=\"text-align: center;\">{patch_name}</h2>\n\n"
+
+# 1. TOP 5 highest winrate Pockets
+html_pockets += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">TOP 5 highest winrate Pockets</h2>\n"
+html_pockets += build_html_table(data.get('pockets_top_winrate', []), has_header=True, bold_col_indices=[0])
+
+# 2. TOP 5 lowest winrate Pockets
+html_pockets += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">TOP 5 lowest winrate Pockets</h2>\n"
+html_pockets += build_html_table(data.get('pockets_low_winrate', []), has_header=True, bold_col_indices=[0])
+
+# 3. Most played Pockets (Dinámica)
+html_pockets += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">Most played Pockets</h2>\n"
+html_pockets += build_html_table(data.get('pockets_most_played', []), has_header=True, bold_col_indices=[0])
+
+# 4. Winrate by difficulty for each Pocket (Dinámica)
+html_pockets += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">Winrate by difficulty for each Pocket</h2>\n"
+html_pockets += build_html_table(data.get('pockets_diff_table', []), has_header=True, bold_col_indices=[0])
+
+
+# =========================================================
 # ACTUALIZAR ARCHIVOS
 # =========================================================
 update_markdown_file(FILE_PATH_RUNS, html_runs)
 update_markdown_file(FILE_PATH_CARDS, html_cards)
+update_markdown_file(FILE_PATH_POCKETS, html_pockets)
