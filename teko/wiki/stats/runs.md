@@ -41,7 +41,9 @@ header_buttons_row_2:
 ---
 <!-- STATS_START -->
 
-| Métrica | Valor |
+<h2 style="text-align: center;">u10.0</h2>
+
+| | |
 | :--- | :---: |
 | **Runs** | 548 |
 | **Won** | 114 |
