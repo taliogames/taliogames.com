@@ -43,7 +43,6 @@ header_buttons_row_2:
 
 <h2 style="text-align: center;">u10.0</h2>
 
-| | |
 | :--- | :---: |
 | **Runs** | 548 |
 | **Won** | 114 |
