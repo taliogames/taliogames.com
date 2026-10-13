@@ -162,14 +162,14 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">12,5%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Hacker Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Outlaw Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Outlaw Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Hacker Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
@@ -190,11 +190,39 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Chosen Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Warlock Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Swanky Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">100,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Magic Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Forbidden Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
     </tbody>
   </table>
@@ -221,7 +249,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">25%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Hacker Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Outlaw Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
@@ -229,7 +257,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Outlaw Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Hacker Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
@@ -253,8 +281,40 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">0%</td>
       </tr>
       <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Chosen Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">0%</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Warlock Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">0%</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+      </tr>
+      <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Swanky Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">100%</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Magic Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Forbidden Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
