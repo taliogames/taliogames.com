@@ -55,25 +55,25 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Space-time Jump</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>The based</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">7</td>
+        <td style="text-align: center; padding: 10px 30px;">22,2%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Mogul</strong></td>
         <td style="text-align: center; padding: 10px 30px;">12</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
-        <td style="text-align: center; padding: 10px 30px;">16,7%</td>
+        <td style="text-align: center; padding: 10px 30px;">9</td>
+        <td style="text-align: center; padding: 10px 30px;">18,2%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Space-time Jump</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">13</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
+        <td style="text-align: center; padding: 10px 30px;">15,4%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
@@ -141,24 +141,24 @@ header_buttons_row_2:
     <tbody>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Space-time Jump</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">13</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
+        <td style="text-align: center; padding: 10px 30px;">15,4%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Mogul</strong></td>
         <td style="text-align: center; padding: 10px 30px;">12</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">9</td>
+        <td style="text-align: center; padding: 10px 30px;">18,2%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>The based</strong></td>
         <td style="text-align: center; padding: 10px 30px;">10</td>
-        <td style="text-align: center; padding: 10px 30px;">16,7%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
-        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">7</td>
+        <td style="text-align: center; padding: 10px 30px;">22,2%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
@@ -227,32 +227,48 @@ header_buttons_row_2:
     <tbody>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Space-time Jump</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">12</td>
-        <td style="text-align: center; padding: 10px 30px;">41,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">13</td>
+        <td style="text-align: center; padding: 10px 30px;">39,4%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
-        <td style="text-align: center; padding: 10px 30px;">16,7%</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
+        <td style="text-align: center; padding: 10px 30px;">15,4%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Mogul</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">9</td>
-        <td style="text-align: center; padding: 10px 30px;">31,0%</td>
+        <td style="text-align: center; padding: 10px 30px;">12</td>
+        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">25,0%</td>
+        <td style="text-align: center; padding: 10px 30px;">9</td>
+        <td style="text-align: center; padding: 10px 30px;">18,2%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>The based</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">30,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">7</td>
+        <td style="text-align: center; padding: 10px 30px;">22,2%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>The Ordinary</strong></td>
         <td style="text-align: center; padding: 10px 30px;">9</td>
-        <td style="text-align: center; padding: 10px 30px;">31,0%</td>
+        <td style="text-align: center; padding: 10px 30px;">27,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">8</td>
+        <td style="text-align: center; padding: 10px 30px;">11,1%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Last Drink</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">8</td>
+        <td style="text-align: center; padding: 10px 30px;">24,2%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
         <td style="text-align: center; padding: 10px 30px;">25,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>The Ordinary</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Start from scratch</strong></td>
         <td style="text-align: center; padding: 10px 30px;">8</td>
-        <td style="text-align: center; padding: 10px 30px;">27,6%</td>
+        <td style="text-align: center; padding: 10px 30px;">24,2%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
         <td style="text-align: center; padding: 10px 30px;">12,5%</td>
@@ -260,7 +276,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Buoyant</strong></td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">24,1%</td>
+        <td style="text-align: center; padding: 10px 30px;">21,2%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">16,7%</td>
@@ -268,31 +284,47 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Everything is calm here on the throne</strong></td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">24,1%</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">14,3%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Last Drink</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">24,1%</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">28,6%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Start from scratch</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">24,1%</td>
+        <td style="text-align: center; padding: 10px 30px;">21,2%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
         <td style="text-align: center; padding: 10px 30px;">14,3%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Give me the usual</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">7</td>
+        <td style="text-align: center; padding: 10px 30px;">21,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">20,7%</td>
+        <td style="text-align: center; padding: 10px 30px;">14,3%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Cheapskate</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">18,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Damn mouthwatering alfajor</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">18,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>False hope</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">18,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Gold Digger</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">18,2%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">16,7%</td>
@@ -300,7 +332,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Rebirth</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">20,7%</td>
+        <td style="text-align: center; padding: 10px 30px;">18,2%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -308,7 +340,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Beautiful curse</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -316,7 +348,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Blue mascalitus?!</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">20,0%</td>
@@ -324,7 +356,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Club Sandwich</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -332,39 +364,39 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Conspiracy</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Damn mouthwatering alfajor</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Fair Trade</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>False hope</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Gold Digger</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">20,0%</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Kimi</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">25,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Let me cook</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Promoted!</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">20,0%</td>
@@ -372,15 +404,23 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Tekano</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">17,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">20,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Cheapskate</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>The Vast</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">15,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">20,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Basement escape</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -388,39 +428,47 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Elite card</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Fair Trade</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Exploiter</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+        <td style="text-align: center; padding: 10px 30px;">25,0%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Final Sacrifice</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Kimi</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Kurosawa XD</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">33,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">25,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Let me cook</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Last Man Standing</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">25,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Lino</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -428,7 +476,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Loudmouth</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">33,3%</td>
@@ -436,7 +484,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Low key</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
@@ -444,31 +492,39 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Lucky fool</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Roulette</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"><strong>PDZ</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>The Vast</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">25,0%</td>
       </tr>
       <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Roulette</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Separation</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Trixi</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">25,0%</td>
@@ -476,7 +532,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Washing Machine</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">13,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">12,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">25,0%</td>
@@ -484,7 +540,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Alchemy</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -492,31 +548,23 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Another Chance</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Basement escape</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Exploiter</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">33,3%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Fux</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px;"><strong>Hoarder</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -524,23 +572,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Idle overlord</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">33,3%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Kurosawa XD</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">33,3%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Last Man Standing</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">33,3%</td>
@@ -548,7 +580,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Mr Flan</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">33,3%</td>
@@ -556,39 +588,23 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Oracle</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>PDZ</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">33,3%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Pixi</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Separation</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>Sticky</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -596,7 +612,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>The collector</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
@@ -604,26 +620,10 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px;"><strong>The transgressor</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">9,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">33,3%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Trickster</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">10,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">33,3%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Asymmetry</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">6,9%</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">50,0%</td>
       </tr>
     </tbody>
   </table>
