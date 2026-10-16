@@ -102,14 +102,12 @@ html_runs += (
 html_runs += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">Runs by difficulty</h2>\n"
 html_runs += build_html_table(data.get('diff_table', []), has_header=True, bold_col_indices=[0])
 
+# --- AQUÍ ESTÁ EL CAMBIO ---
+# Se eliminaron avg_win_table y avg_lose_table. 
+# Se cambió has_header=True para que lea tu fila B6:E6 como títulos.
 html_runs += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">Averages</h2>\n"
-html_runs += build_html_table(data.get('avg_table', []), has_header=False, bold_col_indices=[0])
-
-html_runs += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">Averages when winning</h2>\n"
-html_runs += build_html_table(data.get('avg_win_table', []), has_header=False, bold_col_indices=[0])
-
-html_runs += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">Averages when losing</h2>\n"
-html_runs += build_html_table(data.get('avg_lose_table', []), has_header=False, bold_col_indices=[0])
+html_runs += build_html_table(data.get('avg_table', []), has_header=True, bold_col_indices=[0])
+# ---------------------------
 
 html_runs += "<div style=\"height: 20px;\"></div>\n<h2 style=\"text-align: center;\">Defeats by round</h2>\n"
 html_runs += build_html_table(data.get('defeats_table', []), has_header=True, bold_col_indices=[0])
