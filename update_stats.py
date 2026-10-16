@@ -24,7 +24,8 @@ def build_html_table(rows, has_header=False, bold_col_indices=[]):
     Función auxiliar para construir tablas HTML limpias y centradas.
     """
     html = "<div style=\"display: flex; justify-content: center; margin: 20px 0;\">\n"
-    html += "  <table style=\"width: max-content; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);\">\n"
+    # Añadido "max-width: 100%;" para evitar que la tabla desborde en móviles
+    html += "  <table style=\"width: max-content; max-width: 100%; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);\">\n"
     
     if not rows:
         return html + "</table></div>"
@@ -34,7 +35,9 @@ def build_html_table(rows, has_header=False, bold_col_indices=[]):
         header_row = rows[0]
         html += "    <thead><tr>\n"
         for i, val in enumerate(header_row):
-            html += f"      <th style=\"text-align: center; padding: 10px 30px;\"><strong>{val}</strong></th>\n"
+            # Límite de ancho y salto de línea automático solo para la primera columna (i == 0)
+            extra_style = " max-width: 250px; white-space: normal; word-wrap: break-word;" if i == 0 else ""
+            html += f"      <th style=\"text-align: center; padding: 10px 30px;{extra_style}\"><strong>{val}</strong></th>\n"
         html += "    </tr></thead>\n"
         start_idx = 1
         
@@ -44,7 +47,9 @@ def build_html_table(rows, has_header=False, bold_col_indices=[]):
         html += "      <tr>\n"
         for c, val in enumerate(row):
             cell_val = f"<strong>{val}</strong>" if c in bold_col_indices else val
-            html += f"        <td style=\"text-align: center; padding: 10px 30px;\">{cell_val}</td>\n"
+            # Límite de ancho y salto de línea automático solo para la primera columna (c == 0)
+            extra_style = " max-width: 250px; white-space: normal; word-wrap: break-word;" if c == 0 else ""
+            html += f"        <td style=\"text-align: center; padding: 10px 30px;{extra_style}\">{cell_val}</td>\n"
         html += "      </tr>\n"
     html += "    </tbody>\n"
     html += "  </table>\n</div>\n"
