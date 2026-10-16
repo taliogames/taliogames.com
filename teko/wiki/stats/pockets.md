@@ -45,9 +45,9 @@ header_buttons_row_2:
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">TOP 5 highest winrate Pockets</h2>
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <table style="width: max-content; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <table style="width: max-content; max-width: 100%; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <thead><tr>
-      <th style="text-align: center; padding: 10px 30px;"><strong>Pocket</strong></th>
+      <th style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Pocket</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Runs</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Won</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Lost</strong></th>
@@ -55,35 +55,35 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Jean Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">12</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">8,3%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
@@ -95,9 +95,9 @@ header_buttons_row_2:
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">TOP 5 lowest winrate Pockets</h2>
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <table style="width: max-content; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <table style="width: max-content; max-width: 100%; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <thead><tr>
-      <th style="text-align: center; padding: 10px 30px;"><strong>Pocket</strong></th>
+      <th style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Pocket</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Runs</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Won</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Lost</strong></th>
@@ -105,35 +105,35 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Jean Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">12</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">8,3%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
         <td style="text-align: center; padding: 10px 30px;"></td>
@@ -145,9 +145,9 @@ header_buttons_row_2:
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Most played Pockets</h2>
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <table style="width: max-content; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <table style="width: max-content; max-width: 100%; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <thead><tr>
-      <th style="text-align: center; padding: 10px 30px;"><strong>Pocket</strong></th>
+      <th style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Pocket</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Runs</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Won</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>Lost</strong></th>
@@ -155,98 +155,98 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Jean Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">12</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">8,3%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Cookie Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cookie Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">8</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
         <td style="text-align: center; padding: 10px 30px;">25,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Chosen Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Chosen Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Hacker Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Forbidden Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Forbidden Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Outlaw Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Outlaw Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Warlock Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Warlock Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Hyper Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hyper Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Linen Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Linen Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Swanky Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Swanky Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">100,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Magic Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Magic Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Wood Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Wood Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">100,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Oily Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Oily Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Leather Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Leather Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
@@ -258,9 +258,9 @@ header_buttons_row_2:
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">Winrate by difficulty for each Pocket</h2>
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <table style="width: max-content; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <table style="width: max-content; max-width: 100%; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <thead><tr>
-      <th style="text-align: center; padding: 10px 30px;"><strong>Pocket</strong></th>
+      <th style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Pocket</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>D0</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>D1</strong></th>
       <th style="text-align: center; padding: 10px 30px;"><strong>D2</strong></th>
@@ -269,7 +269,7 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Jean Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
@@ -277,7 +277,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">20%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Cookie Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cookie Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">20%</td>
@@ -285,7 +285,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Chosen Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Chosen Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
@@ -293,7 +293,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Hacker Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
@@ -301,7 +301,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Forbidden Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Forbidden Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
@@ -309,7 +309,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Outlaw Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Outlaw Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
@@ -317,7 +317,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Warlock Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Warlock Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
@@ -325,7 +325,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Hyper Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hyper Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
@@ -333,7 +333,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Linen Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Linen Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
@@ -341,7 +341,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Swanky Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Swanky Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">100%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
@@ -349,7 +349,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Magic Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Magic Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
@@ -357,7 +357,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Wood Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Wood Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">100%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
@@ -365,7 +365,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Oily Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Oily Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
@@ -373,7 +373,7 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px;"><strong>Leather Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Leather Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
