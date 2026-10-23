@@ -45,10 +45,10 @@ header_buttons_row_2:
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <table style="width: max-content; margin: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <tbody>
-      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Runs</strong></td><td style="text-align: center; padding: 10px 30px;">72</td></tr>
-      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Won</strong></td><td style="text-align: center; padding: 10px 30px;">8</td></tr>
+      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Runs</strong></td><td style="text-align: center; padding: 10px 30px;">73</td></tr>
+      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Won</strong></td><td style="text-align: center; padding: 10px 30px;">9</td></tr>
       <tr><td style="text-align: center; padding: 10px 30px;"><strong>Lost</strong></td><td style="text-align: center; padding: 10px 30px;">64</td></tr>
-      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Winrate</strong></td><td style="text-align: center; padding: 10px 30px;">11,11%</td></tr>
+      <tr><td style="text-align: center; padding: 10px 30px;"><strong>Winrate</strong></td><td style="text-align: center; padding: 10px 30px;">12,33%</td></tr>
     </tbody>
   </table>
 </div>
@@ -66,10 +66,10 @@ header_buttons_row_2:
     <tbody>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>0</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">17</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">18</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">14</td>
-        <td style="text-align: center; padding: 10px 30px;">17,6%</td>
+        <td style="text-align: center; padding: 10px 30px;">22,2%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>1</strong></td>
@@ -116,7 +116,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Max mana</strong></td>
         <td style="text-align: center; padding: 10px 30px;">2,9</td>
-        <td style="text-align: center; padding: 10px 30px;">3,9</td>
+        <td style="text-align: center; padding: 10px 30px;">3,6</td>
         <td style="text-align: center; padding: 10px 30px;">2,8</td>
       </tr>
       <tr>
@@ -127,98 +127,98 @@ header_buttons_row_2:
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Combo level ups</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">9</td>
-        <td style="text-align: center; padding: 10px 30px;">22</td>
+        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">23</td>
         <td style="text-align: center; padding: 10px 30px;">8</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Common cons. used</strong></td>
         <td style="text-align: center; padding: 10px 30px;">10,7</td>
-        <td style="text-align: center; padding: 10px 30px;">24,1</td>
+        <td style="text-align: center; padding: 10px 30px;">22,4</td>
         <td style="text-align: center; padding: 10px 30px;">9,0</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Rare cons. used</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0,9</td>
-        <td style="text-align: center; padding: 10px 30px;">3,0</td>
+        <td style="text-align: center; padding: 10px 30px;">0,8</td>
+        <td style="text-align: center; padding: 10px 30px;">2,7</td>
         <td style="text-align: center; padding: 10px 30px;">0,6</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Epic cons. used</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0,3</td>
-        <td style="text-align: center; padding: 10px 30px;">0,8</td>
+        <td style="text-align: center; padding: 10px 30px;">0,7</td>
         <td style="text-align: center; padding: 10px 30px;">0,3</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Orange tubes activated</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1,6</td>
-        <td style="text-align: center; padding: 10px 30px;">3,0</td>
+        <td style="text-align: center; padding: 10px 30px;">3,2</td>
         <td style="text-align: center; padding: 10px 30px;">1,4</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cyan tubes activated</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">1,4</td>
-        <td style="text-align: center; padding: 10px 30px;">2,6</td>
+        <td style="text-align: center; padding: 10px 30px;">1,5</td>
+        <td style="text-align: center; padding: 10px 30px;">2,9</td>
         <td style="text-align: center; padding: 10px 30px;">1,3</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Pink tubes activated</strong></td>
         <td style="text-align: center; padding: 10px 30px;">2,3</td>
-        <td style="text-align: center; padding: 10px 30px;">8,6</td>
+        <td style="text-align: center; padding: 10px 30px;">8,0</td>
         <td style="text-align: center; padding: 10px 30px;">1,5</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Green tubes activated</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">1,3</td>
+        <td style="text-align: center; padding: 10px 30px;">1,4</td>
         <td style="text-align: center; padding: 10px 30px;">3,0</td>
         <td style="text-align: center; padding: 10px 30px;">1,1</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Pillboxes filled</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">4,5</td>
-        <td style="text-align: center; padding: 10px 30px;">11,8</td>
+        <td style="text-align: center; padding: 10px 30px;">4,6</td>
+        <td style="text-align: center; padding: 10px 30px;">11,2</td>
         <td style="text-align: center; padding: 10px 30px;">3,6</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cookie trays filled</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5,3</td>
-        <td style="text-align: center; padding: 10px 30px;">13,6</td>
+        <td style="text-align: center; padding: 10px 30px;">13,3</td>
         <td style="text-align: center; padding: 10px 30px;">4,2</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Total chips</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">39,7</td>
-        <td style="text-align: center; padding: 10px 30px;">34,8</td>
+        <td style="text-align: center; padding: 10px 30px;">39,8</td>
+        <td style="text-align: center; padding: 10px 30px;">36,3</td>
         <td style="text-align: center; padding: 10px 30px;">40,3</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Deleted chips</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">5,4</td>
-        <td style="text-align: center; padding: 10px 30px;">18,4</td>
+        <td style="text-align: center; padding: 10px 30px;">5,3</td>
+        <td style="text-align: center; padding: 10px 30px;">16,7</td>
         <td style="text-align: center; padding: 10px 30px;">3,8</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>TEKO done</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0,11</td>
-        <td style="text-align: center; padding: 10px 30px;">0,38</td>
+        <td style="text-align: center; padding: 10px 30px;">0,33</td>
         <td style="text-align: center; padding: 10px 30px;">0,08</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>TRIXI done</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3,26</td>
-        <td style="text-align: center; padding: 10px 30px;">12,13</td>
+        <td style="text-align: center; padding: 10px 30px;">3,22</td>
+        <td style="text-align: center; padding: 10px 30px;">10,78</td>
         <td style="text-align: center; padding: 10px 30px;">2,16</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>TEKANO done</strong></td>
         <td style="text-align: center; padding: 10px 30px;">0,19</td>
-        <td style="text-align: center; padding: 10px 30px;">0,25</td>
+        <td style="text-align: center; padding: 10px 30px;">0,22</td>
         <td style="text-align: center; padding: 10px 30px;">0,19</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>TRIHOSTEL done</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0,06</td>
-        <td style="text-align: center; padding: 10px 30px;">0,13</td>
+        <td style="text-align: center; padding: 10px 30px;">0,05</td>
+        <td style="text-align: center; padding: 10px 30px;">0,11</td>
         <td style="text-align: center; padding: 10px 30px;">0,05</td>
       </tr>
     </tbody>
