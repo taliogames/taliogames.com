@@ -70,9 +70,9 @@ header_buttons_row_2:
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
@@ -106,9 +106,9 @@ header_buttons_row_2:
     <tbody>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
@@ -170,9 +170,9 @@ header_buttons_row_2:
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
+        <td style="text-align: center; padding: 10px 30px;">11</td>
         <td style="text-align: center; padding: 10px 30px;">0,0%</td>
       </tr>
       <tr>
