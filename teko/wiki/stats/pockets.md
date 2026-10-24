@@ -63,10 +63,10 @@ header_buttons_row_2:
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">19</td>
+        <td style="text-align: center; padding: 10px 30px;">24</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">16</td>
-        <td style="text-align: center; padding: 10px 30px;">15,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">21</td>
+        <td style="text-align: center; padding: 10px 30px;">12,5%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
@@ -113,10 +113,10 @@ header_buttons_row_2:
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">19</td>
+        <td style="text-align: center; padding: 10px 30px;">24</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">16</td>
-        <td style="text-align: center; padding: 10px 30px;">15,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">21</td>
+        <td style="text-align: center; padding: 10px 30px;">12,5%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cookie Pocket</strong></td>
@@ -156,10 +156,10 @@ header_buttons_row_2:
     <tbody>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">19</td>
+        <td style="text-align: center; padding: 10px 30px;">24</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">16</td>
-        <td style="text-align: center; padding: 10px 30px;">15,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">21</td>
+        <td style="text-align: center; padding: 10px 30px;">12,5%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
