@@ -39,7 +39,7 @@ header_buttons_row_2:
 | <img src="/assets/bosses/zeke.png" width="50"><br>**Zeke** | Reduces your hand size by 1 |
 | <img src="/assets/bosses/olga.png" width="50"><br>**Olga** | Playing a hand costs $5 |
 | <img src="/assets/bosses/kito.png" width="50"><br>**Kito** | Each discard costs $5 |
-| <img src="/assets/bosses/lankvian.png" width="50"><br>**Lankvian** | Score goal +40% |
+| <img src="/assets/bosses/lankvian.png" width="50"><br>**Lankvian** | Score goal +20% |
 | <img src="/assets/bosses/gela.png" width="50"><br>**Gela** | All Base points scored are reduced by 15% |
 | <img src="/assets/bosses/flan.png" width="50"><br>**Flan** | All Multi points scored are reduced by 15% |
 | <img src="/assets/bosses/kurosawa.png" width="50"><br>**Kurosawa XD** | -1 mana |
