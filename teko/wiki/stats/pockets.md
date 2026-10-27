@@ -40,7 +40,7 @@ header_buttons_row_2:
     new_tab: true
 ---
 <!-- STATS_START -->
-<h2 style="text-align: center;">u10.0</h2>
+<h2 style="text-align: center;">u10.2</h2>
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">TOP 5 highest winrate Pockets</h2>
@@ -55,25 +55,25 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cookie Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">12</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
-        <td style="text-align: center; padding: 10px 30px;">16,7%</td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>#N/A</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">30</td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">26</td>
-        <td style="text-align: center; padding: 10px 30px;">13,3%</td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">12</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">11</td>
-        <td style="text-align: center; padding: 10px 30px;">8,3%</td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
@@ -105,25 +105,25 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">12</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">11</td>
-        <td style="text-align: center; padding: 10px 30px;">8,3%</td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>#N/A</strong></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">30</td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">26</td>
-        <td style="text-align: center; padding: 10px 30px;">13,3%</td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cookie Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">12</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
-        <td style="text-align: center; padding: 10px 30px;">16,7%</td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
+        <td style="text-align: center; padding: 10px 30px;"></td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong></strong></td>
@@ -155,130 +155,11 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">30</td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">26</td>
-        <td style="text-align: center; padding: 10px 30px;">13,3%</td>
-      </tr>
-      <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">12</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">11</td>
-        <td style="text-align: center; padding: 10px 30px;">8,3%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cookie Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">12</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">10</td>
-        <td style="text-align: center; padding: 10px 30px;">16,7%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Chosen Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Outlaw Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Forbidden Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Warlock Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Leather Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">66,7%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hyper Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Linen Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Carpet Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Swanky Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Magic Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Wood Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Oily Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Void Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Elite Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Drab Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">0,0%</td>
+        <td style="text-align: center; padding: 10px 30px;">50,0%</td>
       </tr>
     </tbody>
   </table>
@@ -297,148 +178,12 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">50%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">11%</td>
-        <td style="text-align: center; padding: 10px 30px;">9%</td>
-        <td style="text-align: center; padding: 10px 30px;">14%</td>
-      </tr>
-      <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">17%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cookie Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">20%</td>
-        <td style="text-align: center; padding: 10px 30px;">100%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Chosen Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Outlaw Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Forbidden Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Warlock Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Leather Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">100%</td>
         <td style="text-align: center; padding: 10px 30px;">50%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hyper Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Linen Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Carpet Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Swanky Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">100%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Magic Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Wood Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">100%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Oily Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Void Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">100%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Elite Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">100%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Drab Pocket</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
-        <td style="text-align: center; padding: 10px 30px;">0%</td>
       </tr>
     </tbody>
   </table>
