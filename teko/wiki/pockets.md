@@ -35,7 +35,7 @@ header_buttons_row_2:
 | Pocket | Description | Unlock method |
 | :---: | :---: | :---: |
 | <img src="/assets/pockets/jean.png" width="50"><br>**Jean** | Classic game without modifications | - |
-| <img src="/assets/pockets/hacker.png" width="50"><br>**Hacker** | It lets you play an extra chip | Win a run with D0 Jean Pocket to unlock |
+| <img src="/assets/pockets/hacker.png" width="50"><br>**Hacker** | +1 play size and retriggers all played chips | Win a run with D0 Jean Pocket to unlock |
 | <img src="/assets/pockets/warlock.png" width="50"><br>**Warlock** | You start with a random card (its rarity depends on difficulty) unsellable and indestructible | Win a run with D0 Hacker Pocket to unlock |
 | <img src="/assets/pockets/outlaw.png" width="50"><br>**Outlaw** | You will always start rounds with 2 max mana and special combos won't degrade with use | Win a run with D2 Jean Pocket to unlock |
 | <img src="/assets/pockets/linen.png" width="50"><br>**Linen** | You can have a minimum of 5 chips and there is no shuffle limit | Win a run with D0 Warlock Pocket to unlock |
@@ -51,7 +51,7 @@ header_buttons_row_2:
 | <img src="/assets/pockets/magic.png" width="50"><br>**Magic** | More efficiency for the pillbox, the colored tubes, and the cookie tray | Win a run with D2 Drab Pocket to unlock |
 | <img src="/assets/pockets/empanada.png" width="50"><br>**Empanada** | You can play empanada races | Win a run with D4 Jean Pocket to unlock |
 | <img src="/assets/pockets/carpet.png" width="50"><br>**Carpet** | Infinite play size but you will always start rounds with 1 max mana | Play 10 chips in a single hand |
-| <img src="/assets/pockets/elite.png" width="50"><br>**Elite** | The sell value of your cards increases each shop round | Get $1000 |
-| <img src="/assets/pockets/void.png" width="50"><br>**Void** | There is no cap on overkill gains but score goal scales more aggressively and you will gain $1 per 15% instead of 10% | Deal over 6666% overkill in a single round |
+| <img src="/assets/pockets/elite.png" width="50"><br>**Elite** | +2 sell value to cards when you enter the shop and 20% chance of becoming sinister (you can still sell them for $5) | Get $1000 |
+| <img src="/assets/pockets/void.png" width="50"><br>**Void** | There is no cap on overkill gains | Deal over 6666% overkill in a single round |
 | <img src="/assets/pockets/hyper.png" width="50"><br>**Hyper** | Your initial chips will all be violet and red | Get 20 ultracolor chips |
 | <img src="/assets/pockets/cookie.png" width="50"><br>**Cookie** | Your initial chips will all be ultrashape | Get 20 ultrashape chips |
