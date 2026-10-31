@@ -55,7 +55,7 @@ header_buttons_row_2:
 | <img src="/assets/cards/anotherchance.jpg" width="50"><br>**Another Chance** | +1 mana |
 | <img src="/assets/cards/hammer.jpg" width="50"><br>**Hammer** | +3 multi everytime you destroy a chip<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/perfection.jpg" width="50"><br>**Perfection** | Chips with number 7 scores +7 multi |
-| <img src="/assets/cards/potentiallysuspiciousman.jpg" width="50"><br>**Potentially suspicious man** | Generates a common/rare card to his left after winning each round<br><span style="color:#FFE500">Indestructible</span> |
+| <img src="/assets/cards/potentiallysuspiciousman.jpg" width="50"><br>**Potentially suspicious man** | Generates a common/rare card to his left after winning each round<br>Can generate a card you already possess<br>20% chance for the card to be sinister<br>Can create a sinister card even if there are no empty slots for new cards<br>x0.2 multi for each sinister card<br><span style="color:#00FF1A">Action</span> <span style="color:#FFFFFF">/</span> <span style="color:#FFE500">Indestructible</span> |
 | <img src="/assets/cards/extremedopamine.jpg" width="50"><br>**Extreme dopamine** | +1 multi per each $1<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/sobriety.jpg" width="50"><br>**Sobriety** | +2 multi when you sell a consumable<br><span style="color:#00FF1A">Action</span> |
 | <img src="/assets/cards/exploiter.jpg" width="50"><br>**Exploiter** | +8 base each time you use a consumable<br><span style="color:#00FF1A">Action</span> |
