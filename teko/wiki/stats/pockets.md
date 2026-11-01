@@ -157,9 +157,9 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Elite Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">8</td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">62,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">50,0%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hacker Pocket</strong></td>
@@ -195,8 +195,8 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Elite Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">100%</td>
         <td style="text-align: center; padding: 10px 30px;">0%</td>
-        <td style="text-align: center; padding: 10px 30px;">67%</td>
-        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">50%</td>
+        <td style="text-align: center; padding: 10px 30px;">50%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
       </tr>
       <tr>
