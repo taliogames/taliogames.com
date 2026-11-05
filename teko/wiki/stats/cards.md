@@ -40,7 +40,7 @@ header_buttons_row_2:
     new_tab: true
 ---
 <!-- STATS_START -->
-<h2 style="text-align: center;">u10.2</h2>
+<h2 style="text-align: center;">u10.3</h2>
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">TOP 10 highest winrate Cards</h2>
@@ -226,41 +226,49 @@ header_buttons_row_2:
     </tr></thead>
     <tbody>
       <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Mogul</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">9</td>
+        <td style="text-align: center; padding: 10px 30px;">69,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">44,4%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Rebirth</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">9</td>
+        <td style="text-align: center; padding: 10px 30px;">69,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">44,4%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Space-time Jump</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">9</td>
+        <td style="text-align: center; padding: 10px 30px;">69,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">66,7%</td>
+      </tr>
+      <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Everything is calm here on the throne</strong></td>
         <td style="text-align: center; padding: 10px 30px;">8</td>
-        <td style="text-align: center; padding: 10px 30px;">72,7%</td>
+        <td style="text-align: center; padding: 10px 30px;">61,5%</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">62,5%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Mogul</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Pixi</strong></td>
         <td style="text-align: center; padding: 10px 30px;">8</td>
-        <td style="text-align: center; padding: 10px 30px;">72,7%</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">37,5%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Rebirth</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">8</td>
-        <td style="text-align: center; padding: 10px 30px;">72,7%</td>
+        <td style="text-align: center; padding: 10px 30px;">61,5%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Space-time Jump</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">8</td>
-        <td style="text-align: center; padding: 10px 30px;">72,7%</td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">62,5%</td>
-      </tr>
-      <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Basement escape</strong></td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">63,6%</td>
+        <td style="text-align: center; padding: 10px 30px;">53,8%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">57,1%</td>
@@ -268,15 +276,31 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cheapskate</strong></td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">63,6%</td>
+        <td style="text-align: center; padding: 10px 30px;">53,8%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">42,9%</td>
       </tr>
       <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cyanuro</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">7</td>
+        <td style="text-align: center; padding: 10px 30px;">53,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">57,1%</td>
+      </tr>
+      <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Give me the usual</strong></td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">63,6%</td>
+        <td style="text-align: center; padding: 10px 30px;">53,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">42,9%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Greedy</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">7</td>
+        <td style="text-align: center; padding: 10px 30px;">53,8%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">42,9%</td>
@@ -284,15 +308,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Last Man Standing</strong></td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">63,6%</td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">57,1%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Pixi</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">63,6%</td>
+        <td style="text-align: center; padding: 10px 30px;">53,8%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">57,1%</td>
@@ -300,7 +316,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>The based</strong></td>
         <td style="text-align: center; padding: 10px 30px;">7</td>
-        <td style="text-align: center; padding: 10px 30px;">63,6%</td>
+        <td style="text-align: center; padding: 10px 30px;">53,8%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">57,1%</td>
@@ -308,7 +324,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Broken Power Scale</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
@@ -316,31 +332,15 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Club Sandwich</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cyanuro</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">66,7%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>False hope</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">50,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Greedy</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
@@ -348,7 +348,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hoarder</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
@@ -356,15 +356,23 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Last Drink</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">66,7%</td>
       </tr>
       <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Let me cook</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">6</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">83,3%</td>
+      </tr>
+      <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Roulette</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
@@ -372,7 +380,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Start from scratch</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">66,7%</td>
@@ -380,7 +388,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Sticky</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
@@ -388,7 +396,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>The Ordinary</strong></td>
         <td style="text-align: center; padding: 10px 30px;">6</td>
-        <td style="text-align: center; padding: 10px 30px;">54,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">46,2%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">66,7%</td>
@@ -396,7 +404,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Final Sacrifice</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">45,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">60,0%</td>
@@ -404,7 +412,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Gold Digger</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">45,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">80,0%</td>
@@ -412,31 +420,55 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Hexagon Collector</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">45,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">60,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Let me cook</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Lino</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">45,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">60,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Mr Flan</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">40,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Separation</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">60,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Snack for the guests</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Symmetry</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">5</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">80,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Lino</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Tasty</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">45,5%</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">60,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Separation</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">45,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">60,0%</td>
@@ -444,7 +476,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>The path of temptations</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">45,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">80,0%</td>
@@ -452,7 +484,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>White Spark Legend</strong></td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
-        <td style="text-align: center; padding: 10px 30px;">45,5%</td>
+        <td style="text-align: center; padding: 10px 30px;">38,5%</td>
         <td style="text-align: center; padding: 10px 30px;">5</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">100,0%</td>
@@ -460,7 +492,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Control</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">75,0%</td>
@@ -468,7 +500,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Detachment</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
@@ -476,7 +508,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Enrichment</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">75,0%</td>
@@ -484,7 +516,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Fair Trade</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
@@ -492,39 +524,47 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Goodbye Dear Friend</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Low key</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Kimi</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">75,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Mr Flan</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">50,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Naughty</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">100,0%</td>
       </tr>
       <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Snack for the guests</strong></td>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Low key</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">75,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Naughty</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>PDZ</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">50,0%</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Potentially suspicious man</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">4</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">100,0%</td>
@@ -532,23 +572,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Spittoon</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">75,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Symmetry</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">75,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Tasty</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">75,0%</td>
@@ -556,7 +580,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>The blond elf vampire vs the flogger spider</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">100,0%</td>
@@ -564,7 +588,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Trixi</strong></td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
-        <td style="text-align: center; padding: 10px 30px;">36,4%</td>
+        <td style="text-align: center; padding: 10px 30px;">30,8%</td>
         <td style="text-align: center; padding: 10px 30px;">4</td>
         <td style="text-align: center; padding: 10px 30px;">0</td>
         <td style="text-align: center; padding: 10px 30px;">100,0%</td>
@@ -572,15 +596,23 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>All in to 4</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">27,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">23,1%</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">33,3%</td>
       </tr>
       <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Beautiful curse</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">23,1%</td>
+        <td style="text-align: center; padding: 10px 30px;">3</td>
+        <td style="text-align: center; padding: 10px 30px;">0</td>
+        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
+      </tr>
+      <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Cheers</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">27,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">23,1%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">66,7%</td>
@@ -588,39 +620,7 @@ header_buttons_row_2:
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Conspiracy</strong></td>
         <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">27,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">66,7%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Damn mouthwatering alfajor</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">27,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">2</td>
-        <td style="text-align: center; padding: 10px 30px;">1</td>
-        <td style="text-align: center; padding: 10px 30px;">66,7%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Fux</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">27,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Gatulio</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">27,3%</td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">0</td>
-        <td style="text-align: center; padding: 10px 30px;">100,0%</td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Greenwich</strong></td>
-        <td style="text-align: center; padding: 10px 30px;">3</td>
-        <td style="text-align: center; padding: 10px 30px;">27,3%</td>
+        <td style="text-align: center; padding: 10px 30px;">23,1%</td>
         <td style="text-align: center; padding: 10px 30px;">2</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">66,7%</td>

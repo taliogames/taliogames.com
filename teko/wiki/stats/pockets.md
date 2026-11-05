@@ -40,7 +40,7 @@ header_buttons_row_2:
     new_tab: true
 ---
 <!-- STATS_START -->
-<h2 style="text-align: center;">u10.2</h2>
+<h2 style="text-align: center;">u10.3</h2>
 
 <div style="height: 20px;"></div>
 <h2 style="text-align: center;">TOP 5 highest winrate Pockets</h2>
@@ -169,6 +169,13 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">50,0%</td>
       </tr>
       <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Lucky Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">2</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">1</td>
+        <td style="text-align: center; padding: 10px 30px;">50,0%</td>
+      </tr>
+      <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
         <td style="text-align: center; padding: 10px 30px;">1</td>
@@ -206,6 +213,14 @@ header_buttons_row_2:
         <td style="text-align: center; padding: 10px 30px;">-</td>
         <td style="text-align: center; padding: 10px 30px;">50%</td>
         <td style="text-align: center; padding: 10px 30px;">-</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Lucky Pocket</strong></td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">-</td>
+        <td style="text-align: center; padding: 10px 30px;">50%</td>
       </tr>
       <tr>
         <td style="text-align: center; padding: 10px 30px; max-width: 250px; white-space: normal; word-wrap: break-word;"><strong>Jean Pocket</strong></td>
